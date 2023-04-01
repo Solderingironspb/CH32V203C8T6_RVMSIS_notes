@@ -1,0 +1,2852 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_adc.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_adc.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_adc.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_DeInit
+                0x0000000000000000       0x70 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_Init
+                0x0000000000000000      0x100 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_StructInit
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_Cmd  0x0000000000000000       0x3e ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_DMACmd
+                0x0000000000000000       0x3e ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_ITConfig
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_ResetCalibration
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_GetResetCalibrationStatus
+                0x0000000000000000       0x30 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_StartCalibration
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_GetCalibrationStatus
+                0x0000000000000000       0x30 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_SoftwareStartConvCmd
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_GetSoftwareStartConvStatus
+                0x0000000000000000       0x34 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_DiscModeChannelCountConfig
+                0x0000000000000000       0x5c ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_DiscModeCmd
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_RegularChannelConfig
+                0x0000000000000000      0x248 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_ExternalTrigConvCmd
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_GetConversionValue
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_GetDualModeConversionValue
+                0x0000000000000000       0x18 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_AutoInjectedConvCmd
+                0x0000000000000000       0x3e ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_InjectedDiscModeCmd
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_ExternalTrigInjectedConvConfig
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_ExternalTrigInjectedConvCmd
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_SoftwareStartInjectedConvCmd
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x0000000000000000       0x34 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_InjectedChannelConfig
+                0x0000000000000000      0x19c ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_InjectedSequencerLengthConfig
+                0x0000000000000000       0x5e ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_SetInjectedOffset
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_GetInjectedConversionValue
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_AnalogWatchdogCmd
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_AnalogWatchdogThresholdsConfig
+                0x0000000000000000       0x34 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_AnalogWatchdogSingleChannelConfig
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_TempSensorVrefintCmd
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_GetFlagStatus
+                0x0000000000000000       0x3a ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_ClearFlag
+                0x0000000000000000       0x26 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_GetITStatus
+                0x0000000000000000       0x6a ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_ClearITPendingBit
+                0x0000000000000000       0x38 ./Drivers/src/ch32v20x_adc.o
+ .text.TempSensor_Volt_To_Temper
+                0x0000000000000000       0x74 ./Drivers/src/ch32v20x_adc.o
+ .text.ADC_BufferCmd
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_adc.o
+ .text.Get_CalibrationValue
+                0x0000000000000000      0x3aa ./Drivers/src/ch32v20x_adc.o
+ .debug_info    0x0000000000000000      0xd76 ./Drivers/src/ch32v20x_adc.o
+ .debug_abbrev  0x0000000000000000      0x1c4 ./Drivers/src/ch32v20x_adc.o
+ .debug_aranges
+                0x0000000000000000      0x150 ./Drivers/src/ch32v20x_adc.o
+ .debug_ranges  0x0000000000000000      0x140 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x23e ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x124 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_adc.o
+ .debug_line    0x0000000000000000     0x157c ./Drivers/src/ch32v20x_adc.o
+ .debug_str     0x0000000000000000    0x2e93f ./Drivers/src/ch32v20x_adc.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_adc.o
+ .debug_frame   0x0000000000000000      0x504 ./Drivers/src/ch32v20x_adc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_bkp.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_bkp.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_DeInit
+                0x0000000000000000       0x26 ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_TamperPinLevelConfig
+                0x0000000000000000       0x5e ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_TamperPinCmd
+                0x0000000000000000       0x5c ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_ITConfig
+                0x0000000000000000       0x5c ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_RTCOutputConfig
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_SetRTCCalibrationValue
+                0x0000000000000000       0x54 ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_WriteBackupRegister
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_ReadBackupRegister
+                0x0000000000000000       0x3c ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_GetFlagStatus
+                0x0000000000000000       0x28 ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_ClearFlag
+                0x0000000000000000       0x30 ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_GetITStatus
+                0x0000000000000000       0x28 ./Drivers/src/ch32v20x_bkp.o
+ .text.BKP_ClearITPendingBit
+                0x0000000000000000       0x30 ./Drivers/src/ch32v20x_bkp.o
+ .debug_info    0x0000000000000000      0x7be ./Drivers/src/ch32v20x_bkp.o
+ .debug_abbrev  0x0000000000000000      0x18a ./Drivers/src/ch32v20x_bkp.o
+ .debug_aranges
+                0x0000000000000000       0x78 ./Drivers/src/ch32v20x_bkp.o
+ .debug_ranges  0x0000000000000000       0x68 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x154 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000      0x124 ./Drivers/src/ch32v20x_bkp.o
+ .debug_line    0x0000000000000000      0x668 ./Drivers/src/ch32v20x_bkp.o
+ .debug_str     0x0000000000000000    0x2e18b ./Drivers/src/ch32v20x_bkp.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_bkp.o
+ .debug_frame   0x0000000000000000      0x194 ./Drivers/src/ch32v20x_bkp.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_can.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_can.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_DeInit
+                0x0000000000000000       0x60 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_Init
+                0x0000000000000000      0x224 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_FilterInit
+                0x0000000000000000      0x2ae ./Drivers/src/ch32v20x_can.o
+ .text.CAN_StructInit
+                0x0000000000000000       0x6a ./Drivers/src/ch32v20x_can.o
+ .text.CAN_SlaveStartBank
+                0x0000000000000000       0x8c ./Drivers/src/ch32v20x_can.o
+ .text.CAN_DBGFreeze
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_TTComModeCmd
+                0x0000000000000000       0xb6 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_Transmit
+                0x0000000000000000      0x20a ./Drivers/src/ch32v20x_can.o
+ .text.CAN_TransmitStatus
+                0x0000000000000000      0x11e ./Drivers/src/ch32v20x_can.o
+ .text.CAN_CancelTransmit
+                0x0000000000000000       0x64 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_Receive
+                0x0000000000000000      0x1e4 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_FIFORelease
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_MessagePending
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_OperatingModeRequest
+                0x0000000000000000      0x12e ./Drivers/src/ch32v20x_can.o
+ .text.CAN_Sleep
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_WakeUp
+                0x0000000000000000       0x6a ./Drivers/src/ch32v20x_can.o
+ .text.CAN_GetLastErrorCode
+                0x0000000000000000       0x2c ./Drivers/src/ch32v20x_can.o
+ .text.CAN_GetReceiveErrorCounter
+                0x0000000000000000       0x26 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_GetLSBTransmitErrorCounter
+                0x0000000000000000       0x26 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_ITConfig
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_can.o
+ .text.CAN_GetFlagStatus
+                0x0000000000000000      0x100 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_ClearFlag
+                0x0000000000000000       0x96 ./Drivers/src/ch32v20x_can.o
+ .text.CAN_GetITStatus
+                0x0000000000000000      0x25a ./Drivers/src/ch32v20x_can.o
+ .text.CAN_ClearITPendingBit
+                0x0000000000000000      0x152 ./Drivers/src/ch32v20x_can.o
+ .text.CheckITStatus
+                0x0000000000000000       0x36 ./Drivers/src/ch32v20x_can.o
+ .debug_info    0x0000000000000000      0xc49 ./Drivers/src/ch32v20x_can.o
+ .debug_abbrev  0x0000000000000000      0x25e ./Drivers/src/ch32v20x_can.o
+ .debug_aranges
+                0x0000000000000000       0xe0 ./Drivers/src/ch32v20x_can.o
+ .debug_ranges  0x0000000000000000       0xd0 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x19c ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000      0x329 ./Drivers/src/ch32v20x_can.o
+ .debug_line    0x0000000000000000     0x17ba ./Drivers/src/ch32v20x_can.o
+ .debug_str     0x0000000000000000    0x2e457 ./Drivers/src/ch32v20x_can.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_can.o
+ .debug_frame   0x0000000000000000      0x358 ./Drivers/src/ch32v20x_can.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_crc.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_crc.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_crc.o
+ .text.CRC_ResetDR
+                0x0000000000000000       0x16 ./Drivers/src/ch32v20x_crc.o
+ .text.CRC_CalcCRC
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_crc.o
+ .text.CRC_CalcBlockCRC
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_crc.o
+ .text.CRC_GetCRC
+                0x0000000000000000       0x14 ./Drivers/src/ch32v20x_crc.o
+ .text.CRC_SetIDRegister
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_crc.o
+ .text.CRC_GetIDRegister
+                0x0000000000000000       0x18 ./Drivers/src/ch32v20x_crc.o
+ .debug_info    0x0000000000000000      0x208 ./Drivers/src/ch32v20x_crc.o
+ .debug_abbrev  0x0000000000000000      0x120 ./Drivers/src/ch32v20x_crc.o
+ .debug_aranges
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_crc.o
+ .debug_ranges  0x0000000000000000       0x38 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_crc.o
+ .debug_line    0x0000000000000000      0x4f5 ./Drivers/src/ch32v20x_crc.o
+ .debug_str     0x0000000000000000    0x2dd34 ./Drivers/src/ch32v20x_crc.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_crc.o
+ .debug_frame   0x0000000000000000       0xd0 ./Drivers/src/ch32v20x_crc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_dbgmcu.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_dbgmcu.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_dbgmcu.o
+ .text.DBGMCU_GetREVID
+                0x0000000000000000       0x1a ./Drivers/src/ch32v20x_dbgmcu.o
+ .text.DBGMCU_GetDEVID
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_dbgmcu.o
+ .text.__get_DEBUG_CR
+                0x0000000000000000       0x1a ./Drivers/src/ch32v20x_dbgmcu.o
+ .text.__set_DEBUG_CR
+                0x0000000000000000       0x1a ./Drivers/src/ch32v20x_dbgmcu.o
+ .text.DBGMCU_Config
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_info    0x0000000000000000      0x17b ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_abbrev  0x0000000000000000      0x110 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_ranges  0x0000000000000000       0x30 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x14e ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000       0x76 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_line    0x0000000000000000      0x49f ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_str     0x0000000000000000    0x2dd17 ./Drivers/src/ch32v20x_dbgmcu.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_frame   0x0000000000000000       0xb4 ./Drivers/src/ch32v20x_dbgmcu.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_dma.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_dma.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_DeInit
+                0x0000000000000000      0x158 ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_Init
+                0x0000000000000000       0xa8 ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_StructInit
+                0x0000000000000000       0x6a ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_Cmd  0x0000000000000000       0x40 ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_ITConfig
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_GetFlagStatus
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_ClearFlag
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_GetITStatus
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_dma.o
+ .text.DMA_ClearITPendingBit
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_dma.o
+ .debug_info    0x0000000000000000      0x48c ./Drivers/src/ch32v20x_dma.o
+ .debug_abbrev  0x0000000000000000      0x1a5 ./Drivers/src/ch32v20x_dma.o
+ .debug_aranges
+                0x0000000000000000       0x70 ./Drivers/src/ch32v20x_dma.o
+ .debug_ranges  0x0000000000000000       0x60 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x184 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000      0x233 ./Drivers/src/ch32v20x_dma.o
+ .debug_line    0x0000000000000000      0x7e0 ./Drivers/src/ch32v20x_dma.o
+ .debug_str     0x0000000000000000    0x2e17c ./Drivers/src/ch32v20x_dma.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_dma.o
+ .debug_frame   0x0000000000000000      0x174 ./Drivers/src/ch32v20x_dma.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_exti.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_exti.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_exti.o
+ .text.EXTI_DeInit
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_exti.o
+ .text.EXTI_Init
+                0x0000000000000000      0x170 ./Drivers/src/ch32v20x_exti.o
+ .text.EXTI_StructInit
+                0x0000000000000000       0x32 ./Drivers/src/ch32v20x_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x0000000000000000       0x2c ./Drivers/src/ch32v20x_exti.o
+ .text.EXTI_GetFlagStatus
+                0x0000000000000000       0x38 ./Drivers/src/ch32v20x_exti.o
+ .text.EXTI_ClearFlag
+                0x0000000000000000       0x20 ./Drivers/src/ch32v20x_exti.o
+ .text.EXTI_GetITStatus
+                0x0000000000000000       0x56 ./Drivers/src/ch32v20x_exti.o
+ .text.EXTI_ClearITPendingBit
+                0x0000000000000000       0x20 ./Drivers/src/ch32v20x_exti.o
+ .debug_info    0x0000000000000000      0x363 ./Drivers/src/ch32v20x_exti.o
+ .debug_abbrev  0x0000000000000000      0x15a ./Drivers/src/ch32v20x_exti.o
+ .debug_aranges
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_exti.o
+ .debug_ranges  0x0000000000000000       0x48 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x14e ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000       0x82 ./Drivers/src/ch32v20x_exti.o
+ .debug_line    0x0000000000000000      0x715 ./Drivers/src/ch32v20x_exti.o
+ .debug_str     0x0000000000000000    0x2de68 ./Drivers/src/ch32v20x_exti.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_exti.o
+ .debug_frame   0x0000000000000000      0x114 ./Drivers/src/ch32v20x_exti.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_flash.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_flash.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_Unlock
+                0x0000000000000000       0x2a ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_UnlockBank1
+                0x0000000000000000       0x2a ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_Lock
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_LockBank1
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_ErasePage
+                0x0000000000000000       0x82 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_EraseAllPages
+                0x0000000000000000       0x74 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_EraseAllBank1Pages
+                0x0000000000000000       0x74 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_EraseOptionBytes
+                0x0000000000000000      0x188 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_ProgramWord
+                0x0000000000000000       0xbc ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_ProgramHalfWord
+                0x0000000000000000       0x74 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_ProgramOptionByteData
+                0x0000000000000000      0x1ba ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_EnableWriteProtection
+                0x0000000000000000      0x1ec ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_ReadOutProtection
+                0x0000000000000000      0x186 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_UserOptionByteConfig
+                0x0000000000000000      0x1a2 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_GetUserOptionByte
+                0x0000000000000000       0x16 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_GetWriteProtectionOptionByte
+                0x0000000000000000       0x14 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_GetReadOutProtectionStatus
+                0x0000000000000000       0x2c ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_ITConfig
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_GetFlagStatus
+                0x0000000000000000       0x56 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_ClearFlag
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_GetStatus
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_GetBank1Status
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_WaitForLastOperation
+                0x0000000000000000       0x60 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_WaitForLastBank1Operation
+                0x0000000000000000       0x60 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_Unlock_Fast
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_Lock_Fast
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_ErasePage_Fast
+                0x0000000000000000       0x68 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_EraseBlock_32K_Fast
+                0x0000000000000000       0x6a ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_EraseBlock_64K_Fast
+                0x0000000000000000       0x6a ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_ProgramPage_Fast
+                0x0000000000000000       0xc0 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_Access_Clock_Cfg
+                0x0000000000000000       0x38 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_Enhance_Mode
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_flash.o
+ .text.FLASH_GetMACAddress
+                0x0000000000000000       0x9c ./Drivers/src/ch32v20x_flash.o
+ .debug_info    0x0000000000000000      0x9c1 ./Drivers/src/ch32v20x_flash.o
+ .debug_abbrev  0x0000000000000000      0x202 ./Drivers/src/ch32v20x_flash.o
+ .debug_aranges
+                0x0000000000000000      0x120 ./Drivers/src/ch32v20x_flash.o
+ .debug_ranges  0x0000000000000000      0x110 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x21a ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000      0x13c ./Drivers/src/ch32v20x_flash.o
+ .debug_line    0x0000000000000000     0x1763 ./Drivers/src/ch32v20x_flash.o
+ .debug_str     0x0000000000000000    0x2e608 ./Drivers/src/ch32v20x_flash.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_flash.o
+ .debug_frame   0x0000000000000000      0x474 ./Drivers/src/ch32v20x_flash.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_gpio.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_gpio.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_gpio.o
+ .sbss.MCU_Version
+                0x0000000000000000        0x1 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_DeInit
+                0x0000000000000000       0xea ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_AFIODeInit
+                0x0000000000000000       0x2a ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_Init
+                0x0000000000000000      0x268 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_StructInit
+                0x0000000000000000       0x2a ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x0000000000000000       0x5a ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_ReadInputData
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x0000000000000000       0x5a ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_ReadOutputData
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_SetBits
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_ResetBits
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_WriteBit
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_Write
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_PinLockConfig
+                0x0000000000000000       0x7e ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_EventOutputConfig
+                0x0000000000000000       0x62 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_EventOutputCmd
+                0x0000000000000000       0x3a ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_PinRemapConfig
+                0x0000000000000000      0x1f6 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_EXTILineConfig
+                0x0000000000000000       0xa2 ./Drivers/src/ch32v20x_gpio.o
+ .text.GPIO_ETH_MediaInterfaceConfig
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_gpio.o
+ .debug_info    0x0000000000000000      0x759 ./Drivers/src/ch32v20x_gpio.o
+ .debug_abbrev  0x0000000000000000      0x20e ./Drivers/src/ch32v20x_gpio.o
+ .debug_aranges
+                0x0000000000000000       0xa8 ./Drivers/src/ch32v20x_gpio.o
+ .debug_ranges  0x0000000000000000       0x98 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x16c ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000      0x233 ./Drivers/src/ch32v20x_gpio.o
+ .debug_line    0x0000000000000000      0xdde ./Drivers/src/ch32v20x_gpio.o
+ .debug_str     0x0000000000000000    0x2e112 ./Drivers/src/ch32v20x_gpio.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_gpio.o
+ .debug_frame   0x0000000000000000      0x260 ./Drivers/src/ch32v20x_gpio.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_i2c.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_i2c.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_DeInit
+                0x0000000000000000       0x60 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_Init
+                0x0000000000000000      0x220 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_StructInit
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_Cmd  0x0000000000000000       0x50 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_DMACmd
+                0x0000000000000000       0x5e ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_DMALastTransferCmd
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_GenerateSTART
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_GenerateSTOP
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_AcknowledgeConfig
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x0000000000000000       0x5c ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_DualAddressCmd
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_ITConfig
+                0x0000000000000000       0x68 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_SendData
+                0x0000000000000000       0x28 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_ReceiveData
+                0x0000000000000000       0x20 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_Send7bitAddress
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_ReadRegister
+                0x0000000000000000       0x3c ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_NACKPositionConfig
+                0x0000000000000000       0x64 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_SMBusAlertConfig
+                0x0000000000000000       0x5e ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_TransmitPEC
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_PECPositionConfig
+                0x0000000000000000       0x64 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_CalculatePEC
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_GetPEC
+                0x0000000000000000       0x26 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_ARPCmd
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_StretchClockCmd
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x0000000000000000       0x5e ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_CheckEvent
+                0x0000000000000000       0x84 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_GetLastEvent
+                0x0000000000000000       0x5e ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_GetFlagStatus
+                0x0000000000000000       0x88 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_ClearFlag
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_GetITStatus
+                0x0000000000000000       0x72 ./Drivers/src/ch32v20x_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_i2c.o
+ .debug_info    0x0000000000000000      0xb88 ./Drivers/src/ch32v20x_i2c.o
+ .debug_abbrev  0x0000000000000000      0x1c5 ./Drivers/src/ch32v20x_i2c.o
+ .debug_aranges
+                0x0000000000000000      0x120 ./Drivers/src/ch32v20x_i2c.o
+ .debug_ranges  0x0000000000000000      0x110 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x21a ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000      0x200 ./Drivers/src/ch32v20x_i2c.o
+ .debug_line    0x0000000000000000      0xe37 ./Drivers/src/ch32v20x_i2c.o
+ .debug_str     0x0000000000000000    0x2e64a ./Drivers/src/ch32v20x_i2c.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_i2c.o
+ .debug_frame   0x0000000000000000      0x43c ./Drivers/src/ch32v20x_i2c.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_iwdg.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_iwdg.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_iwdg.o
+ .text.IWDG_WriteAccessCmd
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_iwdg.o
+ .text.IWDG_SetPrescaler
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_iwdg.o
+ .text.IWDG_SetReload
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_iwdg.o
+ .text.IWDG_ReloadCounter
+                0x0000000000000000       0x1a ./Drivers/src/ch32v20x_iwdg.o
+ .text.IWDG_Enable
+                0x0000000000000000       0x1a ./Drivers/src/ch32v20x_iwdg.o
+ .text.IWDG_GetFlagStatus
+                0x0000000000000000       0x36 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_info    0x0000000000000000      0x20b ./Drivers/src/ch32v20x_iwdg.o
+ .debug_abbrev  0x0000000000000000      0x13a ./Drivers/src/ch32v20x_iwdg.o
+ .debug_aranges
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_ranges  0x0000000000000000       0x38 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x154 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_line    0x0000000000000000      0x4cf ./Drivers/src/ch32v20x_iwdg.o
+ .debug_str     0x0000000000000000    0x2dd9e ./Drivers/src/ch32v20x_iwdg.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_iwdg.o
+ .debug_frame   0x0000000000000000       0xd0 ./Drivers/src/ch32v20x_iwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_misc.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_misc.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_misc.o
+ .text.NVIC_EnableIRQ
+                0x0000000000000000       0x32 ./Drivers/src/ch32v20x_misc.o
+ .text.NVIC_DisableIRQ
+                0x0000000000000000       0x32 ./Drivers/src/ch32v20x_misc.o
+ .text.NVIC_SetPriority
+                0x0000000000000000       0x2a ./Drivers/src/ch32v20x_misc.o
+ .sbss.NVIC_Priority_Group
+                0x0000000000000000        0x4 ./Drivers/src/ch32v20x_misc.o
+ .text.NVIC_PriorityGroupConfig
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_misc.o
+ .text.NVIC_Init
+                0x0000000000000000      0x244 ./Drivers/src/ch32v20x_misc.o
+ .debug_info    0x0000000000000000      0x595 ./Drivers/src/ch32v20x_misc.o
+ .debug_abbrev  0x0000000000000000      0x1cd ./Drivers/src/ch32v20x_misc.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_misc.o
+ .debug_ranges  0x0000000000000000       0x30 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x148 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_misc.o
+ .debug_line    0x0000000000000000      0x6da ./Drivers/src/ch32v20x_misc.o
+ .debug_str     0x0000000000000000    0x2e13e ./Drivers/src/ch32v20x_misc.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_misc.o
+ .debug_frame   0x0000000000000000       0xb8 ./Drivers/src/ch32v20x_misc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_opa.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_opa.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_opa.o
+ .text.OPA_DeInit
+                0x0000000000000000       0x1a ./Drivers/src/ch32v20x_opa.o
+ .text.OPA_Init
+                0x0000000000000000       0x82 ./Drivers/src/ch32v20x_opa.o
+ .text.OPA_StructInit
+                0x0000000000000000       0x32 ./Drivers/src/ch32v20x_opa.o
+ .text.OPA_Cmd  0x0000000000000000       0x6e ./Drivers/src/ch32v20x_opa.o
+ .debug_info    0x0000000000000000      0x27f ./Drivers/src/ch32v20x_opa.o
+ .debug_abbrev  0x0000000000000000      0x122 ./Drivers/src/ch32v20x_opa.o
+ .debug_aranges
+                0x0000000000000000       0x38 ./Drivers/src/ch32v20x_opa.o
+ .debug_ranges  0x0000000000000000       0x28 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x159 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/src/ch32v20x_opa.o
+ .debug_line    0x0000000000000000      0x558 ./Drivers/src/ch32v20x_opa.o
+ .debug_str     0x0000000000000000    0x2dde8 ./Drivers/src/ch32v20x_opa.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_opa.o
+ .debug_frame   0x0000000000000000       0x90 ./Drivers/src/ch32v20x_opa.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_pwr.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_pwr.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_DeInit
+                0x0000000000000000       0x2e ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_BackupAccessCmd
+                0x0000000000000000       0x3a ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_PVDCmd
+                0x0000000000000000       0x38 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_PVDLevelConfig
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_WakeUpPinCmd
+                0x0000000000000000       0x3a ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_EnterSTOPMode
+                0x0000000000000000      0x106 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_EnterSTANDBYMode
+                0x0000000000000000       0x6a ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_GetFlagStatus
+                0x0000000000000000       0x34 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_ClearFlag
+                0x0000000000000000       0x28 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_EnterSTANDBYMode_RAM
+                0x0000000000000000       0x86 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_EnterSTANDBYMode_RAM_LV
+                0x0000000000000000       0x94 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_EnterSTANDBYMode_RAM_VBAT_EN
+                0x0000000000000000       0x88 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_EnterSTANDBYMode_RAM_LV_VBAT_EN
+                0x0000000000000000       0x96 ./Drivers/src/ch32v20x_pwr.o
+ .text.PWR_EnterSTOPMode_RAM_LV
+                0x0000000000000000      0x120 ./Drivers/src/ch32v20x_pwr.o
+ .debug_info    0x0000000000000000      0x6a0 ./Drivers/src/ch32v20x_pwr.o
+ .debug_abbrev  0x0000000000000000      0x25c ./Drivers/src/ch32v20x_pwr.o
+ .debug_aranges
+                0x0000000000000000       0x88 ./Drivers/src/ch32v20x_pwr.o
+ .debug_ranges  0x0000000000000000       0x78 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x154 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000       0x5e ./Drivers/src/ch32v20x_pwr.o
+ .debug_line    0x0000000000000000      0x91e ./Drivers/src/ch32v20x_pwr.o
+ .debug_str     0x0000000000000000    0x2df38 ./Drivers/src/ch32v20x_pwr.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_pwr.o
+ .debug_frame   0x0000000000000000      0x1d8 ./Drivers/src/ch32v20x_pwr.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_rcc.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_rcc.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_rcc.o
+ .data.APBAHBPrescTable
+                0x0000000000000000       0x10 ./Drivers/src/ch32v20x_rcc.o
+ .sdata.ADCPrescTable
+                0x0000000000000000        0x4 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_DeInit
+                0x0000000000000000       0x76 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_HSEConfig
+                0x0000000000000000       0x76 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x0000000000000000       0x68 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_HSICmd
+                0x0000000000000000       0x38 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_PLLConfig
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_PLLCmd
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_HCLKConfig
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_PCLK1Config
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_PCLK2Config
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_ITConfig
+                0x0000000000000000       0x64 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_USBCLKConfig
+                0x0000000000000000       0x3c ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_ADCCLKConfig
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_LSEConfig
+                0x0000000000000000       0x5a ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_LSICmd
+                0x0000000000000000       0x38 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x0000000000000000       0x24 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x0000000000000000       0x3c ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_GetClocksFreq
+                0x0000000000000000      0x248 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_AHBPeriphClockCmd
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_APB2PeriphClockCmd
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_APB1PeriphClockCmd
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_BackupResetCmd
+                0x0000000000000000       0x3c ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_MCOConfig
+                0x0000000000000000       0x20 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_GetFlagStatus
+                0x0000000000000000       0x8e ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_ClearFlag
+                0x0000000000000000       0x20 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_GetITStatus
+                0x0000000000000000       0x36 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x0000000000000000       0x20 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_ADCCLKADJcmd
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_rcc.o
+ .text.RCC_ETHDIVConfig
+                0x0000000000000000       0x3c ./Drivers/src/ch32v20x_rcc.o
+ .debug_info    0x0000000000000000      0x97e ./Drivers/src/ch32v20x_rcc.o
+ .debug_abbrev  0x0000000000000000      0x205 ./Drivers/src/ch32v20x_rcc.o
+ .debug_aranges
+                0x0000000000000000      0x128 ./Drivers/src/ch32v20x_rcc.o
+ .debug_ranges  0x0000000000000000      0x118 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x208 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000      0x356 ./Drivers/src/ch32v20x_rcc.o
+ .debug_line    0x0000000000000000      0xf94 ./Drivers/src/ch32v20x_rcc.o
+ .debug_str     0x0000000000000000    0x2e683 ./Drivers/src/ch32v20x_rcc.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_rcc.o
+ .debug_frame   0x0000000000000000      0x458 ./Drivers/src/ch32v20x_rcc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_rtc.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_rtc.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_ITConfig
+                0x0000000000000000       0x72 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_EnterConfigMode
+                0x0000000000000000       0x30 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_ExitConfigMode
+                0x0000000000000000       0x2e ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_GetCounter
+                0x0000000000000000       0x76 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_SetCounter
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_SetPrescaler
+                0x0000000000000000       0x54 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_SetAlarm
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_GetDivider
+                0x0000000000000000       0x4c ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_WaitForLastTask
+                0x0000000000000000       0x24 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_WaitForSynchro
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_GetFlagStatus
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_ClearFlag
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_GetITStatus
+                0x0000000000000000       0x68 ./Drivers/src/ch32v20x_rtc.o
+ .text.RTC_ClearITPendingBit
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_rtc.o
+ .debug_info    0x0000000000000000      0x470 ./Drivers/src/ch32v20x_rtc.o
+ .debug_abbrev  0x0000000000000000      0x194 ./Drivers/src/ch32v20x_rtc.o
+ .debug_aranges
+                0x0000000000000000       0x88 ./Drivers/src/ch32v20x_rtc.o
+ .debug_ranges  0x0000000000000000       0x78 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x154 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/src/ch32v20x_rtc.o
+ .debug_line    0x0000000000000000      0x7ef ./Drivers/src/ch32v20x_rtc.o
+ .debug_str     0x0000000000000000    0x2deee ./Drivers/src/ch32v20x_rtc.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_rtc.o
+ .debug_frame   0x0000000000000000      0x1dc ./Drivers/src/ch32v20x_rtc.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_spi.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_spi.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_I2S_DeInit
+                0x0000000000000000       0x64 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_Init
+                0x0000000000000000       0xdc ./Drivers/src/ch32v20x_spi.o
+ .text.I2S_Init
+                0x0000000000000000      0x204 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_StructInit
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_spi.o
+ .text.I2S_StructInit
+                0x0000000000000000       0x42 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_Cmd  0x0000000000000000       0x52 ./Drivers/src/ch32v20x_spi.o
+ .text.I2S_Cmd  0x0000000000000000       0x52 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_I2S_ITConfig
+                0x0000000000000000       0x8c ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_I2S_DMACmd
+                0x0000000000000000       0x68 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_I2S_SendData
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_I2S_ReceiveData
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x0000000000000000       0x5c ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_SSOutputCmd
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_DataSizeConfig
+                0x0000000000000000       0x56 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_TransmitCRC
+                0x0000000000000000       0x2e ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_CalculateCRC
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_GetCRC
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_GetCRCPolynomial
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x0000000000000000       0x5e ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_I2S_GetFlagStatus
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_I2S_ClearFlag
+                0x0000000000000000       0x2c ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_I2S_GetITStatus
+                0x0000000000000000       0x98 ./Drivers/src/ch32v20x_spi.o
+ .text.SPI_I2S_ClearITPendingBit
+                0x0000000000000000       0x40 ./Drivers/src/ch32v20x_spi.o
+ .debug_info    0x0000000000000000      0x97e ./Drivers/src/ch32v20x_spi.o
+ .debug_abbrev  0x0000000000000000      0x1b4 ./Drivers/src/ch32v20x_spi.o
+ .debug_aranges
+                0x0000000000000000       0xd0 ./Drivers/src/ch32v20x_spi.o
+ .debug_ranges  0x0000000000000000       0xc0 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x1ae ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000      0x1eb ./Drivers/src/ch32v20x_spi.o
+ .debug_line    0x0000000000000000      0xbfd ./Drivers/src/ch32v20x_spi.o
+ .debug_str     0x0000000000000000    0x2e375 ./Drivers/src/ch32v20x_spi.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_spi.o
+ .debug_frame   0x0000000000000000      0x2fc ./Drivers/src/ch32v20x_spi.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_tim.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_tim.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_DeInit
+                0x0000000000000000       0xea ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_TimeBaseInit
+                0x0000000000000000       0xf4 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC1Init
+                0x0000000000000000      0x14e ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC2Init
+                0x0000000000000000      0x194 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC3Init
+                0x0000000000000000      0x18e ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC4Init
+                0x0000000000000000      0x130 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ICInit
+                0x0000000000000000      0x118 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_PWMIConfig
+                0x0000000000000000      0x12c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_BDTRConfig
+                0x0000000000000000       0x78 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_TimeBaseStructInit
+                0x0000000000000000       0x3a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OCStructInit
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ICStructInit
+                0x0000000000000000       0x3a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_BDTRStructInit
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_Cmd  0x0000000000000000       0x50 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_CtrlPWMOutputs
+                0x0000000000000000       0x60 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ITConfig
+                0x0000000000000000       0x68 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_GenerateEvent
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_DMAConfig
+                0x0000000000000000       0x38 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_DMACmd
+                0x0000000000000000       0x68 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_InternalClockConfig
+                0x0000000000000000       0x2a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x0000000000000000       0x98 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x0000000000000000       0x8c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x0000000000000000       0x62 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ETRConfig
+                0x0000000000000000       0x78 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_PrescalerConfig
+                0x0000000000000000       0x34 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_CounterModeConfig
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SelectInputTrigger
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x0000000000000000       0xcc ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ForcedOC1Config
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ForcedOC2Config
+                0x0000000000000000       0x54 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ForcedOC3Config
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ForcedOC4Config
+                0x0000000000000000       0x54 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ARRPreloadConfig
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SelectCOM
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SelectCCDMA
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_CCPreloadControl
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x0000000000000000       0x56 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC3PreloadConfig
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC4PreloadConfig
+                0x0000000000000000       0x56 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC1FastConfig
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC2FastConfig
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC3FastConfig
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC4FastConfig
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ClearOC1Ref
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ClearOC2Ref
+                0x0000000000000000       0x54 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ClearOC3Ref
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ClearOC4Ref
+                0x0000000000000000       0x54 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x0000000000000000       0x48 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x0000000000000000       0x56 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x0000000000000000       0x54 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_CCxCmd
+                0x0000000000000000       0x82 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_CCxNCmd
+                0x0000000000000000       0x82 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SelectOCxM
+                0x0000000000000000      0x100 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SelectHallSensor
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SelectOutputTrigger
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SelectSlaveMode
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetCounter
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetAutoreload
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetCompare1
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetCompare2
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetCompare3
+                0x0000000000000000       0x22 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetCompare4
+                0x0000000000000000       0x24 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x0000000000000000       0x5c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x0000000000000000       0x5c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_SetClockDivision
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_GetCapture1
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_GetCapture2
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_GetCapture3
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_GetCapture4
+                0x0000000000000000       0x1e ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_GetCounter
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_GetPrescaler
+                0x0000000000000000       0x1c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_GetFlagStatus
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ClearFlag
+                0x0000000000000000       0x2c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_GetITStatus
+                0x0000000000000000       0x6c ./Drivers/src/ch32v20x_tim.o
+ .text.TIM_ClearITPendingBit
+                0x0000000000000000       0x2c ./Drivers/src/ch32v20x_tim.o
+ .text.TI1_Config
+                0x0000000000000000      0x12a ./Drivers/src/ch32v20x_tim.o
+ .text.TI2_Config
+                0x0000000000000000      0x14a ./Drivers/src/ch32v20x_tim.o
+ .text.TI3_Config
+                0x0000000000000000      0x142 ./Drivers/src/ch32v20x_tim.o
+ .text.TI4_Config
+                0x0000000000000000      0x15a ./Drivers/src/ch32v20x_tim.o
+ .debug_info    0x0000000000000000     0x1ddf ./Drivers/src/ch32v20x_tim.o
+ .debug_abbrev  0x0000000000000000      0x1df ./Drivers/src/ch32v20x_tim.o
+ .debug_aranges
+                0x0000000000000000      0x2f0 ./Drivers/src/ch32v20x_tim.o
+ .debug_ranges  0x0000000000000000      0x2e0 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x160 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000      0x55e ./Drivers/src/ch32v20x_tim.o
+ .debug_line    0x0000000000000000     0x21e4 ./Drivers/src/ch32v20x_tim.o
+ .debug_str     0x0000000000000000    0x2e98b ./Drivers/src/ch32v20x_tim.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_tim.o
+ .debug_frame   0x0000000000000000      0xbb4 ./Drivers/src/ch32v20x_tim.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_usart.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_usart.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_DeInit
+                0x0000000000000000       0xc8 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_Init
+                0x0000000000000000      0x21c ./Drivers/src/ch32v20x_usart.o
+ .text.USART_StructInit
+                0x0000000000000000       0x46 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_ClockInit
+                0x0000000000000000       0x82 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_ClockStructInit
+                0x0000000000000000       0x32 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_Cmd
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_ITConfig
+                0x0000000000000000       0xc4 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_DMACmd
+                0x0000000000000000       0x68 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_SetAddress
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_WakeUpConfig
+                0x0000000000000000       0x56 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_ReceiverWakeUpCmd
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_LINCmd
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_SendData
+                0x0000000000000000       0x2c ./Drivers/src/ch32v20x_usart.o
+ .text.USART_ReceiveData
+                0x0000000000000000       0x24 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_SendBreak
+                0x0000000000000000       0x2c ./Drivers/src/ch32v20x_usart.o
+ .text.USART_SetGuardTime
+                0x0000000000000000       0x5a ./Drivers/src/ch32v20x_usart.o
+ .text.USART_SetPrescaler
+                0x0000000000000000       0x54 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_SmartCardCmd
+                0x0000000000000000       0x52 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_SmartCardNACKCmd
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_HalfDuplexCmd
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_OverSampling8Cmd
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_OneBitMethodCmd
+                0x0000000000000000       0x5e ./Drivers/src/ch32v20x_usart.o
+ .text.USART_IrDAConfig
+                0x0000000000000000       0x4e ./Drivers/src/ch32v20x_usart.o
+ .text.USART_IrDACmd
+                0x0000000000000000       0x50 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_GetFlagStatus
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_usart.o
+ .text.USART_ClearFlag
+                0x0000000000000000       0x2c ./Drivers/src/ch32v20x_usart.o
+ .text.USART_GetITStatus
+                0x0000000000000000       0xfa ./Drivers/src/ch32v20x_usart.o
+ .text.USART_ClearITPendingBit
+                0x0000000000000000       0x4c ./Drivers/src/ch32v20x_usart.o
+ .debug_info    0x0000000000000000      0xa52 ./Drivers/src/ch32v20x_usart.o
+ .debug_abbrev  0x0000000000000000      0x1b4 ./Drivers/src/ch32v20x_usart.o
+ .debug_aranges
+                0x0000000000000000      0x100 ./Drivers/src/ch32v20x_usart.o
+ .debug_ranges  0x0000000000000000       0xf0 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x1fc ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000      0x158 ./Drivers/src/ch32v20x_usart.o
+ .debug_line    0x0000000000000000      0xddf ./Drivers/src/ch32v20x_usart.o
+ .debug_str     0x0000000000000000    0x2e5b2 ./Drivers/src/ch32v20x_usart.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_usart.o
+ .debug_frame   0x0000000000000000      0x3bc ./Drivers/src/ch32v20x_usart.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
+ .text          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_wwdg.o
+ .data          0x0000000000000000        0x0 ./Drivers/src/ch32v20x_wwdg.o
+ .bss           0x0000000000000000        0x0 ./Drivers/src/ch32v20x_wwdg.o
+ .text.WWDG_DeInit
+                0x0000000000000000       0x32 ./Drivers/src/ch32v20x_wwdg.o
+ .text.WWDG_SetPrescaler
+                0x0000000000000000       0x44 ./Drivers/src/ch32v20x_wwdg.o
+ .text.WWDG_SetWindowValue
+                0x0000000000000000       0x4a ./Drivers/src/ch32v20x_wwdg.o
+ .text.WWDG_EnableIT
+                0x0000000000000000       0x26 ./Drivers/src/ch32v20x_wwdg.o
+ .text.WWDG_SetCounter
+                0x0000000000000000       0x26 ./Drivers/src/ch32v20x_wwdg.o
+ .text.WWDG_Enable
+                0x0000000000000000       0x2a ./Drivers/src/ch32v20x_wwdg.o
+ .text.WWDG_GetFlagStatus
+                0x0000000000000000       0x18 ./Drivers/src/ch32v20x_wwdg.o
+ .text.WWDG_ClearFlag
+                0x0000000000000000       0x1a ./Drivers/src/ch32v20x_wwdg.o
+ .debug_info    0x0000000000000000      0x237 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_abbrev  0x0000000000000000      0x138 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_aranges
+                0x0000000000000000       0x58 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_ranges  0x0000000000000000       0x48 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x160 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x75a ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x6c ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x56 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0xef ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x88 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x142 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x239 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x206 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x64 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x35c ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x3a ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x564 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/src/ch32v20x_wwdg.o
+ .debug_line    0x0000000000000000      0x55b ./Drivers/src/ch32v20x_wwdg.o
+ .debug_str     0x0000000000000000    0x2dddc ./Drivers/src/ch32v20x_wwdg.o
+ .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_frame   0x0000000000000000      0x114 ./Drivers/src/ch32v20x_wwdg.o
+ .text          0x0000000000000000        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+ .data          0x0000000000000000        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+ .bss           0x0000000000000000        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/ch32v20x_RVMSIS.o
+ .text          0x0000000000000000        0x0 ./Core/Src/ch32v20x_RVMSIS.o
+ .data          0x0000000000000000        0x0 ./Core/Src/ch32v20x_RVMSIS.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_Blink_PC13
+                0x0000000000000000       0x40 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.EXTI0_IRQHandler
+                0x0000000000000000       0x28 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.TIM3_IRQHandler
+                0x0000000000000000       0x42 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.ADC1_2_IRQHandler
+                0x0000000000000000       0x28 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.DMA1_Channel1_IRQHandler
+                0x0000000000000000       0x46 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x75a ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x6c ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x56 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0xef ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x46 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x24f ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x12a ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x32f ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x7c ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x239 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x88 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x142 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x239 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x206 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x4c ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x64 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x35c ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x3a ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x564 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000      0x15e ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/Src/ch32v20x_RVMSIS.o
+ .group         0x0000000000000000        0xc ./Core/Src/core_riscv.o
+ .group         0x0000000000000000        0xc ./Core/Src/core_riscv.o
+ .group         0x0000000000000000        0xc ./Core/Src/core_riscv.o
+ .group         0x0000000000000000        0xc ./Core/Src/core_riscv.o
+ .group         0x0000000000000000        0xc ./Core/Src/core_riscv.o
+ .group         0x0000000000000000        0xc ./Core/Src/core_riscv.o
+ .group         0x0000000000000000        0xc ./Core/Src/core_riscv.o
+ .text          0x0000000000000000        0x0 ./Core/Src/core_riscv.o
+ .data          0x0000000000000000        0x0 ./Core/Src/core_riscv.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/core_riscv.o
+ .text.__get_MSTATUS
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__set_MSTATUS
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MISA
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__set_MISA
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MIE
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__set_MIE
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MTVEC
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__set_MTVEC
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MSCRATCH
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__set_MSCRATCH
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MEPC
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__set_MEPC
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MCAUSE
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__set_MCAUSE
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MTVAL
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__set_MTVAL
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MVENDORID
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MARCHID
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MIMPID
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_MHARTID
+                0x0000000000000000       0x1a ./Core/Src/core_riscv.o
+ .text.__get_SP
+                0x0000000000000000       0x18 ./Core/Src/core_riscv.o
+ .debug_info    0x0000000000000000      0x3e0 ./Core/Src/core_riscv.o
+ .debug_abbrev  0x0000000000000000       0xe3 ./Core/Src/core_riscv.o
+ .debug_aranges
+                0x0000000000000000       0xc0 ./Core/Src/core_riscv.o
+ .debug_ranges  0x0000000000000000       0xb0 ./Core/Src/core_riscv.o
+ .debug_macro   0x0000000000000000       0x65 ./Core/Src/core_riscv.o
+ .debug_macro   0x0000000000000000      0x75a ./Core/Src/core_riscv.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/core_riscv.o
+ .debug_macro   0x0000000000000000       0x56 ./Core/Src/core_riscv.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/core_riscv.o
+ .debug_macro   0x0000000000000000       0xef ./Core/Src/core_riscv.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/core_riscv.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/core_riscv.o
+ .debug_line    0x0000000000000000      0x4e6 ./Core/Src/core_riscv.o
+ .debug_str     0x0000000000000000     0x347a ./Core/Src/core_riscv.o
+ .comment       0x0000000000000000       0x34 ./Core/Src/core_riscv.o
+ .debug_frame   0x0000000000000000      0x2b0 ./Core/Src/core_riscv.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/main.o
+ .text          0x0000000000000000        0x0 ./Core/Src/main.o
+ .data          0x0000000000000000        0x0 ./Core/Src/main.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x75a ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x6c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x56 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0xef ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x46 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x24f ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x12a ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x32f ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x7c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x239 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x88 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x142 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x239 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x206 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x4c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x64 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x35c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x3a ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x564 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x15e ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Src/main.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .group         0x0000000000000000        0xc ./Core/Src/system_ch32v20x.o
+ .text          0x0000000000000000        0x0 ./Core/Src/system_ch32v20x.o
+ .data          0x0000000000000000        0x0 ./Core/Src/system_ch32v20x.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/system_ch32v20x.o
+ .sdata.SystemCoreClock
+                0x0000000000000000        0x4 ./Core/Src/system_ch32v20x.o
+ .data.AHBPrescTable
+                0x0000000000000000       0x10 ./Core/Src/system_ch32v20x.o
+ .text.SystemCoreClockUpdate
+                0x0000000000000000      0x198 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x75a ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x6c ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x56 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0xef ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x46 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000     0x6b8f ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x24f ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x12a ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x32f ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x7c ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x239 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x88 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x142 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x239 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x206 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x4c ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x64 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x35c ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x3a ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x1f1 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x564 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000      0x15e ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/Src/system_ch32v20x.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000010000 xr
+RAM              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./Drivers/src/ch32v20x_adc.o
+LOAD ./Drivers/src/ch32v20x_bkp.o
+LOAD ./Drivers/src/ch32v20x_can.o
+LOAD ./Drivers/src/ch32v20x_crc.o
+LOAD ./Drivers/src/ch32v20x_dbgmcu.o
+LOAD ./Drivers/src/ch32v20x_dma.o
+LOAD ./Drivers/src/ch32v20x_exti.o
+LOAD ./Drivers/src/ch32v20x_flash.o
+LOAD ./Drivers/src/ch32v20x_gpio.o
+LOAD ./Drivers/src/ch32v20x_i2c.o
+LOAD ./Drivers/src/ch32v20x_iwdg.o
+LOAD ./Drivers/src/ch32v20x_misc.o
+LOAD ./Drivers/src/ch32v20x_opa.o
+LOAD ./Drivers/src/ch32v20x_pwr.o
+LOAD ./Drivers/src/ch32v20x_rcc.o
+LOAD ./Drivers/src/ch32v20x_rtc.o
+LOAD ./Drivers/src/ch32v20x_spi.o
+LOAD ./Drivers/src/ch32v20x_tim.o
+LOAD ./Drivers/src/ch32v20x_usart.o
+LOAD ./Drivers/src/ch32v20x_wwdg.o
+LOAD ./Core/Startup/startup_ch32v20x_D6.o
+LOAD ./Core/Src/ch32v20x_RVMSIS.o
+LOAD ./Core/Src/core_riscv.o
+LOAD ./Core/Src/main.o
+LOAD ./Core/Src/system_ch32v20x.o
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imacxw/ilp32\libgcc.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imacxw/ilp32\libgcc.a
+START GROUP
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imacxw/ilp32\libgcc.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imacxw/ilp32\libgcc.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a
+END GROUP
+                0x0000000000000200                __stack_size = 0x200
+                [!provide]                        PROVIDE (_stack_size = __stack_size)
+
+.init           0x0000000000000000       0x38
+                0x0000000000000000                _sinit = .
+                0x0000000000000000                . = ALIGN (0x4)
+ *(SORT_NONE(.init))
+ .init          0x0000000000000000       0x38 ./Core/Startup/startup_ch32v20x_D6.o
+                0x0000000000000000                _start
+                0x0000000000000038                . = ALIGN (0x4)
+                0x0000000000000038                _einit = .
+
+.vector         0x0000000000000038      0x108
+ *(.vector)
+ .vector        0x0000000000000038       0xfc ./Core/Startup/startup_ch32v20x_D6.o
+                0x0000000000000140                . = ALIGN (0x40)
+ *fill*         0x0000000000000134        0xc 
+
+.text           0x0000000000000140     0x1108
+                0x0000000000000140                . = ALIGN (0x4)
+ *(.text)
+ *(.text.*)
+ .text.vector_handler
+                0x0000000000000140       0x6c ./Core/Startup/startup_ch32v20x_D6.o
+                0x0000000000000140                NMI_Handler
+                0x0000000000000142                HardFault_Handler
+                0x0000000000000144                Ecall_M_Mode_Handler
+                0x0000000000000146                Ecall_U_Mode_Handler
+                0x0000000000000148                Break_Point_Handler
+                0x000000000000014c                SW_handler
+                0x000000000000014e                WWDG_IRQHandler
+                0x0000000000000150                PVD_IRQHandler
+                0x0000000000000152                TAMPER_IRQHandler
+                0x0000000000000154                RTC_IRQHandler
+                0x0000000000000156                FLASH_IRQHandler
+                0x0000000000000158                RCC_IRQHandler
+                0x000000000000015c                EXTI1_IRQHandler
+                0x000000000000015e                EXTI2_IRQHandler
+                0x0000000000000160                EXTI3_IRQHandler
+                0x0000000000000162                EXTI4_IRQHandler
+                0x0000000000000166                DMA1_Channel2_IRQHandler
+                0x0000000000000168                DMA1_Channel3_IRQHandler
+                0x000000000000016a                DMA1_Channel4_IRQHandler
+                0x000000000000016c                DMA1_Channel5_IRQHandler
+                0x000000000000016e                DMA1_Channel6_IRQHandler
+                0x0000000000000170                DMA1_Channel7_IRQHandler
+                0x0000000000000172                ADC1_2_IRQHandler
+                0x0000000000000174                USB_HP_CAN1_TX_IRQHandler
+                0x0000000000000176                USB_LP_CAN1_RX0_IRQHandler
+                0x0000000000000178                CAN1_RX1_IRQHandler
+                0x000000000000017a                CAN1_SCE_IRQHandler
+                0x000000000000017c                EXTI9_5_IRQHandler
+                0x000000000000017e                TIM1_BRK_IRQHandler
+                0x0000000000000180                TIM1_UP_IRQHandler
+                0x0000000000000182                TIM1_TRG_COM_IRQHandler
+                0x0000000000000184                TIM1_CC_IRQHandler
+                0x0000000000000186                TIM2_IRQHandler
+                0x000000000000018a                TIM4_IRQHandler
+                0x000000000000018c                I2C1_EV_IRQHandler
+                0x000000000000018e                I2C1_ER_IRQHandler
+                0x0000000000000190                I2C2_EV_IRQHandler
+                0x0000000000000192                I2C2_ER_IRQHandler
+                0x0000000000000194                SPI1_IRQHandler
+                0x0000000000000196                SPI2_IRQHandler
+                0x0000000000000198                USART1_IRQHandler
+                0x000000000000019a                USART2_IRQHandler
+                0x000000000000019c                USART3_IRQHandler
+                0x000000000000019e                EXTI15_10_IRQHandler
+                0x00000000000001a0                RTCAlarm_IRQHandler
+                0x00000000000001a2                USBWakeUp_IRQHandler
+                0x00000000000001a4                USBHD_IRQHandler
+                0x00000000000001a6                USBHDWakeUp_IRQHandler
+                0x00000000000001a8                UART4_IRQHandler
+                0x00000000000001aa                DMA1_Channel8_IRQHandler
+ .text.handle_reset
+                0x00000000000001ac       0x8e ./Core/Startup/startup_ch32v20x_D6.o
+                0x00000000000001ac                handle_reset
+ .text.NVIC_EnableIRQ
+                0x000000000000023a       0x32 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_Debug_init
+                0x000000000000026c       0x70 ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000026c                RVMSIS_Debug_init
+ .text.RVMSIS_RCC_SystemClock_144MHz
+                0x00000000000002dc      0x1a0 ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000002dc                RVMSIS_RCC_SystemClock_144MHz
+ .text.RVMSIS_SysTick_Timer_init
+                0x000000000000047c       0x94 ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000047c                RVMSIS_SysTick_Timer_init
+ .text.SysTick_Handler
+                0x0000000000000510       0x6e ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000510                SysTick_Handler
+ .text.Delay_ms
+                0x000000000000057e       0x2a ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000057e                Delay_ms
+ .text.RVMSIS_PC13_OUTPUT_Push_Pull_init
+                0x00000000000005a8       0x4e ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000005a8                RVMSIS_PC13_OUTPUT_Push_Pull_init
+ .text.RVMSIS_PA8_MCO_init
+                0x00000000000005f6       0x6e ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000005f6                RVMSIS_PA8_MCO_init
+ .text.RVMSIS_EXTI0_init
+                0x0000000000000664       0xd0 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000664                RVMSIS_EXTI0_init
+ .text.RVMSIS_TIM3_init
+                0x0000000000000734      0x17e ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000734                RVMSIS_TIM3_init
+ .text.RVMSIS_TIM3_PWM_CHANNEL1_init
+                0x00000000000008b2      0x162 ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000008b2                RVMSIS_TIM3_PWM_CHANNEL1_init
+ .text.RVMSIS_TIM3_PWM_CHANNEL2_init
+                0x0000000000000a14      0x172 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000a14                RVMSIS_TIM3_PWM_CHANNEL2_init
+ .text.RVMSIS_ADC_DMA_init
+                0x0000000000000b86      0x406 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000b86                RVMSIS_ADC_DMA_init
+ .text.DMA1_Channel1_IRQHandler
+                0x0000000000000f8c       0x46 ./Core/Src/main.o
+                0x0000000000000f8c                DMA1_Channel1_IRQHandler
+ .text.TIM3_IRQHandler
+                0x0000000000000fd2       0x4e ./Core/Src/main.o
+                0x0000000000000fd2                TIM3_IRQHandler
+ .text.EXTI0_IRQHandler
+                0x0000000000001020       0x34 ./Core/Src/main.o
+                0x0000000000001020                EXTI0_IRQHandler
+ .text.main     0x0000000000001054       0x4e ./Core/Src/main.o
+                0x0000000000001054                main
+ .text.SystemInit
+                0x00000000000010a2       0x7c ./Core/Src/system_ch32v20x.o
+                0x00000000000010a2                SystemInit
+ .text.SetSysClock
+                0x000000000000111e       0x14 ./Core/Src/system_ch32v20x.o
+ .text.SetSysClockTo96_HSE
+                0x0000000000001132      0x114 ./Core/Src/system_ch32v20x.o
+ *(.rodata)
+ *(.rodata*)
+ *(.glue_7)
+ *(.glue_7t)
+ *(.gnu.linkonce.t.*)
+                0x0000000000001248                . = ALIGN (0x4)
+ *fill*         0x0000000000001246        0x2 
+
+.rela.dyn       0x0000000000001248        0x0
+ .rela.init     0x0000000000001248        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+ .rela.vector   0x0000000000001248        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+ .rela.text.handle_reset
+                0x0000000000001248        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+
+.fini           0x0000000000001248        0x0
+ *(SORT_NONE(.fini))
+                0x0000000000001248                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (_eitcm = .)
+
+.preinit_array  0x0000000000001248        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000001248        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000001248        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.dalign         0x0000000020000000        0x0 load address 0x0000000000001248
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_data_vma = .)
+
+.dlalign        0x0000000000001248        0x0
+                0x0000000000001248                . = ALIGN (0x4)
+                0x0000000000001248                PROVIDE (_data_lma = .)
+
+.data           0x0000000020000000        0x0 load address 0x0000000000001248
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ *(.gnu.linkonce.d.*)
+                0x0000000020000000                . = ALIGN (0x8)
+                0x0000000020000800                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ *(.sdata2.*)
+ *(.gnu.linkonce.s.*)
+                0x0000000020000000                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_edata = .)
+
+.bss            0x0000000020000000       0x18 load address 0x0000000000001248
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_sbss = .)
+ *(.sbss*)
+ .sbss.SysTimer_ms
+                0x0000000020000000        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000020000000                SysTimer_ms
+ .sbss.Delay_counter_ms
+                0x0000000020000004        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000020000004                Delay_counter_ms
+ .sbss.Timeout_counter_ms
+                0x0000000020000008        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000020000008                Timeout_counter_ms
+ .sbss.ADC_RAW_Data
+                0x000000002000000c        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000002000000c                ADC_RAW_Data
+ .sbss.TIM_Counter
+                0x0000000020000010        0x4 ./Core/Src/main.o
+                0x0000000020000010                TIM_Counter
+ .sbss.EXTI0_Counter
+                0x0000000020000014        0x4 ./Core/Src/main.o
+                0x0000000020000014                EXTI0_Counter
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ *(.gnu.linkonce.b.*)
+ *(COMMON*)
+                0x0000000020000018                . = ALIGN (0x4)
+                0x0000000020000018                PROVIDE (_ebss = .)
+                [!provide]                        PROVIDE (_end = _ebss)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x0000000020004e00      0x200
+                [!provide]                        PROVIDE (_heap_end = .)
+                0x0000000020004e00                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_susrstack = .)
+                0x0000000020005000                . = (. + __stack_size)
+ *fill*         0x0000000020004e00      0x200 
+                0x0000000020005000                PROVIDE (_eusrstack = .)
+OUTPUT(CH32V203C8T6.elf elf32-littleriscv)
+
+.debug_line     0x0000000000000000     0x1a99
+ .debug_line    0x0000000000000000      0x264 ./Core/Startup/startup_ch32v20x_D6.o
+ .debug_line    0x0000000000000264      0xba5 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_line    0x0000000000000e09      0x584 ./Core/Src/main.o
+ .debug_line    0x000000000000138d      0x70c ./Core/Src/system_ch32v20x.o
+
+.debug_info     0x0000000000000000     0x14a3
+ .debug_info    0x0000000000000000       0x22 ./Core/Startup/startup_ch32v20x_D6.o
+ .debug_info    0x0000000000000022      0xd3c ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_info    0x0000000000000d5e      0x488 ./Core/Src/main.o
+ .debug_info    0x00000000000011e6      0x2bd ./Core/Src/system_ch32v20x.o
+
+.debug_abbrev   0x0000000000000000      0x4a7
+ .debug_abbrev  0x0000000000000000       0x12 ./Core/Startup/startup_ch32v20x_D6.o
+ .debug_abbrev  0x0000000000000012      0x236 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_abbrev  0x0000000000000248       0xdf ./Core/Src/main.o
+ .debug_abbrev  0x0000000000000327      0x180 ./Core/Src/system_ch32v20x.o
+
+.debug_aranges  0x0000000000000000      0x148
+ .debug_aranges
+                0x0000000000000000       0x30 ./Core/Startup/startup_ch32v20x_D6.o
+ .debug_aranges
+                0x0000000000000030       0xa8 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_aranges
+                0x00000000000000d8       0x38 ./Core/Src/main.o
+ .debug_aranges
+                0x0000000000000110       0x38 ./Core/Src/system_ch32v20x.o
+
+.debug_str      0x0000000000000000    0x2e533
+ .debug_str     0x0000000000000000       0x4a ./Core/Startup/startup_ch32v20x_D6.o
+ .debug_str     0x000000000000004a    0x2e3da ./Core/Src/ch32v20x_RVMSIS.o
+                                      0x2e5ae (size before relaxing)
+ .debug_str     0x000000000002e424       0x32 ./Core/Src/main.o
+                                      0x2df50 (size before relaxing)
+ .debug_str     0x000000000002e456       0xdd ./Core/Src/system_ch32v20x.o
+                                      0x2ddab (size before relaxing)
+
+.debug_ranges   0x0000000000000000      0x110
+ .debug_ranges  0x0000000000000000       0x28 ./Core/Startup/startup_ch32v20x_D6.o
+ .debug_ranges  0x0000000000000028       0x98 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_ranges  0x00000000000000c0       0x28 ./Core/Src/main.o
+ .debug_ranges  0x00000000000000e8       0x28 ./Core/Src/system_ch32v20x.o
+
+.debug_macro    0x0000000000000000      0x43a
+ .debug_macro   0x0000000000000000      0x160 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000160       0x22 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000182       0x10 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000192      0x164 ./Core/Src/main.o
+ .debug_macro   0x00000000000002f6      0x144 ./Core/Src/system_ch32v20x.o
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 ./Core/Src/ch32v20x_RVMSIS.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 ./Core/Src/main.o
+ .comment       0x0000000000000033       0x34 ./Core/Src/system_ch32v20x.o
+
+.debug_frame    0x0000000000000000      0x3a4
+ .debug_frame   0x0000000000000000      0x278 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_frame   0x0000000000000278       0x8c ./Core/Src/main.o
+ .debug_frame   0x0000000000000304       0xa0 ./Core/Src/system_ch32v20x.o

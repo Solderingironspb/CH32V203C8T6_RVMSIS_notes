@@ -1,0 +1,17 @@
+.text
+	|	0x00000140	|	__riscv_save_12   	|	FUNC  	|	0x30
+	|	0x00000148	|	__riscv_save_8    	|	FUNC  	|	0x28
+	|	0x00000156	|	__riscv_save_7    	|	FUNC  	|	0x1a
+	|	0x00000170	|	__riscv_save_1    	|	FUNC  	|	0xc
+	|	0x0000017c	|	__riscv_restore_12	|	FUNC  	|	0x24
+	|	0x00000180	|	__riscv_restore_10	|	FUNC  	|	0x20
+	|	0x0000018a	|	__riscv_restore_5 	|	FUNC  	|	0x16
+	|	0x00000194	|	__riscv_restore_3 	|	FUNC  	|	0xc
+	|	0x0000029a	|	RVMSIS_Debug_init 	|	FUNC  	|	0x40
+	|	0x000002da	|	main              	|	FUNC  	|	0x3c
+	|	0x00000316	|	SystemInit        	|	FUNC  	|	0xea
+
+.data
+
+.bss
+
