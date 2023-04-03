@@ -419,3 +419,121 @@ __WEAK void DMA1_Channel1_IRQHandler(void) {
 ***************************************************************************************
 */
 
+struct USART_name husart1; //§°§Ò§ì§ñ§Ó§Ý§ñ§Ö§Þ §ã§ä§â§å§Ü§ä§å§â§å §á§à USART.(§ã§Þ. ch32v203x_RVMSIS.h)
+
+/**
+ ******************************************************************************
+ *  @breif §¯§Ñ§ã§ä§â§à§Û§Ü§Ñ USART1. §±§Ñ§â§Ñ§Þ§Ö§ä§â§í 9600 8 N 1
+ ******************************************************************************
+ */
+
+void RVMSIS_USART1_Init(void) {
+
+    SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_GPIOA); //§£§Ü§Ý§ð§é§Ö§ß§Ú§Ö §ä§Ñ§Ü§ä§Ú§â§à§Ó§Ñ§ß§Ú§Ö §á§à§â§ä§Ñ §¡
+    SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_AFIO); //§£§Ü§Ý§ð§é§Ö§ß§Ú§Ö §Ñ§Ý§î§ä§Ö§â§ß§Ñ§ä§Ú§Ó§ß§í§ç §æ§å§ß§Ü§è§Ú§Û
+
+    //§¥§Ý§ñ §Ü§à§ß§æ§Ú§Ô§å§â§Ú§â§à§Ó§Ñ§ß§Ú§Ö §ß§à§Ø§Ö§Ü UART §Õ§Ý§ñ Full Duplex §ß§å§Ø§ß§à §Ú§ã§á§à§Ý§î§Ù§à§Ó§Ñ§ä§î Alternate function push-pull(§³§Þ. §á.§á. 9.1.11 GPIO configurations for device peripherals §ã§ä§â.111 Reference Manual)
+    //Tx - Alternative Function output Push-pull(Maximum output speed 50 MHz)
+    MODIFY_REG(GPIOA->CFGHR, GPIO_CFGHR_CNF9, 0b10 << GPIO_CFGHR_CNF9_Pos);
+    MODIFY_REG(GPIOA->CFGHR, GPIO_CFGHR_MODE9, 0b11 << GPIO_CFGHR_MODE9_Pos);
+    //Rx - Input floating
+    MODIFY_REG(GPIOA->CFGHR, GPIO_CFGHR_CNF10, 0b1 << GPIO_CFGHR_CNF10_Pos);
+    MODIFY_REG(GPIOA->CFGHR, GPIO_CFGHR_MODE10, 0b00 << GPIO_CFGHR_MODE10_Pos);
+
+    //§©§Ñ§á§å§ã§ä§Ú§Þ §ä§Ñ§Ü§ä§Ú§â§à§Ó§Ñ§ß§Ú§Ö USART1
+    SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_USART1);
+
+    /*§²§Ñ§ã§é§Ö§ä Fractional baud rate generation
+    §Ö§ã§ä§î §æ§à§â§Þ§å§Ý§Ñ:
+    Tx/Rx baud = fCK/(16*USARTDIV)
+    §Ô§Õ§Ö fCK - Input clock to the peripheral (PCLK1 for USART2, 3, 4, 5 or PCLK2 for USART1)
+    §Ó §ß§Ñ§ê§Ö§Þ §ã§Ý§å§é§Ñ§Ö fCK = 144000000
+    §Õ§à§á§å§ã§ä§Ú§Þ §ß§Ñ§Þ §ß§å§Ø§ß§Ñ §ã§Ü§à§â§à§ã§ä§î 9600
+    9600 = 144000000/(16*USARTDIV)
+    §´§à§Ô§Õ§Ñ USARTDIV = 144000000/9600*16 = 937.5
+    DIV_Mantissa §Ó §Õ§Ñ§ß§ß§à§Þ §ã§Ý§å§é§Ñ§Ö §Ò§å§Õ§Ö§ä 937, §é§ä§à §Ö§ã§ä§î 0x3A9
+    DIV_Fraction §Ò§å§Õ§Ö§ä, §Ü§Ñ§Ü 0.5*16 = 12, §é§ä§à §Ö§ã§ä§î 0x8
+    §´§à§Ô§Õ§Ñ §Ó§Ö§ã§î §â§Ö§Ô§Ú§ã§ä§â USART->BRR §Õ§Ý§ñ §ã§Ü§à§â§à§ã§ä§Ú 9600 §Ò§å§Õ§Ö§ä §Ó§í§Ô§Ý§ñ§Õ§Ö§ä§î, §Ü§Ñ§Ü 0x3A98.
+    §Õ§Ý§ñ §á§â§Ú§Þ§Ö§â§Ñ §Ö§ë§Ö §â§Ñ§Ù§Ò§Ö§â§Ö§Þ §ã§Ü§à§â§à§ã§ä§î 115200:
+    115200 = 144000000/(16*USARTDIV)
+    §´§à§Ô§Õ§Ñ USARTDIV = 144000000/115200*16 = 78.125
+    DIV_Mantissa §Ó §Õ§Ñ§ß§ß§à§Þ §ã§Ý§å§é§Ñ§Ö §Ò§å§Õ§Ö§ä 78, §é§ä§à §Ö§ã§ä§î 0x4E
+    DIV_Fraction §Ò§å§Õ§Ö§ä, §Ü§Ñ§Ü 0.125*16 = 2, §é§ä§à §Ö§ã§ä§î 0x2
+    §´§à§Ô§Õ§Ñ §Ó§Ö§ã§î §â§Ö§Ô§Ú§ã§ä§â USART->BRR §Õ§Ý§ñ §ã§Ü§à§â§à§ã§ä§Ú 115200 §Ò§å§Õ§Ö§ä §Ó§í§Ô§Ý§ñ§Õ§Ö§ä§î, §Ü§Ñ§Ü 0x4E2.
+    */
+
+    MODIFY_REG(USART1->BRR, USART_BRR_DIV_Mantissa, 0x1D4 << USART_BRR_DIV_Mantissa_Pos);
+    MODIFY_REG(USART1->BRR, USART_BRR_DIV_Fraction, 0xC << USART_BRR_DIV_Mantissa_Pos);
+
+    //18.10.4 USART Control Register1 (USARTx_CTLR1) (x=1/2/3/4/5/6/7/8)
+    SET_BIT(USART1->CTLR1, USART_CTLR1_UE); //USART enable
+    CLEAR_BIT(USART1->CTLR1, USART_CTLR1_M); //Word lenght 1 Start bit, 8 Data bits, n Stop bit
+    CLEAR_BIT(USART1->CTLR1, USART_CTLR1_WAKE); //Wake up idle Line
+    CLEAR_BIT(USART1->CTLR1, USART_CTLR1_PCE); //Partity control disabled
+    //§ß§Ñ§ã§ä§â§à§Û§Ü§Ñ §á§â§Ö§â§í§Ó§Ñ§ß§Ú§Û
+    CLEAR_BIT(USART1->CTLR1, USART_CTLR1_PEIE); //partity error interrupt disabled
+    CLEAR_BIT(USART1->CTLR1, USART_CTLR1_TXEIE); //TXE interrupt is inhibited
+    CLEAR_BIT(USART1->CTLR1, USART_CTLR1_TCIE); //Transmission complete interrupt disabled
+    SET_BIT(USART1->CTLR1, USART_CTLR1_RXNEIE); //§±§â§Ö§â§í§Ó§Ñ§ß§Ú§Ö §á§à §á§â§Ú§Ö§Þ§å §Õ§Ñ§ß§ß§í§ç §Ó§Ü§Ý§ð§é§Ö§ß§à
+    SET_BIT(USART1->CTLR1, USART_CTLR1_IDLEIE); //§±§â§Ö§â§í§Ó§Ñ§ß§Ú§Ö §á§à §æ§Ý§Ñ§Ô§å IDLE §Ó§Ü§Ý§ð§é§Ö§ß§à
+    SET_BIT(USART1->CTLR1, USART_CTLR1_TE); //Transmitter is enabled
+    SET_BIT(USART1->CTLR1, USART_CTLR1_RE); //Receiver is enabled and begins searching for a start bit
+    CLEAR_BIT(USART1->CTLR1, USART_CTLR1_RWU);
+    CLEAR_BIT(USART1->CTLR1, USART_CTLR1_SBK);
+
+    //§°§ã§ä§Ñ§Ý§î§ß§å§ð §ß§Ñ§ã§ä§â§à§Û§Ü§å, §ß§Ö §Ü§Ñ§ã§Ñ§ð§ë§å§ð§ã§ñ §ã§ä§Ñ§ß§Õ§Ñ§â§ä§ß§à§Ô§à USART, §Þ§í §á§à§Ü§Ñ §ä§â§à§Ô§Ñ§ä§î §ß§Ö §Ò§å§Õ§Ö§Þ, §ß§à §ß§Ñ §Ó§ã§ñ§Ü§Ú§Û §ã§Ý§å§é§Ñ§Û §à§Ò§ß§å§Ý§Ú§Þ
+    //18.10.5 USART Control Register2 (USARTx_CTLR2) (x=1/2/3/4/5/6/7/8)
+    USART1->CTLR2 = 0;
+    CLEAR_BIT(USART1->CTLR2, USART_CTLR2_STOP); //1 §ã§ä§à§á §Ò§Ú§ä.
+    //18.10.6 USART Control Register 3 (USARTx_CTLR3) (x=1/2/3/4/5/6/7/8)
+    USART1->CTLR3 = 0;
+    //18.10.7 USART Guard Time and Prescaler Register (USARTx_GPR) (x=1/2/3/4/5/6/7/8)
+    USART1->GPR = 0;
+
+    NVIC_EnableIRQ(USART1_IRQn); //§£§Ü§Ý§ð§é§Ú§Þ §á§â§Ö§â§í§Ó§Ñ§ß§Ú§ñ §á§à USART1
+}
+
+/**
+ ******************************************************************************
+ *  @breif §±§â§Ö§â§í§Ó§Ñ§ß§Ú§Ö §á§à USART1
+ ******************************************************************************
+ */
+
+__WEAK void USART1_IRQHandler(void) {
+    if (READ_BIT(USART1->STATR, USART_STATR_RXNE)) {
+        //§¦§ã§Ý§Ú §á§â§Ú§ê§Ý§Ú §Õ§Ñ§ß§ß§í§Ö §á§à USART
+        husart1.rx_buffer[husart1.rx_counter] = USART1->DATAR; //§³§é§Ú§ä§Ñ§Ö§Þ §Õ§Ñ§ß§ß§í§Ö §Ó §ã§à§à§ä§Ó§Ö§ä§ã§ä§Ó§å§ð§ë§å§ð §ñ§é§Ö§Û§Ü§å §Ó rx_buffer
+        husart1.rx_counter++; //§µ§Ó§Ö§Ý§Ú§é§Ú§Þ §ã§é§Ö§ä§é§Ú§Ü §á§â§Ú§ß§ñ§ä§í§ç §Ò§Ñ§Û§ä §ß§Ñ 1
+    }
+    if (READ_BIT(USART1->STATR, USART_STATR_IDLE)) {
+        //§¦§ã§Ý§Ú §á§â§Ú§Ý§Ö§ä§Ö§Ý §æ§Ý§Ñ§Ô IDLE
+        USART1->DATAR; //§³§Ò§â§à§ã§Ú§Þ §æ§Ý§Ñ§Ô IDLE
+        husart1.rx_len = husart1.rx_counter; //§µ§Ù§ß§Ñ§Ö§Þ, §ã§Ü§à§Ý§î§Ü§à §Ò§Ñ§Û§ä §á§à§Ý§å§é§Ú§Ý§Ú
+        husart1.rx_counter = 0; //§ã§Ò§â§à§ã§Ú§Þ §ã§é§Ö§ä§é§Ú§Ü §á§â§Ú§ç§à§Õ§ñ§ë§Ú§ç §Õ§Ñ§ß§ß§í§ç
+    }
+}
+
+/**
+ ******************************************************************************
+ *  @breif §¶§å§ß§Ü§è§Ú§ñ §à§ä§á§â§Ñ§Ó§Ü§Ú §Õ§Ñ§ß§ß§í§ç §á§à USART
+ *  @param  *USART - USART, §ã §Ü§à§ä§à§â§à§Ô§à §Ò§å§Õ§å§ä §à§ä§á§â§Ñ§Ó§Ý§ñ§ä§î§ã§ñ §Õ§Ñ§ß§ß§í§Ö
+ *  @param  *data - §Õ§Ñ§ß§ß§í§Ö, §Ü§à§ä§à§â§í§Ö §Ò§å§Õ§Ö§Þ §à§ä§á§â§Ñ§Ó§Ý§ñ§ä§î
+ *  @param  Size - §ã§Ü§à§Ý§î§Ü§à §Ò§Ñ§Û§ä §ä§â§Ö§Ò§å§Ö§ä§ã§ñ §á§Ö§â§Ö§Õ§Ñ§ä§î
+ ******************************************************************************
+ */
+
+bool RVMSIS_USART_Transmit(USART_TypeDef* USART, uint8_t* data, uint16_t Size, uint32_t Timeout_ms) {
+    for (uint16_t i = 0; i < Size; i++) {
+        Timeout_counter_ms = Timeout_ms;
+        //§¨§Õ§Ö§Þ, §á§à§Ü§Ñ §Ý§Ú§ß§Ú§ñ §ß§Ö §à§ã§Ó§à§Ò§à§Õ§Ú§ä§ã§ñ
+        while (READ_BIT(USART->STATR, USART_STATR_TXE) == 0) {
+            if (!Timeout_counter_ms) {
+                return false;
+            }
+        }
+        USART->DATAR = *data++; //§¬§Ú§Õ§Ñ§Ö§Þ §Õ§Ñ§ß§ß§í§Ö
+    }
+    return true;
+}
+
+

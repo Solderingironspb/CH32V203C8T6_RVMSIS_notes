@@ -124,7 +124,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_adc.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_adc.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_adc.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_adc.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_adc.o
  .debug_macro   0x0000000000000000      0x124 ./Drivers/src/ch32v20x_adc.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_adc.o
  .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_adc.o
@@ -143,8 +143,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_adc.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_adc.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_adc.o
- .debug_line    0x0000000000000000     0x157c ./Drivers/src/ch32v20x_adc.o
- .debug_str     0x0000000000000000    0x2e93f ./Drivers/src/ch32v20x_adc.o
+ .debug_line    0x0000000000000000     0x15d9 ./Drivers/src/ch32v20x_adc.o
+ .debug_str     0x0000000000000000    0x2ee8b ./Drivers/src/ch32v20x_adc.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_adc.o
  .debug_frame   0x0000000000000000      0x504 ./Drivers/src/ch32v20x_adc.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_bkp.o
@@ -217,7 +217,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_bkp.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_bkp.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_bkp.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_bkp.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_bkp.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_bkp.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_bkp.o
  .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_bkp.o
@@ -236,8 +236,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_bkp.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_bkp.o
  .debug_macro   0x0000000000000000      0x124 ./Drivers/src/ch32v20x_bkp.o
- .debug_line    0x0000000000000000      0x668 ./Drivers/src/ch32v20x_bkp.o
- .debug_str     0x0000000000000000    0x2e18b ./Drivers/src/ch32v20x_bkp.o
+ .debug_line    0x0000000000000000      0x6c5 ./Drivers/src/ch32v20x_bkp.o
+ .debug_str     0x0000000000000000    0x2e6d7 ./Drivers/src/ch32v20x_bkp.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_bkp.o
  .debug_frame   0x0000000000000000      0x194 ./Drivers/src/ch32v20x_bkp.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_can.o
@@ -336,7 +336,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_can.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_can.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_can.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_can.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_can.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_can.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_can.o
  .debug_macro   0x0000000000000000       0x7c ./Drivers/src/ch32v20x_can.o
@@ -355,8 +355,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_can.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_can.o
  .debug_macro   0x0000000000000000      0x329 ./Drivers/src/ch32v20x_can.o
- .debug_line    0x0000000000000000     0x17ba ./Drivers/src/ch32v20x_can.o
- .debug_str     0x0000000000000000    0x2e457 ./Drivers/src/ch32v20x_can.o
+ .debug_line    0x0000000000000000     0x1817 ./Drivers/src/ch32v20x_can.o
+ .debug_str     0x0000000000000000    0x2e9a3 ./Drivers/src/ch32v20x_can.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_can.o
  .debug_frame   0x0000000000000000      0x358 ./Drivers/src/ch32v20x_can.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_crc.o
@@ -417,7 +417,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_crc.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_crc.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_crc.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_crc.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_crc.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_crc.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_crc.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_crc.o
@@ -436,8 +436,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_crc.o
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_crc.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_crc.o
- .debug_line    0x0000000000000000      0x4f5 ./Drivers/src/ch32v20x_crc.o
- .debug_str     0x0000000000000000    0x2dd34 ./Drivers/src/ch32v20x_crc.o
+ .debug_line    0x0000000000000000      0x552 ./Drivers/src/ch32v20x_crc.o
+ .debug_str     0x0000000000000000    0x2e280 ./Drivers/src/ch32v20x_crc.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_crc.o
  .debug_frame   0x0000000000000000       0xd0 ./Drivers/src/ch32v20x_crc.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dbgmcu.o
@@ -496,7 +496,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_dbgmcu.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_dbgmcu.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_dbgmcu.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_dbgmcu.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_dbgmcu.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_dbgmcu.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_dbgmcu.o
@@ -515,8 +515,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_dbgmcu.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_dbgmcu.o
  .debug_macro   0x0000000000000000       0x76 ./Drivers/src/ch32v20x_dbgmcu.o
- .debug_line    0x0000000000000000      0x49f ./Drivers/src/ch32v20x_dbgmcu.o
- .debug_str     0x0000000000000000    0x2dd17 ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_line    0x0000000000000000      0x4fc ./Drivers/src/ch32v20x_dbgmcu.o
+ .debug_str     0x0000000000000000    0x2e263 ./Drivers/src/ch32v20x_dbgmcu.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_dbgmcu.o
  .debug_frame   0x0000000000000000       0xb4 ./Drivers/src/ch32v20x_dbgmcu.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_dma.o
@@ -586,7 +586,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_dma.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_dma.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_dma.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_dma.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_dma.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_dma.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_dma.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_dma.o
@@ -605,8 +605,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_dma.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_dma.o
  .debug_macro   0x0000000000000000      0x233 ./Drivers/src/ch32v20x_dma.o
- .debug_line    0x0000000000000000      0x7e0 ./Drivers/src/ch32v20x_dma.o
- .debug_str     0x0000000000000000    0x2e17c ./Drivers/src/ch32v20x_dma.o
+ .debug_line    0x0000000000000000      0x83d ./Drivers/src/ch32v20x_dma.o
+ .debug_str     0x0000000000000000    0x2e6c8 ./Drivers/src/ch32v20x_dma.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_dma.o
  .debug_frame   0x0000000000000000      0x174 ./Drivers/src/ch32v20x_dma.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_exti.o
@@ -671,7 +671,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_exti.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_exti.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_exti.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_exti.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_exti.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_exti.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_exti.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_exti.o
@@ -690,8 +690,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_exti.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_exti.o
  .debug_macro   0x0000000000000000       0x82 ./Drivers/src/ch32v20x_exti.o
- .debug_line    0x0000000000000000      0x715 ./Drivers/src/ch32v20x_exti.o
- .debug_str     0x0000000000000000    0x2de68 ./Drivers/src/ch32v20x_exti.o
+ .debug_line    0x0000000000000000      0x772 ./Drivers/src/ch32v20x_exti.o
+ .debug_str     0x0000000000000000    0x2e3b4 ./Drivers/src/ch32v20x_exti.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_exti.o
  .debug_frame   0x0000000000000000      0x114 ./Drivers/src/ch32v20x_exti.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_flash.o
@@ -806,7 +806,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_flash.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_flash.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_flash.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_flash.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_flash.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_flash.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_flash.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_flash.o
@@ -825,8 +825,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_flash.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_flash.o
  .debug_macro   0x0000000000000000      0x13c ./Drivers/src/ch32v20x_flash.o
- .debug_line    0x0000000000000000     0x1763 ./Drivers/src/ch32v20x_flash.o
- .debug_str     0x0000000000000000    0x2e608 ./Drivers/src/ch32v20x_flash.o
+ .debug_line    0x0000000000000000     0x17c0 ./Drivers/src/ch32v20x_flash.o
+ .debug_str     0x0000000000000000    0x2eb54 ./Drivers/src/ch32v20x_flash.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_flash.o
  .debug_frame   0x0000000000000000      0x474 ./Drivers/src/ch32v20x_flash.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_gpio.o
@@ -913,7 +913,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_gpio.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_gpio.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_gpio.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_gpio.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_gpio.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_gpio.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_gpio.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_gpio.o
@@ -932,8 +932,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_gpio.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_gpio.o
  .debug_macro   0x0000000000000000      0x233 ./Drivers/src/ch32v20x_gpio.o
- .debug_line    0x0000000000000000      0xdde ./Drivers/src/ch32v20x_gpio.o
- .debug_str     0x0000000000000000    0x2e112 ./Drivers/src/ch32v20x_gpio.o
+ .debug_line    0x0000000000000000      0xe3b ./Drivers/src/ch32v20x_gpio.o
+ .debug_str     0x0000000000000000    0x2e65e ./Drivers/src/ch32v20x_gpio.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_gpio.o
  .debug_frame   0x0000000000000000      0x260 ./Drivers/src/ch32v20x_gpio.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_i2c.o
@@ -1047,7 +1047,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_i2c.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_i2c.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_i2c.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_i2c.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_i2c.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_i2c.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_i2c.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_i2c.o
@@ -1066,8 +1066,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_i2c.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_i2c.o
  .debug_macro   0x0000000000000000      0x200 ./Drivers/src/ch32v20x_i2c.o
- .debug_line    0x0000000000000000      0xe37 ./Drivers/src/ch32v20x_i2c.o
- .debug_str     0x0000000000000000    0x2e64a ./Drivers/src/ch32v20x_i2c.o
+ .debug_line    0x0000000000000000      0xe94 ./Drivers/src/ch32v20x_i2c.o
+ .debug_str     0x0000000000000000    0x2eb96 ./Drivers/src/ch32v20x_i2c.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_i2c.o
  .debug_frame   0x0000000000000000      0x43c ./Drivers/src/ch32v20x_i2c.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_iwdg.o
@@ -1128,7 +1128,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_iwdg.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_iwdg.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_iwdg.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_iwdg.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_iwdg.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_iwdg.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_iwdg.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_iwdg.o
@@ -1147,8 +1147,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_iwdg.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_iwdg.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_iwdg.o
- .debug_line    0x0000000000000000      0x4cf ./Drivers/src/ch32v20x_iwdg.o
- .debug_str     0x0000000000000000    0x2dd9e ./Drivers/src/ch32v20x_iwdg.o
+ .debug_line    0x0000000000000000      0x52c ./Drivers/src/ch32v20x_iwdg.o
+ .debug_str     0x0000000000000000    0x2e2ea ./Drivers/src/ch32v20x_iwdg.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_iwdg.o
  .debug_frame   0x0000000000000000       0xd0 ./Drivers/src/ch32v20x_iwdg.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_misc.o
@@ -1209,7 +1209,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_misc.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_misc.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_misc.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_misc.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_misc.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_misc.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_misc.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_misc.o
@@ -1228,8 +1228,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_misc.o
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_misc.o
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_misc.o
- .debug_line    0x0000000000000000      0x6da ./Drivers/src/ch32v20x_misc.o
- .debug_str     0x0000000000000000    0x2e13e ./Drivers/src/ch32v20x_misc.o
+ .debug_line    0x0000000000000000      0x737 ./Drivers/src/ch32v20x_misc.o
+ .debug_str     0x0000000000000000    0x2e68a ./Drivers/src/ch32v20x_misc.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_misc.o
  .debug_frame   0x0000000000000000       0xb8 ./Drivers/src/ch32v20x_misc.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_opa.o
@@ -1286,7 +1286,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_opa.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_opa.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_opa.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_opa.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_opa.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_opa.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_opa.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_opa.o
@@ -1306,8 +1306,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_opa.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_opa.o
  .debug_macro   0x0000000000000000       0x16 ./Drivers/src/ch32v20x_opa.o
- .debug_line    0x0000000000000000      0x558 ./Drivers/src/ch32v20x_opa.o
- .debug_str     0x0000000000000000    0x2dde8 ./Drivers/src/ch32v20x_opa.o
+ .debug_line    0x0000000000000000      0x5b5 ./Drivers/src/ch32v20x_opa.o
+ .debug_str     0x0000000000000000    0x2e334 ./Drivers/src/ch32v20x_opa.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_opa.o
  .debug_frame   0x0000000000000000       0x90 ./Drivers/src/ch32v20x_opa.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_pwr.o
@@ -1384,7 +1384,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_pwr.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_pwr.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_pwr.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_pwr.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_pwr.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_pwr.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_pwr.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_pwr.o
@@ -1403,8 +1403,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_pwr.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_pwr.o
  .debug_macro   0x0000000000000000       0x5e ./Drivers/src/ch32v20x_pwr.o
- .debug_line    0x0000000000000000      0x91e ./Drivers/src/ch32v20x_pwr.o
- .debug_str     0x0000000000000000    0x2df38 ./Drivers/src/ch32v20x_pwr.o
+ .debug_line    0x0000000000000000      0x97b ./Drivers/src/ch32v20x_pwr.o
+ .debug_str     0x0000000000000000    0x2e484 ./Drivers/src/ch32v20x_pwr.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_pwr.o
  .debug_frame   0x0000000000000000      0x1d8 ./Drivers/src/ch32v20x_pwr.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rcc.o
@@ -1525,7 +1525,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_rcc.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_rcc.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rcc.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_rcc.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_rcc.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_rcc.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_rcc.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_rcc.o
@@ -1544,8 +1544,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_rcc.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_rcc.o
  .debug_macro   0x0000000000000000      0x356 ./Drivers/src/ch32v20x_rcc.o
- .debug_line    0x0000000000000000      0xf94 ./Drivers/src/ch32v20x_rcc.o
- .debug_str     0x0000000000000000    0x2e683 ./Drivers/src/ch32v20x_rcc.o
+ .debug_line    0x0000000000000000      0xff1 ./Drivers/src/ch32v20x_rcc.o
+ .debug_str     0x0000000000000000    0x2ebcf ./Drivers/src/ch32v20x_rcc.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_rcc.o
  .debug_frame   0x0000000000000000      0x458 ./Drivers/src/ch32v20x_rcc.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_rtc.o
@@ -1622,7 +1622,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_rtc.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_rtc.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_rtc.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_rtc.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_rtc.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_rtc.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_rtc.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_rtc.o
@@ -1641,8 +1641,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_rtc.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_rtc.o
  .debug_macro   0x0000000000000000       0x34 ./Drivers/src/ch32v20x_rtc.o
- .debug_line    0x0000000000000000      0x7ef ./Drivers/src/ch32v20x_rtc.o
- .debug_str     0x0000000000000000    0x2deee ./Drivers/src/ch32v20x_rtc.o
+ .debug_line    0x0000000000000000      0x84c ./Drivers/src/ch32v20x_rtc.o
+ .debug_str     0x0000000000000000    0x2e43a ./Drivers/src/ch32v20x_rtc.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_rtc.o
  .debug_frame   0x0000000000000000      0x1dc ./Drivers/src/ch32v20x_rtc.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_spi.o
@@ -1735,7 +1735,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_spi.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_spi.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_spi.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_spi.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_spi.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_spi.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_spi.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_spi.o
@@ -1754,8 +1754,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_spi.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_spi.o
  .debug_macro   0x0000000000000000      0x1eb ./Drivers/src/ch32v20x_spi.o
- .debug_line    0x0000000000000000      0xbfd ./Drivers/src/ch32v20x_spi.o
- .debug_str     0x0000000000000000    0x2e375 ./Drivers/src/ch32v20x_spi.o
+ .debug_line    0x0000000000000000      0xc5a ./Drivers/src/ch32v20x_spi.o
+ .debug_str     0x0000000000000000    0x2e8c1 ./Drivers/src/ch32v20x_spi.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_spi.o
  .debug_frame   0x0000000000000000      0x2fc ./Drivers/src/ch32v20x_spi.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_tim.o
@@ -1985,7 +1985,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_tim.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_tim.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_tim.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_tim.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_tim.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_tim.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_tim.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_tim.o
@@ -2004,8 +2004,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_tim.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_tim.o
  .debug_macro   0x0000000000000000      0x55e ./Drivers/src/ch32v20x_tim.o
- .debug_line    0x0000000000000000     0x21e4 ./Drivers/src/ch32v20x_tim.o
- .debug_str     0x0000000000000000    0x2e98b ./Drivers/src/ch32v20x_tim.o
+ .debug_line    0x0000000000000000     0x2241 ./Drivers/src/ch32v20x_tim.o
+ .debug_str     0x0000000000000000    0x2eed7 ./Drivers/src/ch32v20x_tim.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_tim.o
  .debug_frame   0x0000000000000000      0xbb4 ./Drivers/src/ch32v20x_tim.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_usart.o
@@ -2112,7 +2112,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_usart.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_usart.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_usart.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_usart.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_usart.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_usart.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_usart.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_usart.o
@@ -2131,8 +2131,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x22 ./Drivers/src/ch32v20x_usart.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_usart.o
  .debug_macro   0x0000000000000000      0x158 ./Drivers/src/ch32v20x_usart.o
- .debug_line    0x0000000000000000      0xddf ./Drivers/src/ch32v20x_usart.o
- .debug_str     0x0000000000000000    0x2e5b2 ./Drivers/src/ch32v20x_usart.o
+ .debug_line    0x0000000000000000      0xe3c ./Drivers/src/ch32v20x_usart.o
+ .debug_str     0x0000000000000000    0x2eafe ./Drivers/src/ch32v20x_usart.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_usart.o
  .debug_frame   0x0000000000000000      0x3bc ./Drivers/src/ch32v20x_usart.o
  .group         0x0000000000000000        0xc ./Drivers/src/ch32v20x_wwdg.o
@@ -2197,7 +2197,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Drivers/src/ch32v20x_wwdg.o
  .debug_macro   0x0000000000000000      0x1df ./Drivers/src/ch32v20x_wwdg.o
  .debug_macro   0x0000000000000000       0x46 ./Drivers/src/ch32v20x_wwdg.o
- .debug_macro   0x0000000000000000     0x6b8f ./Drivers/src/ch32v20x_wwdg.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Drivers/src/ch32v20x_wwdg.o
  .debug_macro   0x0000000000000000      0x24f ./Drivers/src/ch32v20x_wwdg.o
  .debug_macro   0x0000000000000000      0x12a ./Drivers/src/ch32v20x_wwdg.o
  .debug_macro   0x0000000000000000      0x32f ./Drivers/src/ch32v20x_wwdg.o
@@ -2216,8 +2216,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x15e ./Drivers/src/ch32v20x_wwdg.o
  .debug_macro   0x0000000000000000       0x28 ./Drivers/src/ch32v20x_wwdg.o
  .debug_macro   0x0000000000000000       0x1c ./Drivers/src/ch32v20x_wwdg.o
- .debug_line    0x0000000000000000      0x55b ./Drivers/src/ch32v20x_wwdg.o
- .debug_str     0x0000000000000000    0x2dddc ./Drivers/src/ch32v20x_wwdg.o
+ .debug_line    0x0000000000000000      0x5b8 ./Drivers/src/ch32v20x_wwdg.o
+ .debug_str     0x0000000000000000    0x2e328 ./Drivers/src/ch32v20x_wwdg.o
  .comment       0x0000000000000000       0x34 ./Drivers/src/ch32v20x_wwdg.o
  .debug_frame   0x0000000000000000      0x114 ./Drivers/src/ch32v20x_wwdg.o
  .text          0x0000000000000000        0x0 ./Core/Startup/startup_ch32v20x_D6.o
@@ -2266,6 +2266,8 @@ Discarded input sections
                 0x0000000000000000       0x28 ./Core/Src/ch32v20x_RVMSIS.o
  .text.DMA1_Channel1_IRQHandler
                 0x0000000000000000       0x46 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.USART1_IRQHandler
+                0x0000000000000000       0xa8 ./Core/Src/ch32v20x_RVMSIS.o
  .debug_macro   0x0000000000000000      0x75a ./Core/Src/ch32v20x_RVMSIS.o
  .debug_macro   0x0000000000000000       0x6c ./Core/Src/ch32v20x_RVMSIS.o
  .debug_macro   0x0000000000000000       0x22 ./Core/Src/ch32v20x_RVMSIS.o
@@ -2275,7 +2277,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Core/Src/ch32v20x_RVMSIS.o
  .debug_macro   0x0000000000000000      0x1df ./Core/Src/ch32v20x_RVMSIS.o
  .debug_macro   0x0000000000000000       0x46 ./Core/Src/ch32v20x_RVMSIS.o
- .debug_macro   0x0000000000000000     0x6b8f ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Core/Src/ch32v20x_RVMSIS.o
  .debug_macro   0x0000000000000000      0x24f ./Core/Src/ch32v20x_RVMSIS.o
  .debug_macro   0x0000000000000000      0x12a ./Core/Src/ch32v20x_RVMSIS.o
  .debug_macro   0x0000000000000000      0x32f ./Core/Src/ch32v20x_RVMSIS.o
@@ -2405,7 +2407,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x1df ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x46 ./Core/Src/main.o
- .debug_macro   0x0000000000000000     0x6b8f ./Core/Src/main.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x24f ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x12a ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x32f ./Core/Src/main.o
@@ -2472,7 +2474,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Core/Src/system_ch32v20x.o
  .debug_macro   0x0000000000000000      0x1df ./Core/Src/system_ch32v20x.o
  .debug_macro   0x0000000000000000       0x46 ./Core/Src/system_ch32v20x.o
- .debug_macro   0x0000000000000000     0x6b8f ./Core/Src/system_ch32v20x.o
+ .debug_macro   0x0000000000000000     0x6cf4 ./Core/Src/system_ch32v20x.o
  .debug_macro   0x0000000000000000      0x24f ./Core/Src/system_ch32v20x.o
  .debug_macro   0x0000000000000000      0x12a ./Core/Src/system_ch32v20x.o
  .debug_macro   0x0000000000000000      0x32f ./Core/Src/system_ch32v20x.o
@@ -2558,7 +2560,7 @@ END GROUP
                 0x0000000000000140                . = ALIGN (0x40)
  *fill*         0x0000000000000134        0xc 
 
-.text           0x0000000000000140     0x1108
+.text           0x0000000000000140     0x1544
                 0x0000000000000140                . = ALIGN (0x4)
  *(.text)
  *(.text.*)
@@ -2604,7 +2606,6 @@ END GROUP
                 0x0000000000000192                I2C2_ER_IRQHandler
                 0x0000000000000194                SPI1_IRQHandler
                 0x0000000000000196                SPI2_IRQHandler
-                0x0000000000000198                USART1_IRQHandler
                 0x000000000000019a                USART2_IRQHandler
                 0x000000000000019c                USART3_IRQHandler
                 0x000000000000019e                EXTI15_10_IRQHandler
@@ -2615,96 +2616,105 @@ END GROUP
                 0x00000000000001a8                UART4_IRQHandler
                 0x00000000000001aa                DMA1_Channel8_IRQHandler
  .text.handle_reset
-                0x00000000000001ac       0x8e ./Core/Startup/startup_ch32v20x_D6.o
+                0x00000000000001ac       0x86 ./Core/Startup/startup_ch32v20x_D6.o
                 0x00000000000001ac                handle_reset
  .text.NVIC_EnableIRQ
-                0x000000000000023a       0x32 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000232       0x32 ./Core/Src/ch32v20x_RVMSIS.o
  .text.RVMSIS_Debug_init
-                0x000000000000026c       0x70 ./Core/Src/ch32v20x_RVMSIS.o
-                0x000000000000026c                RVMSIS_Debug_init
+                0x0000000000000264       0x70 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000264                RVMSIS_Debug_init
  .text.RVMSIS_RCC_SystemClock_144MHz
-                0x00000000000002dc      0x1a0 ./Core/Src/ch32v20x_RVMSIS.o
-                0x00000000000002dc                RVMSIS_RCC_SystemClock_144MHz
+                0x00000000000002d4      0x1a0 ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000002d4                RVMSIS_RCC_SystemClock_144MHz
  .text.RVMSIS_SysTick_Timer_init
-                0x000000000000047c       0x94 ./Core/Src/ch32v20x_RVMSIS.o
-                0x000000000000047c                RVMSIS_SysTick_Timer_init
+                0x0000000000000474       0x94 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000474                RVMSIS_SysTick_Timer_init
  .text.SysTick_Handler
-                0x0000000000000510       0x6e ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000510                SysTick_Handler
+                0x0000000000000508       0x56 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000508                SysTick_Handler
  .text.Delay_ms
-                0x000000000000057e       0x2a ./Core/Src/ch32v20x_RVMSIS.o
-                0x000000000000057e                Delay_ms
+                0x000000000000055e       0x22 ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000055e                Delay_ms
  .text.RVMSIS_PC13_OUTPUT_Push_Pull_init
-                0x00000000000005a8       0x4e ./Core/Src/ch32v20x_RVMSIS.o
-                0x00000000000005a8                RVMSIS_PC13_OUTPUT_Push_Pull_init
+                0x0000000000000580       0x4e ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000580                RVMSIS_PC13_OUTPUT_Push_Pull_init
  .text.RVMSIS_PA8_MCO_init
-                0x00000000000005f6       0x6e ./Core/Src/ch32v20x_RVMSIS.o
-                0x00000000000005f6                RVMSIS_PA8_MCO_init
+                0x00000000000005ce       0x6e ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000005ce                RVMSIS_PA8_MCO_init
  .text.RVMSIS_EXTI0_init
-                0x0000000000000664       0xd0 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000664                RVMSIS_EXTI0_init
+                0x000000000000063c       0xd0 ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000063c                RVMSIS_EXTI0_init
  .text.RVMSIS_TIM3_init
-                0x0000000000000734      0x17e ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000734                RVMSIS_TIM3_init
+                0x000000000000070c      0x17e ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000070c                RVMSIS_TIM3_init
  .text.RVMSIS_TIM3_PWM_CHANNEL1_init
-                0x00000000000008b2      0x162 ./Core/Src/ch32v20x_RVMSIS.o
-                0x00000000000008b2                RVMSIS_TIM3_PWM_CHANNEL1_init
+                0x000000000000088a      0x162 ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000088a                RVMSIS_TIM3_PWM_CHANNEL1_init
  .text.RVMSIS_TIM3_PWM_CHANNEL2_init
-                0x0000000000000a14      0x172 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000a14                RVMSIS_TIM3_PWM_CHANNEL2_init
+                0x00000000000009ec      0x172 ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000009ec                RVMSIS_TIM3_PWM_CHANNEL2_init
  .text.RVMSIS_ADC_DMA_init
-                0x0000000000000b86      0x406 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000b86                RVMSIS_ADC_DMA_init
+                0x0000000000000b5e      0x406 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000b5e                RVMSIS_ADC_DMA_init
+ .text.RVMSIS_USART1_Init
+                0x0000000000000f64      0x322 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000f64                RVMSIS_USART1_Init
+ .text.RVMSIS_USART_Transmit
+                0x0000000000001286       0x7c ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000001286                RVMSIS_USART_Transmit
+ .text.USART1_IRQHandler
+                0x0000000000001302       0xa8 ./Core/Src/main.o
+                0x0000000000001302                USART1_IRQHandler
  .text.DMA1_Channel1_IRQHandler
-                0x0000000000000f8c       0x46 ./Core/Src/main.o
-                0x0000000000000f8c                DMA1_Channel1_IRQHandler
+                0x00000000000013aa       0x46 ./Core/Src/main.o
+                0x00000000000013aa                DMA1_Channel1_IRQHandler
  .text.TIM3_IRQHandler
-                0x0000000000000fd2       0x4e ./Core/Src/main.o
-                0x0000000000000fd2                TIM3_IRQHandler
+                0x00000000000013f0       0x4e ./Core/Src/main.o
+                0x00000000000013f0                TIM3_IRQHandler
  .text.EXTI0_IRQHandler
-                0x0000000000001020       0x34 ./Core/Src/main.o
-                0x0000000000001020                EXTI0_IRQHandler
- .text.main     0x0000000000001054       0x4e ./Core/Src/main.o
-                0x0000000000001054                main
+                0x000000000000143e       0x34 ./Core/Src/main.o
+                0x000000000000143e                EXTI0_IRQHandler
+ .text.main     0x0000000000001472       0x6e ./Core/Src/main.o
+                0x0000000000001472                main
  .text.SystemInit
-                0x00000000000010a2       0x7c ./Core/Src/system_ch32v20x.o
-                0x00000000000010a2                SystemInit
+                0x00000000000014e0       0x7c ./Core/Src/system_ch32v20x.o
+                0x00000000000014e0                SystemInit
  .text.SetSysClock
-                0x000000000000111e       0x14 ./Core/Src/system_ch32v20x.o
+                0x000000000000155c       0x14 ./Core/Src/system_ch32v20x.o
  .text.SetSysClockTo96_HSE
-                0x0000000000001132      0x114 ./Core/Src/system_ch32v20x.o
+                0x0000000000001570      0x114 ./Core/Src/system_ch32v20x.o
  *(.rodata)
  *(.rodata*)
  *(.glue_7)
  *(.glue_7t)
  *(.gnu.linkonce.t.*)
-                0x0000000000001248                . = ALIGN (0x4)
- *fill*         0x0000000000001246        0x2 
+                0x0000000000001684                . = ALIGN (0x4)
+ *fill*         0x0000000000001684        0x0 
 
-.rela.dyn       0x0000000000001248        0x0
- .rela.init     0x0000000000001248        0x0 ./Core/Startup/startup_ch32v20x_D6.o
- .rela.vector   0x0000000000001248        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+.rela.dyn       0x0000000000001684        0x0
+ .rela.init     0x0000000000001684        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+ .rela.vector   0x0000000000001684        0x0 ./Core/Startup/startup_ch32v20x_D6.o
  .rela.text.handle_reset
-                0x0000000000001248        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+                0x0000000000001684        0x0 ./Core/Startup/startup_ch32v20x_D6.o
 
-.fini           0x0000000000001248        0x0
+.fini           0x0000000000001684        0x0
  *(SORT_NONE(.fini))
-                0x0000000000001248                . = ALIGN (0x4)
+                0x0000000000001684                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (_etext = .)
                 [!provide]                        PROVIDE (_eitcm = .)
 
-.preinit_array  0x0000000000001248        0x0
+.preinit_array  0x0000000000001684        0x0
                 [!provide]                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array)
                 [!provide]                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000000001248        0x0
+.init_array     0x0000000000001684        0x0
                 [!provide]                        PROVIDE (__init_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
  *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
                 [!provide]                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000000001248        0x0
+.fini_array     0x0000000000001684        0x0
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
  *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
@@ -2724,60 +2734,65 @@ END GROUP
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
 
-.dalign         0x0000000020000000        0x0 load address 0x0000000000001248
+.dalign         0x0000000020000000        0x0 load address 0x0000000000001684
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                PROVIDE (_data_vma = .)
 
-.dlalign        0x0000000000001248        0x0
-                0x0000000000001248                . = ALIGN (0x4)
-                0x0000000000001248                PROVIDE (_data_lma = .)
+.dlalign        0x0000000000001684        0x0
+                0x0000000000001684                . = ALIGN (0x4)
+                0x0000000000001684                PROVIDE (_data_lma = .)
 
-.data           0x0000000020000000        0x0 load address 0x0000000000001248
+.data           0x0000000020000000        0x8 load address 0x0000000000001684
  *(.gnu.linkonce.r.*)
  *(.data .data.*)
  *(.gnu.linkonce.d.*)
                 0x0000000020000000                . = ALIGN (0x8)
                 0x0000000020000800                PROVIDE (__global_pointer$ = (. + 0x800))
  *(.sdata .sdata.*)
+ .sdata.Arr     0x0000000020000000        0x6 ./Core/Src/main.o
+                0x0000000020000000                Arr
  *(.sdata2.*)
  *(.gnu.linkonce.s.*)
-                0x0000000020000000                . = ALIGN (0x8)
+                0x0000000020000008                . = ALIGN (0x8)
+ *fill*         0x0000000020000006        0x2 
  *(.srodata.cst16)
  *(.srodata.cst8)
  *(.srodata.cst4)
  *(.srodata.cst2)
  *(.srodata .srodata.*)
-                0x0000000020000000                . = ALIGN (0x4)
-                0x0000000020000000                PROVIDE (_edata = .)
+                0x0000000020000008                . = ALIGN (0x4)
+                0x0000000020000008                PROVIDE (_edata = .)
 
-.bss            0x0000000020000000       0x18 load address 0x0000000000001248
-                0x0000000020000000                . = ALIGN (0x4)
-                0x0000000020000000                PROVIDE (_sbss = .)
+.bss            0x0000000020000008       0x44 load address 0x000000000000168c
+                0x0000000020000008                . = ALIGN (0x4)
+                0x0000000020000008                PROVIDE (_sbss = .)
  *(.sbss*)
  .sbss.SysTimer_ms
-                0x0000000020000000        0x4 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000020000000                SysTimer_ms
- .sbss.Delay_counter_ms
-                0x0000000020000004        0x4 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000020000004                Delay_counter_ms
- .sbss.Timeout_counter_ms
                 0x0000000020000008        0x4 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000020000008                Timeout_counter_ms
- .sbss.ADC_RAW_Data
+                0x0000000020000008                SysTimer_ms
+ .sbss.Delay_counter_ms
                 0x000000002000000c        0x4 ./Core/Src/ch32v20x_RVMSIS.o
-                0x000000002000000c                ADC_RAW_Data
+                0x000000002000000c                Delay_counter_ms
+ .sbss.Timeout_counter_ms
+                0x0000000020000010        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000020000010                Timeout_counter_ms
+ .sbss.ADC_RAW_Data
+                0x0000000020000014        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000020000014                ADC_RAW_Data
  .sbss.TIM_Counter
-                0x0000000020000010        0x4 ./Core/Src/main.o
-                0x0000000020000010                TIM_Counter
+                0x0000000020000018        0x4 ./Core/Src/main.o
+                0x0000000020000018                TIM_Counter
  .sbss.EXTI0_Counter
-                0x0000000020000014        0x4 ./Core/Src/main.o
-                0x0000000020000014                EXTI0_Counter
+                0x000000002000001c        0x4 ./Core/Src/main.o
+                0x000000002000001c                EXTI0_Counter
  *(.gnu.linkonce.sb.*)
  *(.bss*)
+ .bss.husart1   0x0000000020000020       0x2c ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000020000020                husart1
  *(.gnu.linkonce.b.*)
  *(COMMON*)
-                0x0000000020000018                . = ALIGN (0x4)
-                0x0000000020000018                PROVIDE (_ebss = .)
+                0x000000002000004c                . = ALIGN (0x4)
+                0x000000002000004c                PROVIDE (_ebss = .)
                 [!provide]                        PROVIDE (_end = _ebss)
                 [!provide]                        PROVIDE (end = .)
 
@@ -2790,48 +2805,48 @@ END GROUP
                 0x0000000020005000                PROVIDE (_eusrstack = .)
 OUTPUT(CH32V203C8T6.elf elf32-littleriscv)
 
-.debug_line     0x0000000000000000     0x1a99
+.debug_line     0x0000000000000000     0x1e55
  .debug_line    0x0000000000000000      0x264 ./Core/Startup/startup_ch32v20x_D6.o
- .debug_line    0x0000000000000264      0xba5 ./Core/Src/ch32v20x_RVMSIS.o
- .debug_line    0x0000000000000e09      0x584 ./Core/Src/main.o
- .debug_line    0x000000000000138d      0x70c ./Core/Src/system_ch32v20x.o
+ .debug_line    0x0000000000000264      0xe13 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_line    0x0000000000001077      0x675 ./Core/Src/main.o
+ .debug_line    0x00000000000016ec      0x769 ./Core/Src/system_ch32v20x.o
 
-.debug_info     0x0000000000000000     0x14a3
+.debug_info     0x0000000000000000     0x1817
  .debug_info    0x0000000000000000       0x22 ./Core/Startup/startup_ch32v20x_D6.o
- .debug_info    0x0000000000000022      0xd3c ./Core/Src/ch32v20x_RVMSIS.o
- .debug_info    0x0000000000000d5e      0x488 ./Core/Src/main.o
- .debug_info    0x00000000000011e6      0x2bd ./Core/Src/system_ch32v20x.o
+ .debug_info    0x0000000000000022      0xf2a ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_info    0x0000000000000f4c      0x60e ./Core/Src/main.o
+ .debug_info    0x000000000000155a      0x2bd ./Core/Src/system_ch32v20x.o
 
-.debug_abbrev   0x0000000000000000      0x4a7
+.debug_abbrev   0x0000000000000000      0x551
  .debug_abbrev  0x0000000000000000       0x12 ./Core/Startup/startup_ch32v20x_D6.o
- .debug_abbrev  0x0000000000000012      0x236 ./Core/Src/ch32v20x_RVMSIS.o
- .debug_abbrev  0x0000000000000248       0xdf ./Core/Src/main.o
- .debug_abbrev  0x0000000000000327      0x180 ./Core/Src/system_ch32v20x.o
+ .debug_abbrev  0x0000000000000012      0x299 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_abbrev  0x00000000000002ab      0x126 ./Core/Src/main.o
+ .debug_abbrev  0x00000000000003d1      0x180 ./Core/Src/system_ch32v20x.o
 
-.debug_aranges  0x0000000000000000      0x148
+.debug_aranges  0x0000000000000000      0x168
  .debug_aranges
                 0x0000000000000000       0x30 ./Core/Startup/startup_ch32v20x_D6.o
  .debug_aranges
-                0x0000000000000030       0xa8 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000030       0xc0 ./Core/Src/ch32v20x_RVMSIS.o
  .debug_aranges
-                0x00000000000000d8       0x38 ./Core/Src/main.o
+                0x00000000000000f0       0x40 ./Core/Src/main.o
  .debug_aranges
-                0x0000000000000110       0x38 ./Core/Src/system_ch32v20x.o
+                0x0000000000000130       0x38 ./Core/Src/system_ch32v20x.o
 
-.debug_str      0x0000000000000000    0x2e533
+.debug_str      0x0000000000000000    0x2eb3b
  .debug_str     0x0000000000000000       0x4a ./Core/Startup/startup_ch32v20x_D6.o
- .debug_str     0x000000000000004a    0x2e3da ./Core/Src/ch32v20x_RVMSIS.o
-                                      0x2e5ae (size before relaxing)
- .debug_str     0x000000000002e424       0x32 ./Core/Src/main.o
-                                      0x2df50 (size before relaxing)
- .debug_str     0x000000000002e456       0xdd ./Core/Src/system_ch32v20x.o
-                                      0x2ddab (size before relaxing)
+ .debug_str     0x000000000000004a    0x2e9e2 ./Core/Src/ch32v20x_RVMSIS.o
+                                      0x2ebaa (size before relaxing)
+ .debug_str     0x000000000002ea2c       0x32 ./Core/Src/main.o
+                                      0x2e51a (size before relaxing)
+ .debug_str     0x000000000002ea5e       0xdd ./Core/Src/system_ch32v20x.o
+                                      0x2e2f7 (size before relaxing)
 
-.debug_ranges   0x0000000000000000      0x110
+.debug_ranges   0x0000000000000000      0x130
  .debug_ranges  0x0000000000000000       0x28 ./Core/Startup/startup_ch32v20x_D6.o
- .debug_ranges  0x0000000000000028       0x98 ./Core/Src/ch32v20x_RVMSIS.o
- .debug_ranges  0x00000000000000c0       0x28 ./Core/Src/main.o
- .debug_ranges  0x00000000000000e8       0x28 ./Core/Src/system_ch32v20x.o
+ .debug_ranges  0x0000000000000028       0xb0 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_ranges  0x00000000000000d8       0x30 ./Core/Src/main.o
+ .debug_ranges  0x0000000000000108       0x28 ./Core/Src/system_ch32v20x.o
 
 .debug_macro    0x0000000000000000      0x43a
  .debug_macro   0x0000000000000000      0x160 ./Core/Src/ch32v20x_RVMSIS.o
@@ -2846,7 +2861,7 @@ OUTPUT(CH32V203C8T6.elf elf32-littleriscv)
  .comment       0x0000000000000033       0x34 ./Core/Src/main.o
  .comment       0x0000000000000033       0x34 ./Core/Src/system_ch32v20x.o
 
-.debug_frame    0x0000000000000000      0x3a4
- .debug_frame   0x0000000000000000      0x278 ./Core/Src/ch32v20x_RVMSIS.o
- .debug_frame   0x0000000000000278       0x8c ./Core/Src/main.o
- .debug_frame   0x0000000000000304       0xa0 ./Core/Src/system_ch32v20x.o
+.debug_frame    0x0000000000000000      0x42c
+ .debug_frame   0x0000000000000000      0x2e0 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_frame   0x00000000000002e0       0xac ./Core/Src/main.o
+ .debug_frame   0x000000000000038c       0xa0 ./Core/Src/system_ch32v20x.o

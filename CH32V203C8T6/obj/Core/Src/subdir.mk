@@ -25,6 +25,6 @@ C_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Core/Src/%.o: ../Core/Src/%.c
-	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g3 -I"C:\dev\CH32V203C8T6\obj" -I"C:\dev\CH32V203C8T6\Core\Inc" -I"C:\dev\CH32V203C8T6\Core\Src" -I"C:\dev\CH32V203C8T6\Drivers\inc" -I"C:\dev\CH32V203C8T6\Drivers\src" -std=c11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
+	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g3 -I"C:\dev\CH32V203C8T6_RVMSIS_notes-main\CH32V203C8T6\obj" -I"C:\dev\CH32V203C8T6_RVMSIS_notes-main\CH32V203C8T6\Core\Inc" -I"C:\dev\CH32V203C8T6_RVMSIS_notes-main\CH32V203C8T6\Core\Src" -I"C:\dev\CH32V203C8T6_RVMSIS_notes-main\CH32V203C8T6\Drivers\inc" -I"C:\dev\CH32V203C8T6_RVMSIS_notes-main\CH32V203C8T6\Drivers\src" -std=c11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
 	@	@
 
