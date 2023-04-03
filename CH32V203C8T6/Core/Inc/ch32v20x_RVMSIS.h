@@ -28,6 +28,7 @@ __INTERRUPTF void EXTI0_IRQHandler(void);
 __INTERRUPTF void ADC1_2_IRQHandler(void);
 __INTERRUPTF void DMA1_Channel1_IRQHandler(void);
 __INTERRUPTF void USART1_IRQHandler(void);
+__INTERRUPTF void USART2_IRQHandler(void);
 
 
 void RVMSIS_Debug_init(void);
@@ -44,5 +45,17 @@ void RVMSIS_TIM3_PWM_CHANNEL2_init(void);
 void RVMSIS_ADC_DMA_init(void);
 void RVMSIS_USART1_Init(void);
 bool RVMSIS_USART_Transmit(USART_TypeDef* USART, uint8_t* data, uint16_t Size, uint32_t Timeout_ms);
+void RVMSIS_I2C_Reset(void);
+void RVMSIS_I2C1_Init(void);
+bool RVMSIS_I2C_Adress_Device_Scan(I2C_TypeDef* I2C, uint8_t Adress_Device, uint32_t Timeout_ms);
+bool RVMSIS_I2C_Data_Transmit(I2C_TypeDef* I2C, uint8_t Adress_Device, uint8_t* data, uint16_t Size_data, uint32_t Timeout_ms);
+bool RVMSIS_I2C_Data_Receive(I2C_TypeDef* I2C, uint8_t Adress_Device, uint8_t* data, uint16_t Size_data, uint32_t Timeout_ms);
+bool RVMSIS_I2C_MemWrite(I2C_TypeDef* I2C, uint8_t Adress_Device, uint16_t Adress_data, uint8_t Size_adress, uint8_t* data, uint16_t Size_data, uint32_t Timeout_ms);
+bool RVMSIS_I2C_MemRead(I2C_TypeDef* I2C, uint8_t Adress_Device, uint16_t Adress_data, uint8_t Size_adress, uint8_t* data, uint16_t Size_data, uint32_t Timeout_ms);
+void RVMSIS_SPI1_init(void);
+bool RVMSIS_SPI_Data_Transmit_8BIT(SPI_TypeDef* SPI, uint8_t* data, uint16_t Size_data, uint32_t Timeout_ms);
+bool RVMSIS_SPI_Data_Transmit_16BIT(SPI_TypeDef* SPI, uint16_t* data, uint16_t Size_data, uint32_t Timeout_ms);
+bool RVMSIS_SPI_Data_Receive_8BIT(SPI_TypeDef* SPI, uint8_t* data, uint16_t Size_data, uint32_t Timeout_ms);
+bool RVMSIS_SPI_Data_Receive_16BIT(SPI_TypeDef* SPI, uint16_t* data, uint16_t Size_data, uint32_t Timeout_ms);
 
 #endif /* USER_CH32V20X_REGISTERS_H_ */

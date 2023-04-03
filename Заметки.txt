@@ -1,0 +1,52 @@
+1. Заходим в настройки проекта
+С/С++ Build -> Settings. Вкладка Tool Settings.
+Optimization -> Optimization Level ставим None (-O0)
+Debugging -> Debug level ставим Maximum (-g3)
+GNU RISC-V Cross C Compiler -> Optimization ставим Language standard ISO C11 (-std=C11)
+GNU RISC-V Cross C Linker -> Command: ${cross_prefix}${cross_c}${cross_suffix} -Wl,--print-memory-usage
+
+После смены стандарта языка попробуем скомпилировать проект. Появится ошибка core_riscv.h:298:6: error: expected ';' before 'volatile'
+
+2. Заходим в файл core_riscv.h
+Меняем строки asm volatile ("wfi"); на __asm volatile ("wfi");
+Пробуем скомпилировать. Можно еще в файле link.ld строку __stack_size = 2048; поменять на __stack_size = 0x200;
+
+По итогу после компиляции получаем:
+23:34:16 **** Incremental Build of configuration obj for project CH32V203C8T6 ****
+make -j12 all 
+Memory region         Used Size  Region Size  %age Used
+           FLASH:        1204 B        64 KB      1.84%
+             RAM:         520 B        20 KB      2.54%
+   text	   data	    bss	    dec	    hex	filename
+   1196	      8	    512	   1716	    6b4	CH32V203C8T6.elf
+
+23:34:17 Build Finished. 0 errors, 0 warnings. (took 1s.60ms)
+
+3. Настройка дебага.
+Заходим в Debug configurations->Startup
+В самом низу Set breakpoint at: "handle_reset" меняем на "main"
+
+4. Чтоб начать отладку, нужно сначала собрать проект. Делается это сочетанием Ctrl + B, а только потом можно нажимать дебаг.
+Если код поправили - нужно снова пересобрать проект и только потом нажимать дебаг. Это довольно быстро Вас утомит.
+Поэтому нажимаем Window->Preferences->Run/Debug->Launching. В General Options поставим галочку на Build (if required) before launching
+
+5. Далее. В версии MounRiver что-то не так с горячими клавишами. Если кто привык к CubeIDE, то можете что-то позаимствовать оттуда:
+* Format Ctrl + Shift + F
+* Debug F11
+* Resume F8
+* Terminate Ctrl + F2
+* Step into F5
+* Step into selection Ctrl + F5
+* Step Over F6
+* Step Return F7
+
+6. Если у Вас широкий монитор и вы любите принцип 1 функция - 1 строка (без переноса), то нажимаем Window->Preferences->C/C++->Code Style->Formatter
+Создаем новый профиль, кликаем New...Настройку я делал на основе K&R, т.к. в CubeIDE использовался он.
+Переходим во вкладку Line Wrapping-> Line width and iindentation level и указываем Maximum line width. Я обычно вместо 80 ставлю 200.
+
+По программированию:
+Хендлеры для прерывания должны быть с атрибутом __attribute__ ((interrupt("WCH-Interrupt-fast")))
+Для слабых функций должны быть с атрибутом __attribute__((weak))
+Можно создать макросы:
+#define __WEAK   __attribute__((weak))
+#define __INTERRUPT __attribute__ ((interrupt("WCH-Interrupt-fast")))

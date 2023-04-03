@@ -51,7 +51,7 @@ all: CH32V203C8T6.elf secondary-outputs
 
 # Tool invocations
 CH32V203C8T6.elf: $(OBJS) $(USER_OBJS)
-	@	@	riscv-none-embed-gcc -Wl,--print-memory-usage -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g3 -T "C:\dev\CH32V203C8T6_RVMSIS_notes-main\CH32V203C8T6\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"CH32V203C8T6.map" --specs=nano.specs --specs=nosys.specs -o "CH32V203C8T6.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	@	@	riscv-none-embed-gcc -Wl,--print-memory-usage -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g3 -T "C:\dev\CH32V203C8T6\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"CH32V203C8T6.map" --specs=nano.specs --specs=nosys.specs -o "CH32V203C8T6.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@	@
 CH32V203C8T6.hex: CH32V203C8T6.elf
 	@	riscv-none-embed-objcopy -O ihex "CH32V203C8T6.elf"  "CH32V203C8T6.hex"

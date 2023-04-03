@@ -4310,22 +4310,37 @@ typedef struct
 /******************************************************************************/
 
 /*******************  Bit definition for I2C_CTLR1 register  ********************/
+#define I2C_CTLR1_PE_Pos                        (0U)
 #define I2C_CTLR1_PE                            ((uint16_t)0x0001) /* Peripheral Enable */
+#define I2C_CTLR1_SMBUS_Pos                     (1U)
 #define I2C_CTLR1_SMBUS                         ((uint16_t)0x0002) /* SMBus Mode */
+#define I2C_CTLR1_SMBTYPE_Pos                   (3U)
 #define I2C_CTLR1_SMBTYPE                       ((uint16_t)0x0008) /* SMBus Type */
+#define I2C_CTLR1_ENARP_Pos                     (4U)
 #define I2C_CTLR1_ENARP                         ((uint16_t)0x0010) /* ARP Enable */
+#define I2C_CTLR1_ENPEC_Pos                     (5U)
 #define I2C_CTLR1_ENPEC                         ((uint16_t)0x0020) /* PEC Enable */
+#define I2C_CTLR1_ENGC_Pos                      (6U)
 #define I2C_CTLR1_ENGC                          ((uint16_t)0x0040) /* General Call Enable */
+#define I2C_CTLR1_NOSTRETCH_Pos                 (7U)
 #define I2C_CTLR1_NOSTRETCH                     ((uint16_t)0x0080) /* Clock Stretching Disable (Slave mode) */
+#define I2C_CTLR1_START_Pos                     (8U)
 #define I2C_CTLR1_START                         ((uint16_t)0x0100) /* Start Generation */
+#define I2C_CTLR1_STOP_Pos                      (9U)
 #define I2C_CTLR1_STOP                          ((uint16_t)0x0200) /* Stop Generation */
+#define I2C_CTLR1_ACK_Pos                       (10U)
 #define I2C_CTLR1_ACK                           ((uint16_t)0x0400) /* Acknowledge Enable */
+#define I2C_CTLR1_POS_Pos                       (11U)
 #define I2C_CTLR1_POS                           ((uint16_t)0x0800) /* Acknowledge/PEC Position (for data reception) */
+#define I2C_CTLR1_PEC_Pos                       (12U)
 #define I2C_CTLR1_PEC                           ((uint16_t)0x1000) /* Packet Error Checking */
+#define I2C_CTLR1_ALERT_Pos                     (13U)
 #define I2C_CTLR1_ALERT                         ((uint16_t)0x2000) /* SMBus Alert */
+#define I2C_CTLR1_SWRST_Pos                     (15U)
 #define I2C_CTLR1_SWRST                         ((uint16_t)0x8000) /* Software Reset */
 
 /*******************  Bit definition for I2C_CTLR2 register  ********************/
+#define I2C_CTLR2_FREQ_Pos                      (0U)
 #define I2C_CTLR2_FREQ                          ((uint16_t)0x003F) /* FREQ[5:0] bits (Peripheral Clock Frequency) */
 #define I2C_CTLR2_FREQ_0                        ((uint16_t)0x0001) /* Bit 0 */
 #define I2C_CTLR2_FREQ_1                        ((uint16_t)0x0002) /* Bit 1 */
@@ -4334,68 +4349,113 @@ typedef struct
 #define I2C_CTLR2_FREQ_4                        ((uint16_t)0x0010) /* Bit 4 */
 #define I2C_CTLR2_FREQ_5                        ((uint16_t)0x0020) /* Bit 5 */
 
+#define I2C_CTLR2_ITERREN_Pos                   (8U)
 #define I2C_CTLR2_ITERREN                       ((uint16_t)0x0100) /* Error Interrupt Enable */
+#define I2C_CTLR2_ITEVTEN_Pos                   (9U)
 #define I2C_CTLR2_ITEVTEN                       ((uint16_t)0x0200) /* Event Interrupt Enable */
+#define I2C_CTLR2_ITBUFEN_Pos                   (10U)
 #define I2C_CTLR2_ITBUFEN                       ((uint16_t)0x0400) /* Buffer Interrupt Enable */
+#define I2C_CTLR2_DMAEN_Pos                     (11U)
 #define I2C_CTLR2_DMAEN                         ((uint16_t)0x0800) /* DMA Requests Enable */
+#define I2C_CTLR2_LAST_Pos                      (12U)
 #define I2C_CTLR2_LAST                          ((uint16_t)0x1000) /* DMA Last Transfer */
 
 /*******************  Bit definition for I2C_OADDR1 register  *******************/
 #define I2C_OADDR1_ADD1_7                       ((uint16_t)0x00FE) /* Interface Address */
 #define I2C_OADDR1_ADD8_9                       ((uint16_t)0x0300) /* Interface Address */
 
+#define I2C_OADDR1_ADD0_Pos                     (0U)
 #define I2C_OADDR1_ADD0                         ((uint16_t)0x0001) /* Bit 0 */
+#define I2C_OADDR1_ADD1_Pos                     (1U)
 #define I2C_OADDR1_ADD1                         ((uint16_t)0x0002) /* Bit 1 */
+#define I2C_OADDR1_ADD2_Pos                     (2U)
 #define I2C_OADDR1_ADD2                         ((uint16_t)0x0004) /* Bit 2 */
+#define I2C_OADDR1_ADD3_Pos                     (3U)
 #define I2C_OADDR1_ADD3                         ((uint16_t)0x0008) /* Bit 3 */
+#define I2C_OADDR1_ADD4_Pos                     (4U)
 #define I2C_OADDR1_ADD4                         ((uint16_t)0x0010) /* Bit 4 */
+#define I2C_OADDR1_ADD5_Pos                     (5U)
 #define I2C_OADDR1_ADD5                         ((uint16_t)0x0020) /* Bit 5 */
+#define I2C_OADDR1_ADD6_Pos                     (6U)
 #define I2C_OADDR1_ADD6                         ((uint16_t)0x0040) /* Bit 6 */
+#define I2C_OADDR1_ADD7_Pos                     (7U)
 #define I2C_OADDR1_ADD7                         ((uint16_t)0x0080) /* Bit 7 */
+#define I2C_OADDR1_ADD8_Pos                     (8U)
 #define I2C_OADDR1_ADD8                         ((uint16_t)0x0100) /* Bit 8 */
+#define I2C_OADDR1_ADD9_Pos                     (9U)
 #define I2C_OADDR1_ADD9                         ((uint16_t)0x0200) /* Bit 9 */
 
+#define I2C_OADDR1_ADDMODE_Pos                  (15U)
 #define I2C_OADDR1_ADDMODE                      ((uint16_t)0x8000) /* Addressing Mode (Slave mode) */
 
 /*******************  Bit definition for I2C_OADDR2 register  *******************/
+#define I2C_OADDR2_ENDUAL_Pos                   (0U)
 #define I2C_OADDR2_ENDUAL                       ((uint8_t)0x01) /* Dual addressing mode enable */
+#define I2C_OADDR2_ADD2_Pos                     (1U)
 #define I2C_OADDR2_ADD2                         ((uint8_t)0xFE) /* Interface address */
 
 /********************  Bit definition for I2C_DATAR register  ********************/
+#define I2C_DR_DATAR_Pos                        (0U)
 #define I2C_DR_DATAR                            ((uint8_t)0xFF) /* 8-bit Data Register */
 
 /*******************  Bit definition for I2C_STAR1 register  ********************/
+#define I2C_STAR1_SB_Pos                        (0U)
 #define I2C_STAR1_SB                            ((uint16_t)0x0001) /* Start Bit (Master mode) */
+#define I2C_STAR1_ADDR_Pos                      (1U)
 #define I2C_STAR1_ADDR                          ((uint16_t)0x0002) /* Address sent (master mode)/matched (slave mode) */
+#define I2C_STAR1_BTF_Pos                       (2U)
 #define I2C_STAR1_BTF                           ((uint16_t)0x0004) /* Byte Transfer Finished */
+#define I2C_STAR1_ADD10_Pos                     (3U)
 #define I2C_STAR1_ADD10                         ((uint16_t)0x0008) /* 10-bit header sent (Master mode) */
+#define I2C_STAR1_STOPF_Pos                     (4U)
 #define I2C_STAR1_STOPF                         ((uint16_t)0x0010) /* Stop detection (Slave mode) */
+#define I2C_STAR1_RXNE_Pos                      (6U)
 #define I2C_STAR1_RXNE                          ((uint16_t)0x0040) /* Data Register not Empty (receivers) */
+#define I2C_STAR1_TXE_Pos                       (7U)
 #define I2C_STAR1_TXE                           ((uint16_t)0x0080) /* Data Register Empty (transmitters) */
+#define I2C_STAR1_BERR_Pos                      (8U)
 #define I2C_STAR1_BERR                          ((uint16_t)0x0100) /* Bus Error */
+#define I2C_STAR1_ARLO_Pos                      (9U)
 #define I2C_STAR1_ARLO                          ((uint16_t)0x0200) /* Arbitration Lost (master mode) */
+#define I2C_STAR1_AF_Pos                        (10U)
 #define I2C_STAR1_AF                            ((uint16_t)0x0400) /* Acknowledge Failure */
+#define I2C_STAR1_OVR_Pos                       (11U)
 #define I2C_STAR1_OVR                           ((uint16_t)0x0800) /* Overrun/Underrun */
+#define I2C_STAR1_PECERR_Pos                    (12U)
 #define I2C_STAR1_PECERR                        ((uint16_t)0x1000) /* PEC Error in reception */
+#define I2C_STAR1_TIMEOUT_Pos                   (14U)
 #define I2C_STAR1_TIMEOUT                       ((uint16_t)0x4000) /* Timeout or Tlow Error */
+#define I2C_STAR1_SMBALERT_Pos                  (15U)
 #define I2C_STAR1_SMBALERT                      ((uint16_t)0x8000) /* SMBus Alert */
 
 /*******************  Bit definition for I2C_STAR2 register  ********************/
+#define I2C_STAR2_MSL_Pos                       (0U)
 #define I2C_STAR2_MSL                           ((uint16_t)0x0001) /* Master/Slave */
+#define I2C_STAR2_BUSY_Pos                      (1U)
 #define I2C_STAR2_BUSY                          ((uint16_t)0x0002) /* Bus Busy */
+#define I2C_STAR2_TRA_Pos                       (2U)
 #define I2C_STAR2_TRA                           ((uint16_t)0x0004) /* Transmitter/Receiver */
+#define I2C_STAR2_GENCALL_Pos                   (4U)
 #define I2C_STAR2_GENCALL                       ((uint16_t)0x0010) /* General Call Address (Slave mode) */
+#define I2C_STAR2_SMBDEFAULT_Pos                (5U)
 #define I2C_STAR2_SMBDEFAULT                    ((uint16_t)0x0020) /* SMBus Device Default Address (Slave mode) */
+#define I2C_STAR2_SMBHOST_Pos                   (6U)
 #define I2C_STAR2_SMBHOST                       ((uint16_t)0x0040) /* SMBus Host Header (Slave mode) */
+#define I2C_STAR2_DUALF_Pos                     (7U)
 #define I2C_STAR2_DUALF                         ((uint16_t)0x0080) /* Dual Flag (Slave mode) */
+#define I2C_STAR2_PEC_Pos                       (8U)
 #define I2C_STAR2_PEC                           ((uint16_t)0xFF00) /* Packet Error Checking Register */
 
 /*******************  Bit definition for I2C_CKCFGR register  ********************/
+#define I2C_CKCFGR_CCR_Pos                      (0U)
 #define I2C_CKCFGR_CCR                          ((uint16_t)0x0FFF) /* Clock Control Register in Fast/Standard mode (Master mode) */
+#define I2C_CKCFGR_DUTY_Pos                     (14U)
 #define I2C_CKCFGR_DUTY                         ((uint16_t)0x4000) /* Fast Mode Duty Cycle */
+#define I2C_CKCFGR_FS_Pos                       (15)
 #define I2C_CKCFGR_FS                           ((uint16_t)0x8000) /* I2C Master Mode Selection */
 
 /******************  Bit definition for I2C_RTR register  *******************/
+#define I2C_RTR_TRISE_Pos                       (0U)
 #define I2C_RTR_TRISE                           ((uint8_t)0x3F) /* Maximum Rise Time in Fast/Standard mode (Master mode) */
 
 /******************************************************************************/
@@ -4788,81 +4848,125 @@ typedef struct
 /******************************************************************************/
 
 /*******************  Bit definition for SPI_CTLR1 register  ********************/
+#define SPI_CTLR1_CPHA_Pos                      (0U)
 #define SPI_CTLR1_CPHA                          ((uint16_t)0x0001) /* Clock Phase */
+#define SPI_CTLR1_CPOL_Pos                      (1U)
 #define SPI_CTLR1_CPOL                          ((uint16_t)0x0002) /* Clock Polarity */
+#define SPI_CTLR1_MSTR_Pos                      (2U)
 #define SPI_CTLR1_MSTR                          ((uint16_t)0x0004) /* Master Selection */
 
+#define SPI_CTLR1_BR_Pos                        (3U)
 #define SPI_CTLR1_BR                            ((uint16_t)0x0038) /* BR[2:0] bits (Baud Rate Control) */
+
 #define SPI_CTLR1_BR_0                          ((uint16_t)0x0008) /* Bit 0 */
 #define SPI_CTLR1_BR_1                          ((uint16_t)0x0010) /* Bit 1 */
 #define SPI_CTLR1_BR_2                          ((uint16_t)0x0020) /* Bit 2 */
 
+#define SPI_CTLR1_SPE_Pos                       (6U)
 #define SPI_CTLR1_SPE                           ((uint16_t)0x0040) /* SPI Enable */
+#define SPI_CTLR1_LSBFIRST_Pos                  (7U)
 #define SPI_CTLR1_LSBFIRST                      ((uint16_t)0x0080) /* Frame Format */
+#define SPI_CTLR1_SSI_Pos                       (8U)
 #define SPI_CTLR1_SSI                           ((uint16_t)0x0100) /* Internal slave select */
+#define SPI_CTLR1_SSM_Pos                       (9U)
 #define SPI_CTLR1_SSM                           ((uint16_t)0x0200) /* Software slave management */
+#define SPI_CTLR1_RXONLY_Pos                    (10U)
 #define SPI_CTLR1_RXONLY                        ((uint16_t)0x0400) /* Receive only */
+#define SPI_CTLR1_DFF_Pos                       (11U)
 #define SPI_CTLR1_DFF                           ((uint16_t)0x0800) /* Data Frame Format */
+#define SPI_CTLR1_CRCNEXT_Pos                   (12U)
 #define SPI_CTLR1_CRCNEXT                       ((uint16_t)0x1000) /* Transmit CRC next */
+#define SPI_CTLR1_CRCEN_Pos                     (13U)
 #define SPI_CTLR1_CRCEN                         ((uint16_t)0x2000) /* Hardware CRC calculation enable */
+#define SPI_CTLR1_BIDIOE_Pos                    (14U)
 #define SPI_CTLR1_BIDIOE                        ((uint16_t)0x4000) /* Output enable in bidirectional mode */
+#define SPI_CTLR1_BIDIMODE_Pos                  (15U)
 #define SPI_CTLR1_BIDIMODE                      ((uint16_t)0x8000) /* Bidirectional data mode enable */
 
 /*******************  Bit definition for SPI_CTLR2 register  ********************/
+#define SPI_CTLR2_RXDMAEN_Pos                   (0U)
 #define SPI_CTLR2_RXDMAEN                       ((uint8_t)0x01) /* Rx Buffer DMA Enable */
+#define SPI_CTLR2_TXDMAEN_Pos                   (1U)
 #define SPI_CTLR2_TXDMAEN                       ((uint8_t)0x02) /* Tx Buffer DMA Enable */
+#define SPI_CTLR2_SSOE_Pos                      (2U)
 #define SPI_CTLR2_SSOE                          ((uint8_t)0x04) /* SS Output Enable */
+#define SPI_CTLR2_ERRIE_Pos                     (5U)
 #define SPI_CTLR2_ERRIE                         ((uint8_t)0x20) /* Error Interrupt Enable */
+#define SPI_CTLR2_RXNEIE_Pos                    (6U)
 #define SPI_CTLR2_RXNEIE                        ((uint8_t)0x40) /* RX buffer Not Empty Interrupt Enable */
+#define SPI_CTLR2_TXEIE_Pos                     (7U)
 #define SPI_CTLR2_TXEIE                         ((uint8_t)0x80) /* Tx buffer Empty Interrupt Enable */
 
 /********************  Bit definition for SPI_STATR register  ********************/
+#define SPI_STATR_RXNE_Pos                      (0U)
 #define SPI_STATR_RXNE                          ((uint8_t)0x01) /* Receive buffer Not Empty */
+#define SPI_STATR_TXE_Pos                       (1U)
 #define SPI_STATR_TXE                           ((uint8_t)0x02) /* Transmit buffer Empty */
+#define SPI_STATR_CHSIDE_Pos                    (2U)
 #define SPI_STATR_CHSIDE                        ((uint8_t)0x04) /* Channel side */
+#define SPI_STATR_UDR_Pos                       (3U)
 #define SPI_STATR_UDR                           ((uint8_t)0x08) /* Underrun flag */
+#define SPI_STATR_CRCERR_Pos                    (4U)
 #define SPI_STATR_CRCERR                        ((uint8_t)0x10) /* CRC Error flag */
+#define SPI_STATR_MODF_Pos                      (5U)
 #define SPI_STATR_MODF                          ((uint8_t)0x20) /* Mode fault */
+#define SPI_STATR_OVR_Pos                       (6U)
 #define SPI_STATR_OVR                           ((uint8_t)0x40) /* Overrun flag */
+#define SPI_STATR_BSY_Pos                       (7U)
 #define SPI_STATR_BSY                           ((uint8_t)0x80) /* Busy flag */
 
 /********************  Bit definition for SPI_DATAR register  ********************/
+#define SPI_DATAR_DR_Pos                        (0U)
 #define SPI_DATAR_DR                            ((uint16_t)0xFFFF) /* Data Register */
 
 /*******************  Bit definition for SPI_CRCR register  ******************/
+#define SPI_CRCR_CRCPOLY_Pos                    (0U)
 #define SPI_CRCR_CRCPOLY                        ((uint16_t)0xFFFF) /* CRC polynomial register */
 
 /******************  Bit definition for SPI_RCRCR register  ******************/
+#define SPI_RCRCR_RXCRC_Pos                     (0U)
 #define SPI_RCRCR_RXCRC                         ((uint16_t)0xFFFF) /* Rx CRC Register */
 
 /******************  Bit definition for SPI_TCRCR register  ******************/
+#define SPI_TCRCR_TXCRC_Pos                     (0U)
 #define SPI_TCRCR_TXCRC                         ((uint16_t)0xFFFF) /* Tx CRC Register */
 
 /******************  Bit definition for SPI_I2SCFGR register  *****************/
+#define SPI_I2SCFGR_CHLEN_Pos                   (0U)
 #define SPI_I2SCFGR_CHLEN                       ((uint16_t)0x0001) /* Channel length (number of bits per audio channel) */
 
+#define SPI_I2SCFGR_DATLEN_Pos                  (1U)
 #define SPI_I2SCFGR_DATLEN                      ((uint16_t)0x0006) /* DATLEN[1:0] bits (Data length to be transferred) */
 #define SPI_I2SCFGR_DATLEN_0                    ((uint16_t)0x0002) /* Bit 0 */
 #define SPI_I2SCFGR_DATLEN_1                    ((uint16_t)0x0004) /* Bit 1 */
 
+#define SPI_I2SCFGR_CKPOL_Pos                   (3U)
 #define SPI_I2SCFGR_CKPOL                       ((uint16_t)0x0008) /* steady state clock polarity */
 
+#define SPI_I2SCFGR_I2SSTD_Pos                  (4U)
 #define SPI_I2SCFGR_I2SSTD                      ((uint16_t)0x0030) /* I2SSTD[1:0] bits (I2S standard selection) */
 #define SPI_I2SCFGR_I2SSTD_0                    ((uint16_t)0x0010) /* Bit 0 */
 #define SPI_I2SCFGR_I2SSTD_1                    ((uint16_t)0x0020) /* Bit 1 */
 
+#define SPI_I2SCFGR_PCMSYNC_Pos                 (7U)
 #define SPI_I2SCFGR_PCMSYNC                     ((uint16_t)0x0080) /* PCM frame synchronization */
 
+#define SPI_I2SCFGR_I2SCFG_Pos                  (8U)
 #define SPI_I2SCFGR_I2SCFG                      ((uint16_t)0x0300) /* I2SCFG[1:0] bits (I2S configuration mode) */
 #define SPI_I2SCFGR_I2SCFG_0                    ((uint16_t)0x0100) /* Bit 0 */
 #define SPI_I2SCFGR_I2SCFG_1                    ((uint16_t)0x0200) /* Bit 1 */
 
+#define SPI_I2SCFGR_I2SE_Pos                    (10U)
 #define SPI_I2SCFGR_I2SE                        ((uint16_t)0x0400) /* I2S Enable */
+#define SPI_I2SCFGR_I2SMOD_Pos                  (11U)
 #define SPI_I2SCFGR_I2SMOD                      ((uint16_t)0x0800) /* I2S mode selection */
 
 /******************  Bit definition for SPI_I2SPR register  *******************/
+#define SPI_I2SPR_I2SDIV_Pos                    (0U)
 #define SPI_I2SPR_I2SDIV                        ((uint16_t)0x00FF) /* I2S Linear prescaler */
+#define SPI_I2SPR_ODD_Pos                       (8U)
 #define SPI_I2SPR_ODD                           ((uint16_t)0x0100) /* Odd factor for the prescaler */
+#define SPI_I2SPR_MCKOE_Pos                     (9U)
 #define SPI_I2SPR_MCKOE                         ((uint16_t)0x0200) /* Master Clock Output Enable */
 
 /******************************************************************************/
