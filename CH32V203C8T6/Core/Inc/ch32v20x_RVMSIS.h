@@ -57,5 +57,10 @@ bool RVMSIS_SPI_Data_Transmit_8BIT(SPI_TypeDef* SPI, uint8_t* data, uint16_t Siz
 bool RVMSIS_SPI_Data_Transmit_16BIT(SPI_TypeDef* SPI, uint16_t* data, uint16_t Size_data, uint32_t Timeout_ms);
 bool RVMSIS_SPI_Data_Receive_8BIT(SPI_TypeDef* SPI, uint8_t* data, uint16_t Size_data, uint32_t Timeout_ms);
 bool RVMSIS_SPI_Data_Receive_16BIT(SPI_TypeDef* SPI, uint16_t* data, uint16_t Size_data, uint32_t Timeout_ms);
+void RVMSIS_FLASH_Unlock(void);
+void RVMSIS_FLASH_Lock(void);
+void RVMSIS_FLASH_Page_erase(uint16_t Adress);
+void RVMSIS_FLASH_Page_write(uint32_t Adress, uint8_t *Data, uint16_t Size);
+void RVMSIS_FLASH_Read_data(uint32_t Adress, uint8_t *Data, uint16_t Size);
 
 #endif /* USER_CH32V20X_REGISTERS_H_ */

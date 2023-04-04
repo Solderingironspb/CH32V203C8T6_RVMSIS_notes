@@ -26,6 +26,10 @@ Memory region         Used Size  Region Size  %age Used
 Заходим в Debug configurations->Startup
 В самом низу Set breakpoint at: "handle_reset" меняем на "main"
 
+4. Настройка кодировки файлов.
+Заходим Window->Preferences->General->Workspace
+Text file encoding ставим Other: UTF-8
+
 4. Чтоб начать отладку, нужно сначала собрать проект. Делается это сочетанием Ctrl + B, а только потом можно нажимать дебаг.
 Если код поправили - нужно снова пересобрать проект и только потом нажимать дебаг. Это довольно быстро Вас утомит.
 Поэтому нажимаем Window->Preferences->Run/Debug->Launching. В General Options поставим галочку на Build (if required) before launching

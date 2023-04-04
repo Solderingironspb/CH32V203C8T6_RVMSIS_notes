@@ -2258,21 +2258,40 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./Core/Src/ch32v20x_RVMSIS.o
  .text.RVMSIS_Blink_PC13
                 0x0000000000000000       0x40 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_PA8_MCO_init
+                0x0000000000000000       0x6e ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_EXTI0_init
+                0x0000000000000000       0xd6 ./Core/Src/ch32v20x_RVMSIS.o
  .text.EXTI0_IRQHandler
                 0x0000000000000000       0x28 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_TIM3_init
+                0x0000000000000000      0x184 ./Core/Src/ch32v20x_RVMSIS.o
  .text.TIM3_IRQHandler
                 0x0000000000000000       0x42 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_TIM3_PWM_CHANNEL1_init
+                0x0000000000000000      0x162 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_TIM3_PWM_CHANNEL2_init
+                0x0000000000000000      0x172 ./Core/Src/ch32v20x_RVMSIS.o
+ .sbss.ADC_RAW_Data
+                0x0000000000000000        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_ADC_DMA_init
+                0x0000000000000000      0x40e ./Core/Src/ch32v20x_RVMSIS.o
  .text.ADC1_2_IRQHandler
                 0x0000000000000000       0x28 ./Core/Src/ch32v20x_RVMSIS.o
  .text.DMA1_Channel1_IRQHandler
                 0x0000000000000000       0x46 ./Core/Src/ch32v20x_RVMSIS.o
+ .bss.husart1   0x0000000000000000       0x2c ./Core/Src/ch32v20x_RVMSIS.o
  .bss.husart2   0x0000000000000000       0x2c ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_USART1_Init
+                0x0000000000000000      0x326 ./Core/Src/ch32v20x_RVMSIS.o
  .text.CMSIS_USART2_Init
                 0x0000000000000000      0x332 ./Core/Src/ch32v20x_RVMSIS.o
  .text.USART1_IRQHandler
                 0x0000000000000000       0xa8 ./Core/Src/ch32v20x_RVMSIS.o
  .text.USART2_IRQHandler
                 0x0000000000000000       0xa8 ./Core/Src/ch32v20x_RVMSIS.o
+ .text.RVMSIS_USART_Transmit
+                0x0000000000000000       0x84 ./Core/Src/ch32v20x_RVMSIS.o
  .text.RVMSIS_I2C_Reset
                 0x0000000000000000       0x84 ./Core/Src/ch32v20x_RVMSIS.o
  .text.RVMSIS_I2C1_Init
@@ -2589,7 +2608,7 @@ END GROUP
                 0x0000000000000140                . = ALIGN (0x40)
  *fill*         0x0000000000000134        0xc 
 
-.text           0x0000000000000140     0x1548
+.text           0x0000000000000140      0xa78
                 0x0000000000000140                . = ALIGN (0x4)
  *(.text)
  *(.text.*)
@@ -2607,10 +2626,12 @@ END GROUP
                 0x0000000000000154                RTC_IRQHandler
                 0x0000000000000156                FLASH_IRQHandler
                 0x0000000000000158                RCC_IRQHandler
+                0x000000000000015a                EXTI0_IRQHandler
                 0x000000000000015c                EXTI1_IRQHandler
                 0x000000000000015e                EXTI2_IRQHandler
                 0x0000000000000160                EXTI3_IRQHandler
                 0x0000000000000162                EXTI4_IRQHandler
+                0x0000000000000164                DMA1_Channel1_IRQHandler
                 0x0000000000000166                DMA1_Channel2_IRQHandler
                 0x0000000000000168                DMA1_Channel3_IRQHandler
                 0x000000000000016a                DMA1_Channel4_IRQHandler
@@ -2628,6 +2649,7 @@ END GROUP
                 0x0000000000000182                TIM1_TRG_COM_IRQHandler
                 0x0000000000000184                TIM1_CC_IRQHandler
                 0x0000000000000186                TIM2_IRQHandler
+                0x0000000000000188                TIM3_IRQHandler
                 0x000000000000018a                TIM4_IRQHandler
                 0x000000000000018c                I2C1_EV_IRQHandler
                 0x000000000000018e                I2C1_ER_IRQHandler
@@ -2635,6 +2657,7 @@ END GROUP
                 0x0000000000000192                I2C2_ER_IRQHandler
                 0x0000000000000194                SPI1_IRQHandler
                 0x0000000000000196                SPI2_IRQHandler
+                0x0000000000000198                USART1_IRQHandler
                 0x000000000000019a                USART2_IRQHandler
                 0x000000000000019c                USART3_IRQHandler
                 0x000000000000019e                EXTI15_10_IRQHandler
@@ -2645,105 +2668,85 @@ END GROUP
                 0x00000000000001a8                UART4_IRQHandler
                 0x00000000000001aa                DMA1_Channel8_IRQHandler
  .text.handle_reset
-                0x00000000000001ac       0x86 ./Core/Startup/startup_ch32v20x_D6.o
+                0x00000000000001ac       0x8e ./Core/Startup/startup_ch32v20x_D6.o
                 0x00000000000001ac                handle_reset
  .text.NVIC_EnableIRQ
-                0x0000000000000232       0x32 ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000023a       0x32 ./Core/Src/ch32v20x_RVMSIS.o
  .text.RVMSIS_Debug_init
-                0x0000000000000264       0x70 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000264                RVMSIS_Debug_init
+                0x000000000000026c       0x70 ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000026c                RVMSIS_Debug_init
  .text.RVMSIS_RCC_SystemClock_144MHz
-                0x00000000000002d4      0x1a2 ./Core/Src/ch32v20x_RVMSIS.o
-                0x00000000000002d4                RVMSIS_RCC_SystemClock_144MHz
+                0x00000000000002dc      0x1a2 ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000002dc                RVMSIS_RCC_SystemClock_144MHz
  .text.RVMSIS_SysTick_Timer_init
-                0x0000000000000476       0x94 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000476                RVMSIS_SysTick_Timer_init
+                0x000000000000047e       0x94 ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000047e                RVMSIS_SysTick_Timer_init
  .text.SysTick_Handler
-                0x000000000000050a       0x56 ./Core/Src/ch32v20x_RVMSIS.o
-                0x000000000000050a                SysTick_Handler
+                0x0000000000000512       0x6e ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000512                SysTick_Handler
  .text.Delay_ms
-                0x0000000000000560       0x22 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000560                Delay_ms
+                0x0000000000000580       0x2a ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000580                Delay_ms
  .text.RVMSIS_PC13_OUTPUT_Push_Pull_init
-                0x0000000000000582       0x4e ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000582                RVMSIS_PC13_OUTPUT_Push_Pull_init
- .text.RVMSIS_PA8_MCO_init
-                0x00000000000005d0       0x6e ./Core/Src/ch32v20x_RVMSIS.o
-                0x00000000000005d0                RVMSIS_PA8_MCO_init
- .text.RVMSIS_EXTI0_init
-                0x000000000000063e       0xd0 ./Core/Src/ch32v20x_RVMSIS.o
-                0x000000000000063e                RVMSIS_EXTI0_init
- .text.RVMSIS_TIM3_init
-                0x000000000000070e      0x17e ./Core/Src/ch32v20x_RVMSIS.o
-                0x000000000000070e                RVMSIS_TIM3_init
- .text.RVMSIS_TIM3_PWM_CHANNEL1_init
-                0x000000000000088c      0x162 ./Core/Src/ch32v20x_RVMSIS.o
-                0x000000000000088c                RVMSIS_TIM3_PWM_CHANNEL1_init
- .text.RVMSIS_TIM3_PWM_CHANNEL2_init
-                0x00000000000009ee      0x172 ./Core/Src/ch32v20x_RVMSIS.o
-                0x00000000000009ee                RVMSIS_TIM3_PWM_CHANNEL2_init
- .text.RVMSIS_ADC_DMA_init
-                0x0000000000000b60      0x406 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000b60                RVMSIS_ADC_DMA_init
- .text.RVMSIS_USART1_Init
-                0x0000000000000f66      0x322 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000000f66                RVMSIS_USART1_Init
- .text.RVMSIS_USART_Transmit
-                0x0000000000001288       0x7c ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000000001288                RVMSIS_USART_Transmit
- .text.USART1_IRQHandler
-                0x0000000000001304       0xa8 ./Core/Src/main.o
-                0x0000000000001304                USART1_IRQHandler
- .text.DMA1_Channel1_IRQHandler
-                0x00000000000013ac       0x46 ./Core/Src/main.o
-                0x00000000000013ac                DMA1_Channel1_IRQHandler
- .text.TIM3_IRQHandler
-                0x00000000000013f2       0x4e ./Core/Src/main.o
-                0x00000000000013f2                TIM3_IRQHandler
- .text.EXTI0_IRQHandler
-                0x0000000000001440       0x34 ./Core/Src/main.o
-                0x0000000000001440                EXTI0_IRQHandler
- .text.main     0x0000000000001474       0x6e ./Core/Src/main.o
-                0x0000000000001474                main
+                0x00000000000005aa       0x4e ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000005aa                RVMSIS_PC13_OUTPUT_Push_Pull_init
+ .text.RVMSIS_FLASH_Unlock
+                0x00000000000005f8       0x2a ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000005f8                RVMSIS_FLASH_Unlock
+ .text.RVMSIS_FLASH_Lock
+                0x0000000000000622       0x1e ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000622                RVMSIS_FLASH_Lock
+ .text.RVMSIS_FLASH_Page_erase
+                0x0000000000000640       0x7a ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000640                RVMSIS_FLASH_Page_erase
+ .text.RVMSIS_FLASH_Page_write
+                0x00000000000006ba      0x174 ./Core/Src/ch32v20x_RVMSIS.o
+                0x00000000000006ba                RVMSIS_FLASH_Page_write
+ .text.RVMSIS_FLASH_Read_data
+                0x000000000000082e       0xda ./Core/Src/ch32v20x_RVMSIS.o
+                0x000000000000082e                RVMSIS_FLASH_Read_data
+ .text.main     0x0000000000000908      0x108 ./Core/Src/main.o
+                0x0000000000000908                main
  .text.SystemInit
-                0x00000000000014e2       0x7c ./Core/Src/system_ch32v20x.o
-                0x00000000000014e2                SystemInit
+                0x0000000000000a10       0x7c ./Core/Src/system_ch32v20x.o
+                0x0000000000000a10                SystemInit
  .text.SetSysClock
-                0x000000000000155e       0x14 ./Core/Src/system_ch32v20x.o
+                0x0000000000000a8c       0x14 ./Core/Src/system_ch32v20x.o
  .text.SetSysClockTo96_HSE
-                0x0000000000001572      0x114 ./Core/Src/system_ch32v20x.o
+                0x0000000000000aa0      0x114 ./Core/Src/system_ch32v20x.o
  *(.rodata)
+ *fill*         0x0000000000000bb4        0x0 
+ .rodata        0x0000000000000bb4        0x4 ./Core/Src/main.o
  *(.rodata*)
  *(.glue_7)
  *(.glue_7t)
  *(.gnu.linkonce.t.*)
-                0x0000000000001688                . = ALIGN (0x4)
- *fill*         0x0000000000001686        0x2 
+                0x0000000000000bb8                . = ALIGN (0x4)
 
-.rela.dyn       0x0000000000001688        0x0
- .rela.init     0x0000000000001688        0x0 ./Core/Startup/startup_ch32v20x_D6.o
- .rela.vector   0x0000000000001688        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+.rela.dyn       0x0000000000000bb8        0x0
+ .rela.init     0x0000000000000bb8        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+ .rela.vector   0x0000000000000bb8        0x0 ./Core/Startup/startup_ch32v20x_D6.o
  .rela.text.handle_reset
-                0x0000000000001688        0x0 ./Core/Startup/startup_ch32v20x_D6.o
+                0x0000000000000bb8        0x0 ./Core/Startup/startup_ch32v20x_D6.o
 
-.fini           0x0000000000001688        0x0
+.fini           0x0000000000000bb8        0x0
  *(SORT_NONE(.fini))
-                0x0000000000001688                . = ALIGN (0x4)
+                0x0000000000000bb8                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (_etext = .)
                 [!provide]                        PROVIDE (_eitcm = .)
 
-.preinit_array  0x0000000000001688        0x0
+.preinit_array  0x0000000000000bb8        0x0
                 [!provide]                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array)
                 [!provide]                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000000001688        0x0
+.init_array     0x0000000000000bb8        0x0
                 [!provide]                        PROVIDE (__init_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
  *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
                 [!provide]                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000000001688        0x0
+.fini_array     0x0000000000000bb8        0x0
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
  *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
@@ -2763,65 +2766,59 @@ END GROUP
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
 
-.dalign         0x0000000020000000        0x0 load address 0x0000000000001688
+.dalign         0x0000000020000000        0x0 load address 0x0000000000000bb8
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                PROVIDE (_data_vma = .)
 
-.dlalign        0x0000000000001688        0x0
-                0x0000000000001688                . = ALIGN (0x4)
-                0x0000000000001688                PROVIDE (_data_lma = .)
+.dlalign        0x0000000000000bb8        0x0
+                0x0000000000000bb8                . = ALIGN (0x4)
+                0x0000000000000bb8                PROVIDE (_data_lma = .)
 
-.data           0x0000000020000000        0x8 load address 0x0000000000001688
+.data           0x0000000020000000        0x0 load address 0x0000000000000bb8
  *(.gnu.linkonce.r.*)
  *(.data .data.*)
  *(.gnu.linkonce.d.*)
                 0x0000000020000000                . = ALIGN (0x8)
                 0x0000000020000800                PROVIDE (__global_pointer$ = (. + 0x800))
  *(.sdata .sdata.*)
- .sdata.Arr     0x0000000020000000        0x6 ./Core/Src/main.o
-                0x0000000020000000                Arr
  *(.sdata2.*)
  *(.gnu.linkonce.s.*)
-                0x0000000020000008                . = ALIGN (0x8)
- *fill*         0x0000000020000006        0x2 
+                0x0000000020000000                . = ALIGN (0x8)
  *(.srodata.cst16)
  *(.srodata.cst8)
  *(.srodata.cst4)
  *(.srodata.cst2)
  *(.srodata .srodata.*)
-                0x0000000020000008                . = ALIGN (0x4)
-                0x0000000020000008                PROVIDE (_edata = .)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_edata = .)
 
-.bss            0x0000000020000008       0x44 load address 0x0000000000001690
-                0x0000000020000008                . = ALIGN (0x4)
-                0x0000000020000008                PROVIDE (_sbss = .)
+.bss            0x0000000020000000       0x24 load address 0x0000000000000bb8
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_sbss = .)
  *(.sbss*)
  .sbss.SysTimer_ms
-                0x0000000020000008        0x4 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000020000008                SysTimer_ms
+                0x0000000020000000        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000020000000                SysTimer_ms
  .sbss.Delay_counter_ms
-                0x000000002000000c        0x4 ./Core/Src/ch32v20x_RVMSIS.o
-                0x000000002000000c                Delay_counter_ms
+                0x0000000020000004        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000020000004                Delay_counter_ms
  .sbss.Timeout_counter_ms
-                0x0000000020000010        0x4 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000020000010                Timeout_counter_ms
- .sbss.ADC_RAW_Data
-                0x0000000020000014        0x4 ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000020000014                ADC_RAW_Data
- .sbss.TIM_Counter
-                0x0000000020000018        0x4 ./Core/Src/main.o
-                0x0000000020000018                TIM_Counter
- .sbss.EXTI0_Counter
-                0x000000002000001c        0x4 ./Core/Src/main.o
-                0x000000002000001c                EXTI0_Counter
+                0x0000000020000008        0x4 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000020000008                Timeout_counter_ms
  *(.gnu.linkonce.sb.*)
  *(.bss*)
- .bss.husart1   0x0000000020000020       0x2c ./Core/Src/ch32v20x_RVMSIS.o
-                0x0000000020000020                husart1
+ .bss.Flash_data_CH32
+                0x000000002000000c        0xb ./Core/Src/main.o
+                0x000000002000000c                Flash_data_CH32
+ *fill*         0x0000000020000017        0x1 
+ .bss.Flash_data_CH32_read
+                0x0000000020000018        0xb ./Core/Src/main.o
+                0x0000000020000018                Flash_data_CH32_read
  *(.gnu.linkonce.b.*)
  *(COMMON*)
-                0x000000002000004c                . = ALIGN (0x4)
-                0x000000002000004c                PROVIDE (_ebss = .)
+                0x0000000020000024                . = ALIGN (0x4)
+ *fill*         0x0000000020000023        0x1 
+                0x0000000020000024                PROVIDE (_ebss = .)
                 [!provide]                        PROVIDE (_end = _ebss)
                 [!provide]                        PROVIDE (end = .)
 
@@ -2834,48 +2831,48 @@ END GROUP
                 0x0000000020005000                PROVIDE (_eusrstack = .)
 OUTPUT(CH32V203C8T6.elf elf32-littleriscv)
 
-.debug_line     0x0000000000000000     0x3264
+.debug_line     0x0000000000000000     0x3589
  .debug_line    0x0000000000000000      0x264 ./Core/Startup/startup_ch32v20x_D6.o
- .debug_line    0x0000000000000264     0x22dc ./Core/Src/ch32v20x_RVMSIS.o
- .debug_line    0x0000000000002540      0x618 ./Core/Src/main.o
- .debug_line    0x0000000000002b58      0x70c ./Core/Src/system_ch32v20x.o
+ .debug_line    0x0000000000000264     0x2745 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_line    0x00000000000029a9      0x4d4 ./Core/Src/main.o
+ .debug_line    0x0000000000002e7d      0x70c ./Core/Src/system_ch32v20x.o
 
-.debug_info     0x0000000000000000     0x1f84
+.debug_info     0x0000000000000000     0x1c8a
  .debug_info    0x0000000000000000       0x22 ./Core/Startup/startup_ch32v20x_D6.o
- .debug_info    0x0000000000000022     0x1697 ./Core/Src/ch32v20x_RVMSIS.o
- .debug_info    0x00000000000016b9      0x60e ./Core/Src/main.o
- .debug_info    0x0000000000001cc7      0x2bd ./Core/Src/system_ch32v20x.o
+ .debug_info    0x0000000000000022     0x17dd ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_info    0x00000000000017ff      0x1ce ./Core/Src/main.o
+ .debug_info    0x00000000000019cd      0x2bd ./Core/Src/system_ch32v20x.o
 
-.debug_abbrev   0x0000000000000000      0x58b
+.debug_abbrev   0x0000000000000000      0x582
  .debug_abbrev  0x0000000000000000       0x12 ./Core/Startup/startup_ch32v20x_D6.o
- .debug_abbrev  0x0000000000000012      0x2d3 ./Core/Src/ch32v20x_RVMSIS.o
- .debug_abbrev  0x00000000000002e5      0x126 ./Core/Src/main.o
- .debug_abbrev  0x000000000000040b      0x180 ./Core/Src/system_ch32v20x.o
+ .debug_abbrev  0x0000000000000012      0x30b ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_abbrev  0x000000000000031d       0xe5 ./Core/Src/main.o
+ .debug_abbrev  0x0000000000000402      0x180 ./Core/Src/system_ch32v20x.o
 
-.debug_aranges  0x0000000000000000      0x1d8
+.debug_aranges  0x0000000000000000      0x1e0
  .debug_aranges
                 0x0000000000000000       0x30 ./Core/Startup/startup_ch32v20x_D6.o
  .debug_aranges
-                0x0000000000000030      0x130 ./Core/Src/ch32v20x_RVMSIS.o
+                0x0000000000000030      0x158 ./Core/Src/ch32v20x_RVMSIS.o
  .debug_aranges
-                0x0000000000000160       0x40 ./Core/Src/main.o
+                0x0000000000000188       0x20 ./Core/Src/main.o
  .debug_aranges
-                0x00000000000001a0       0x38 ./Core/Src/system_ch32v20x.o
+                0x00000000000001a8       0x38 ./Core/Src/system_ch32v20x.o
 
-.debug_str      0x0000000000000000    0x2f6f8
+.debug_str      0x0000000000000000    0x2f7a2
  .debug_str     0x0000000000000000       0x4a ./Core/Startup/startup_ch32v20x_D6.o
- .debug_str     0x000000000000004a    0x2f59f ./Core/Src/ch32v20x_RVMSIS.o
-                                      0x2f789 (size before relaxing)
- .debug_str     0x000000000002f5e9       0x32 ./Core/Src/main.o
-                                      0x2ef1f (size before relaxing)
- .debug_str     0x000000000002f61b       0xdd ./Core/Src/system_ch32v20x.o
+ .debug_str     0x000000000000004a    0x2f613 ./Core/Src/ch32v20x_RVMSIS.o
+                                      0x2f802 (size before relaxing)
+ .debug_str     0x000000000002f65d       0x68 ./Core/Src/main.o
+                                      0x2ed17 (size before relaxing)
+ .debug_str     0x000000000002f6c5       0xdd ./Core/Src/system_ch32v20x.o
                                       0x2ecfc (size before relaxing)
 
-.debug_ranges   0x0000000000000000      0x1a0
+.debug_ranges   0x0000000000000000      0x1a8
  .debug_ranges  0x0000000000000000       0x28 ./Core/Startup/startup_ch32v20x_D6.o
- .debug_ranges  0x0000000000000028      0x120 ./Core/Src/ch32v20x_RVMSIS.o
- .debug_ranges  0x0000000000000148       0x30 ./Core/Src/main.o
- .debug_ranges  0x0000000000000178       0x28 ./Core/Src/system_ch32v20x.o
+ .debug_ranges  0x0000000000000028      0x148 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_ranges  0x0000000000000170       0x10 ./Core/Src/main.o
+ .debug_ranges  0x0000000000000180       0x28 ./Core/Src/system_ch32v20x.o
 
 .debug_macro    0x0000000000000000      0x43a
  .debug_macro   0x0000000000000000      0x160 ./Core/Src/ch32v20x_RVMSIS.o
@@ -2890,7 +2887,7 @@ OUTPUT(CH32V203C8T6.elf elf32-littleriscv)
  .comment       0x0000000000000033       0x34 ./Core/Src/main.o
  .comment       0x0000000000000033       0x34 ./Core/Src/system_ch32v20x.o
 
-.debug_frame    0x0000000000000000      0x628
- .debug_frame   0x0000000000000000      0x4dc ./Core/Src/ch32v20x_RVMSIS.o
- .debug_frame   0x00000000000004dc       0xac ./Core/Src/main.o
- .debug_frame   0x0000000000000588       0xa0 ./Core/Src/system_ch32v20x.o
+.debug_frame    0x0000000000000000      0x654
+ .debug_frame   0x0000000000000000      0x588 ./Core/Src/ch32v20x_RVMSIS.o
+ .debug_frame   0x0000000000000588       0x2c ./Core/Src/main.o
+ .debug_frame   0x00000000000005b4       0xa0 ./Core/Src/system_ch32v20x.o

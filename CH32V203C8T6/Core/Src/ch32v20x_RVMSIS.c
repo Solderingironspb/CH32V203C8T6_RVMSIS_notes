@@ -1551,3 +1551,148 @@ bool RVMSIS_SPI_Data_Receive_16BIT(SPI_TypeDef* SPI, uint16_t* data, uint16_t Si
         return false;
     }
 }
+
+/*================================= Работа с FLASH ============================================*/
+
+/*Пример структуры для работы с FLASH*/
+/*
+typedef struct __attribute__((packed)) {
+    uint8_t Data1;
+    uint16_t Data2;
+    uint32_t Data3;
+    float Data4;
+} Flash_struct;
+Flash_struct Flash_data_CH32;
+Flash_struct Flash_data_CH32_read;*/
+
+/*Пример работы с FLASH*/
+/*
+Flash_data_CH32.Data1 = 0x23;
+Flash_data_CH32.Data2 = 0x4567;
+Flash_data_CH32.Data3 = 0x89101112;
+Flash_data_CH32.Data4 = 3.14159f;
+FLASH_Page_write(0x0800F000, (uint8_t*)&Flash_data_CH32, sizeof(Flash_data_CH32));
+FLASH_Read_data(0x0800F000, (uint8_t*)&Flash_data_CH32_read, sizeof(Flash_data_CH32_read));
+*/
+
+
+/**
+ ***************************************************************************************
+ *  @breif Разблокировка FLASH
+ *  Чтоб разблокировать FLASH, нужно в FLASH->KEYR ввести поочередно 2 ключа.
+ *  32.4.1 FPEC Key Register (FLASH_KEYR)
+ ***************************************************************************************
+ */
+void RVMSIS_FLASH_Unlock(void) {
+    FLASH->KEYR = 0x45670123; //KEY1
+    FLASH->KEYR = 0xCDEF89AB; //KEY2
+}
+
+/**
+ ***************************************************************************************
+ *  @breif Блокировка FLASH
+ *  Чтоб заблокировать FLASH, нужно в FLASH->CR, FLASH_CR_LOCK выставить 1
+ *  32.4.4 Control Register (FLASH_CTLR)
+ ***************************************************************************************
+ */
+void RVMSIS_FLASH_Lock(void) {
+    SET_BIT(FLASH->CTLR, FLASH_CTLR_LOCK);
+}
+
+/**
+ ***************************************************************************************
+ *  @breif Стирание страницы во FLASH
+ ***************************************************************************************
+ */
+void RVMSIS_FLASH_Page_erase(uint16_t Adress) {
+    //Если память заблокирована, то разблокируем ее
+    if (READ_BIT(FLASH->CTLR, FLASH_CTLR_LOCK)) {
+        RVMSIS_FLASH_Unlock();
+    }
+    SET_BIT(FLASH->CTLR, FLASH_CTLR_PER); //Выберем функцию очистки страницы
+    FLASH->ADDR = Adress; //Укажем адрес
+    SET_BIT(FLASH->CTLR, FLASH_CTLR_STRT); //Запустим стирание
+    while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY)) ; //Ожидаем, пока пройдет стирание
+    while (READ_BIT(FLASH->STATR, FLASH_STATR_EOP) == 0) ; //Дождемся флага завершения программы
+    CLEAR_BIT(FLASH->CTLR, FLASH_CTLR_PER); //Выключим функцию.
+    RVMSIS_FLASH_Lock(); //Заблокируем память
+}
+
+/**
+ ***************************************************************************************
+ *  @breif Запись страницы во FLASH
+ *  @param  Adress - Адрес во flash
+ *  @param  *Data - Данные, которые будем писать во flash
+ *  @param  Size - Размер даных, которые будем писать во flash
+ ***************************************************************************************
+ */
+void RVMSIS_FLASH_Page_write(uint32_t Adress, uint8_t *Data, uint16_t Size) {
+    //Проверка размера данных на четность
+    //Если размер нечетный
+    if (Size % 2) {
+        Size = (Size / 2); //Размер в Half-word
+        RVMSIS_FLASH_Page_erase(Adress); //Произведем стирание страницы
+        //Если память заблокирована, то разблокируем ее
+        if (READ_BIT(FLASH->CTLR, FLASH_CTLR_LOCK)) {
+            RVMSIS_FLASH_Unlock();
+        }
+        SET_BIT(FLASH->CTLR, FLASH_CTLR_PG); //Выберем программу "programming"
+        //Заполним ячейки по 16 бит
+        for (int i = 0; i < Size; i++) {
+            *(uint16_t*)(Adress + i * 2) = *((uint16_t*)(Data) + i);
+            while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY)) ;
+        }
+        //Заполним остаток в 8 бит
+        *(uint16_t*)(Adress + Size * 2) = *((uint8_t*)(Data) + Size * 2);
+    }
+    //Если размер четный
+    else {
+        Size = (Size / 2); //Размер в Half-word
+        RVMSIS_FLASH_Page_erase(Adress); //Произведем стирание страницы
+        //Если память заблокирована, то разблокируем ее
+        if (READ_BIT(FLASH->CTLR, FLASH_CTLR_LOCK)) {
+            RVMSIS_FLASH_Unlock();
+        }
+        SET_BIT(FLASH->CTLR, FLASH_CTLR_PG); //Выберем программу "programming"
+        //Заполним ячейки по 16 бит
+        for (int i = 0; i < Size; i++) {
+            *(uint16_t*)(Adress + i * 2) = *((uint16_t*)(Data) + i);
+            while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY)) ;
+        }
+    }
+    while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY)) ;
+    while (READ_BIT(FLASH->STATR, FLASH_STATR_EOP) == 0) ;
+    CLEAR_BIT(FLASH->CTLR, FLASH_CTLR_PG);
+    RVMSIS_FLASH_Lock();
+}
+
+
+
+/**
+ ***************************************************************************************
+ *  @breif Считывание данных с FLASH.
+ *  @param  Adress - Адрес во flash, откуда будем забирать данные
+ *  @param  *Data - Данные, куда будем записывать информацию из flash с указанного адреса
+ *  @param  Size - Размер даных. Сколько байт будем считывать.
+ ***************************************************************************************
+ */
+void RVMSIS_FLASH_Read_data(uint32_t Adress, uint8_t *Data, uint16_t Size) {
+    //Проверка размера данных на четность
+    //Если размер структуры в байтах нечетный
+    if (Size % 2) {
+        Size = (Size / 2); //Размер в Half-word
+        //Считаем данные по 16 бит
+        for (uint16_t i = 0; i < Size; i++) {
+            *((uint16_t*)Data + i) = *(uint16_t*)(Adress + i * 2);
+        }
+        //Считаем оставшиеся 8 бит
+        *((uint8_t*)Data + Size * 2) = *(uint16_t*)(Adress + Size * 2);
+    }//Если размер структуры в байтах четный
+    else {
+        Size = (Size / 2); //Размер в Half-word
+        //Считаем информацию по 16 бит
+        for (uint16_t i = 0; i < Size; i++) {
+            *((uint16_t*)Data + i) = *(uint16_t*)(Adress + i * 2);
+        }
+    }
+}
