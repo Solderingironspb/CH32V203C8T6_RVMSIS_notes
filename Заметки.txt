@@ -53,4 +53,4 @@ Text file encoding ставим Other: UTF-8
 Для слабых функций должны быть с атрибутом __attribute__((weak))
 Можно создать макросы:
 #define __WEAK   __attribute__((weak))
-#define __INTERRUPT __attribute__ ((interrupt("WCH-Interrupt-fast")))
+#define __INTERRUPTF __attribute__ ((interrupt("WCH-Interrupt-fast")))
