@@ -48,6 +48,11 @@ Text file encoding ставим Other: UTF-8
 Создаем новый профиль, кликаем New...Настройку я делал на основе K&R, т.к. в CubeIDE использовался он.
 Переходим во вкладку Line Wrapping-> Line width and iindentation level и указываем Maximum line width. Я обычно вместо 80 ставлю 200.
 
+7. Если начать использовать библиотеку <math.h> возникнут ошибки. Чтоб это исправить, заходим в Project->Properties->C/C++ Build->Settings->GNU Risc-V Cross C Linker->libraries и в Libraries(-I) добавляем "m"(без кавычек)
+
+8. Чтоб отсмотреть регистры периферии: Window->Show view->Other...->Debug->Peripherals.
+Так же нужно проверить, подключен ли в настройке дебага svd файл на данный МК: Debug Configurations->SVD Path. Как пример, у меня File path: C:\MounRiver\MounRiver_Studio\template\wizard\WCH\RISC-V\CH32V203\NoneOS\CH32V203xx.svd 
+
 По программированию:
 Хендлеры для прерывания должны быть с атрибутом __attribute__ ((interrupt("WCH-Interrupt-fast")))
 Для слабых функций должны быть с атрибутом __attribute__((weak))
