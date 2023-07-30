@@ -11,7 +11,8 @@
 #include "main.h"
 
 #define __WEAK   __attribute__((weak))
-#define __INTERRUPTF __attribute__ ((interrupt("WCH-Interrupt-fast")))
+#define __INTERRUPTF __attribute__ ((interrupt("WCH-Interrupt-fast"))) //Быстрые прерывания. Можно только 4 шт.
+#define __INTERRUPTM __attribute__((interrupt("machine"))) //Обычные прерывания
 
 
   //Структура по USART
@@ -22,13 +23,37 @@
         uint16_t rx_len; //Количество принятых байт после сработки флага IDLE
     };
 
-__INTERRUPTF void SysTick_Handler(void);
-__INTERRUPTF void TIM3_IRQHandler(void);
-__INTERRUPTF void EXTI0_IRQHandler(void);
-__INTERRUPTF void ADC1_2_IRQHandler(void);
-__INTERRUPTF void DMA1_Channel1_IRQHandler(void);
-__INTERRUPTF void USART1_IRQHandler(void);
-__INTERRUPTF void USART2_IRQHandler(void);
+    //GPIO Configuration mode
+        enum {
+            GPIO_GENERAL_PURPOSE_OUTPUT,
+            GPIO_ALTERNATIVE_FUNCTION_OUTPUT,
+            GPIO_INPUT
+        };
+        //GPIO Input/OUTPUT type
+        enum {
+            GPIO_OUTPUT_PUSH_PULL,
+            GPIO_OUTPUT_OPEN_DRAIN,
+            GPIO_INPUT_ANALOG,
+            GPIO_INPUT_FLOATING,
+            GPIO_INPUT_PULL_DOWN,
+            GPIO_INPUT_PULL_UP
+        };
+
+        //GPIO Maximum output speed
+        enum {
+            GPIO_SPEED_RESERVED,
+            GPIO_SPEED_10_MHZ,
+            GPIO_SPEED_2_MHZ,
+            GPIO_SPEED_50_MHZ
+        };
+
+__INTERRUPTM void SysTick_Handler(void);
+__INTERRUPTM void TIM3_IRQHandler(void);
+__INTERRUPTM void EXTI0_IRQHandler(void);
+__INTERRUPTM void ADC1_2_IRQHandler(void);
+__INTERRUPTM void DMA1_Channel1_IRQHandler(void);
+__INTERRUPTM void USART1_IRQHandler(void);
+__INTERRUPTM void USART2_IRQHandler(void);
 
 
 void RVMSIS_Debug_init(void);
@@ -37,6 +62,7 @@ void RVMSIS_SysTick_Timer_init(void);
 void Delay_ms(uint32_t Milliseconds);
 void RVMSIS_PC13_OUTPUT_Push_Pull_init(void);
 void RVMSIS_Blink_PC13(uint32_t ms);
+void RVMSIS_GPIO_init(GPIO_TypeDef *GPIO, uint8_t GPIO_Pin, uint8_t Configuration_mode, uint8_t Type, uint8_t Speed); //Конфигурация GPIO
 void RVMSIS_PA8_MCO_init(void);
 void RVMSIS_EXTI0_init(void);
 void RVMSIS_TIM3_init(void);
