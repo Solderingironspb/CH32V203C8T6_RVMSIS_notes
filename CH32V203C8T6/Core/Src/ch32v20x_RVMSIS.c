@@ -167,6 +167,147 @@ void RVMSIS_PC13_OUTPUT_Push_Pull_init(void) {
 
 }
 
+//Служебная функция
+static void RVMSIS_GPIO_MODE_Set(GPIO_TypeDef *GPIO, uint8_t GPIO_Pin, uint8_t Reg, uint8_t Data) {
+    uint8_t Mode = 0;
+    switch (Reg) {
+    case(0):
+        Mode = GPIO_Pin * 4;
+        MODIFY_REG(GPIO->CFGLR, (0x3UL << Mode), Data << Mode);
+        break;
+    case(1):
+        GPIO_Pin = GPIO_Pin - 8;
+        Mode = GPIO_Pin * 4;
+        MODIFY_REG(GPIO->CFGHR, (0x3UL << Mode), Data << Mode);
+        break;
+    }
+}
+
+//Служебная функция
+static void RVMSIS_GPIO_SPEED_Set(GPIO_TypeDef *GPIO, uint8_t GPIO_Pin, uint8_t Speed) {
+    uint8_t Reg = 0;
+    if (GPIO_Pin < 8) {
+        Reg = 0;
+    } else {
+        Reg = 1;
+    }
+    //MODE
+    if (Speed == GPIO_SPEED_RESERVED) {
+        RVMSIS_GPIO_MODE_Set(GPIO, GPIO_Pin, Reg, 0b00);
+    } else if (Speed == GPIO_SPEED_10_MHZ) {
+        RVMSIS_GPIO_MODE_Set(GPIO, GPIO_Pin, Reg, 0b01);
+    } else if (Speed == GPIO_SPEED_2_MHZ) {
+        RVMSIS_GPIO_MODE_Set(GPIO, GPIO_Pin, Reg, 0b10);
+    } else if (Speed == GPIO_SPEED_50_MHZ) {
+        RVMSIS_GPIO_MODE_Set(GPIO, GPIO_Pin, Reg, 0b11);
+    }
+}
+
+//Служебная функция
+static void RVMSIS_GPIO_CNF_Set(GPIO_TypeDef *GPIO, uint8_t Reg, uint8_t Mode, uint8_t* CNF_Pos) {
+    switch (Reg) {
+    case (0):
+        MODIFY_REG(GPIO->CFGLR, (0x3UL << *CNF_Pos), Mode << *CNF_Pos);
+        break;
+    case(1):
+        MODIFY_REG(GPIO->CFGHR, (0x3UL << *CNF_Pos), Mode << *CNF_Pos);
+    }
+}
+
+//Служебная функция
+static void RVMSIS_GPIO_Reg_Set(GPIO_TypeDef *GPIO, uint8_t* GPIO_Pin, uint8_t Configuration_mode, uint8_t Type, uint8_t Reg, uint8_t* CNF_Pos) {
+    switch (Configuration_mode) {
+    case(GPIO_GENERAL_PURPOSE_OUTPUT):
+        switch (Type) {
+        case (GPIO_OUTPUT_PUSH_PULL):
+            RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b00, *(&CNF_Pos));
+            break;
+        case(GPIO_OUTPUT_OPEN_DRAIN):
+            RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b01, *(&CNF_Pos));
+            break;
+        }
+        break;
+    case(GPIO_ALTERNATIVE_FUNCTION_OUTPUT):
+        switch (Type) {
+        case (GPIO_OUTPUT_PUSH_PULL):
+            RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b10, *(&CNF_Pos));
+            break;
+        case(GPIO_OUTPUT_OPEN_DRAIN):
+            RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b11, *(&CNF_Pos));
+            break;
+        }
+        break;
+    case(GPIO_INPUT):
+        switch (Type) {
+        case(GPIO_INPUT_ANALOG):
+            RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b00, *(&CNF_Pos));
+            break;
+        case(GPIO_INPUT_FLOATING):
+            RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b01, *(&CNF_Pos));
+            break;
+        case(GPIO_INPUT_PULL_DOWN):
+            RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b10, *(&CNF_Pos));
+            CLEAR_BIT(GPIO->OUTDR, (0x1UL << *GPIO_Pin));
+            break;
+        case (GPIO_INPUT_PULL_UP):
+            RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b10, *(&CNF_Pos));
+            SET_BIT(GPIO->OUTDR, (0x1UL << *GPIO_Pin));
+            break;
+        }
+        break;
+    }
+}
+
+
+/**
+ ***************************************************************************************
+ *  @breif Быстрая конфигурация GPIO
+ *  Reference Manual/см. п.9.2 GPIO registers (стр. 171)
+ *  Перед настройкой (GPIOs and AFIOs) нужно включить тактирование порта.
+ *  @param  *GPIO - Порт GPIO(A, B, C, D, E)
+ *  @param  GPIO_Pin - номер пина 0-15
+ *  @param  Congiguration_mode: GPIO_GENERAL_PURPOSE_OUTPUT, GPIO_ALTERNATIVE_FUNCTION_OUTPUT, GPIO_INPUT
+ *  @param  Type: GPIO_OUTPUT_PUSH_PULL,
+ *                GPIO_OUTPUT_OPEN_DRAIN,
+ *                GPIO_INPUT_ANALOG,
+ *                GPIO_INPUT_FLOATING,
+ *                GPIO_INPUT_PULL_DOWN,
+ *                GPIO_INPUT_PULL_UP
+ *  @param  Speed: GPIO_SPEED_RESERVED,
+ *                 GPIO_SPEED_10_MHZ,
+ *                 GPIO_SPEED_2_MHZ,
+ *                 GPIO_SPEED_50_MHZ
+ ***************************************************************************************
+ */
+
+void RVMSIS_GPIO_init(GPIO_TypeDef *GPIO, uint8_t GPIO_Pin, uint8_t Configuration_mode, uint8_t Type, uint8_t Speed) {
+    uint8_t CNF_Pos = 0;
+    if (GPIO == GPIOA) {
+        SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_GPIOA); //Запуск тактирования порта А
+    } else if (GPIO == GPIOB) {
+        SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_GPIOB); //Запуск тактирования порта B
+    } else if (GPIO == GPIOC) {
+        SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_GPIOC); //Запуск тактирования порта C
+    } else if (GPIO == GPIOD) {
+        SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_GPIOD); //Запуск тактирования порта D
+    } else if (GPIO == GPIOE) {
+        SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_GPIOE); //Запуск тактирования порта E
+    }
+
+
+    RVMSIS_GPIO_SPEED_Set(GPIO, GPIO_Pin, Speed);
+
+    if (GPIO_Pin < 8) {
+        CNF_Pos = (GPIO_Pin * 4) + 2;
+        RVMSIS_GPIO_Reg_Set(GPIO, (uint8_t*)&GPIO_Pin, Configuration_mode, Type, 0, &CNF_Pos);
+    } else {
+        GPIO_Pin = GPIO_Pin - 8;
+        CNF_Pos = (GPIO_Pin * 4) + 2;
+        RVMSIS_GPIO_Reg_Set(GPIO, (uint8_t*)&GPIO_Pin, Configuration_mode, Type, 1, &CNF_Pos);
+    }
+}
+
+
 /**
  ***************************************************************************************
  *  @breif Blink PIN PC13 на выход в режиме Push-Pull
@@ -240,8 +381,8 @@ void RVMSIS_TIM3_init(void) {
     /*Настройка прерываний (Страница 409)*/
     SET_BIT(TIM3->DMAINTENR, TIM_UIE); //Update interrupt enable
 
-    TIM3->PSC = 14400 - 1;
-    TIM3->ATRLR = 10 - 1;
+    TIM3->PSC = 1 - 1;
+    TIM3->ATRLR = 6000 - 1;
 
     NVIC_EnableIRQ(TIM3_IRQn); //Разрешить прерывания по таймеру 3
     SET_BIT(TIM3->CTLR1, TIM_CEN); //Запуск таймера
@@ -269,9 +410,9 @@ void RVMSIS_TIM3_PWM_CHANNEL1_init(void) {
     /*Запуск ШИМ*/
     //15.4.9 TIMx capture/compare enable register (TIMx_CCER)
     SET_BIT(TIM3->CCER, TIM_CC1E);//On - OC1 signal is output on the corresponding output pin.
-    SET_BIT(TIM3->CCER, TIM_CC1P); //OC1 active high.
+    CLEAR_BIT(TIM3->CCER, TIM_CC1P); //OC1 active high.
 
-    TIM3->CH1CVR = 5;
+    TIM3->CH1CVR = 0;
 }
 
 void RVMSIS_TIM3_PWM_CHANNEL2_init(void) {
@@ -507,7 +648,7 @@ void RVMSIS_USART1_Init(void) {
  ******************************************************************************
  */
 
-void CMSIS_USART2_Init(void) {
+void RVMSIS_USART2_Init(void) {
 
     SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_GPIOA); //Включение тактирование порта А
     SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_AFIO); //Включение альтернативных функций
