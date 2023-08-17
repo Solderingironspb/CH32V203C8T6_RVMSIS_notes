@@ -35,6 +35,7 @@ Text file encoding ставим Other: UTF-8
 Поэтому нажимаем Window->Preferences->Run/Debug->Launching. В General Options поставим галочку на Build (if required) before launching
 
 5. Далее. В версии MounRiver что-то не так с горячими клавишами. Если кто привык к CubeIDE, то можете что-то позаимствовать оттуда:
+Window->Preferences->General->Keys
 * Format Ctrl + Shift + F
 * Debug F11
 * Resume F8
@@ -43,6 +44,7 @@ Text file encoding ставим Other: UTF-8
 * Step into selection Ctrl + F5
 * Step Over F6
 * Step Return F7
+* Toggle Comment Ctrl + Shift + C
 
 6. Если у Вас широкий монитор и вы любите принцип 1 функция - 1 строка (без переноса), то нажимаем Window->Preferences->C/C++->Code Style->Formatter
 Создаем новый профиль, кликаем New...Настройку я делал на основе K&R, т.к. в CubeIDE использовался он.
@@ -53,9 +55,43 @@ Text file encoding ставим Other: UTF-8
 8. Чтоб отсмотреть регистры периферии: Window->Show view->Other...->Debug->Peripherals.
 Так же нужно проверить, подключен ли в настройке дебага svd файл на данный МК: Debug Configurations->SVD Path. Как пример, у меня File path: C:\MounRiver\MounRiver_Studio\template\wizard\WCH\RISC-V\CH32V203\NoneOS\CH32V203xx.svd 
 
+9. С приоритетами прерываний там лажа(см. файл core_riscv.h). 
+Вот исправленные (Для CH32V203C8T6)
+/**
+ ******************************************************************************
+ *  @breif Задать приоритет прерыванию
+ *  @attention Чем ниже номер приоритета - тем он выше. 0 - высший приоритет.
+ *  @param   IRQn_Type IRQn - прерывание
+ *  @param   priority - приоритет (от 0 до 7)
+ ******************************************************************************
+ */
+
+RV_STATIC_INLINE void NVIC_SetPriority(IRQn_Type IRQn, uint8_t priority) {
+    if (priority > 7) {
+        priority = 7;
+    }
+    NVIC->IPRIOR[(uint32_t) (IRQn)] = priority << 5U;
+}
+
+/**
+ ******************************************************************************
+ *  @breif Получить сведения о приоритете прерывания
+ *  @attention Чем ниже номер приоритета - тем он выше. 0 - высший приоритет.
+ *  @param IRQn_Type IRQn - прерывание
+ *  @retval Возвращает номер приоритета, в данном случае от 0 до 7.
+ ******************************************************************************
+ */
+
+RV_STATIC_INLINE uint8_t NVIC_GetPriority(IRQn_Type IRQn) {
+    return NVIC->IPRIOR[(uint32_t) (IRQn)] >> 5U;
+}
+
+
 По программированию:
-Хендлеры для прерывания должны быть с атрибутом __attribute__ ((interrupt("WCH-Interrupt-fast")))
+Хендлеры для быстрого прерывания (4 шт. максимум) должны быть с атрибутом __attribute__ ((interrupt("WCH-Interrupt-fast"))) 
+Хендлеры для обычного прерывания должны быть с атрибутом __attribute__((interrupt("machine")))
 Для слабых функций должны быть с атрибутом __attribute__((weak))
 Можно создать макросы:
 #define __WEAK   __attribute__((weak))
-#define __INTERRUPTF __attribute__ ((interrupt("WCH-Interrupt-fast")))
+#define __INTERRUPTF __attribute__ ((interrupt("WCH-Interrupt-fast"))) //Быстрые прерывания. Можно только 4 шт.
+#define __INTERRUPTM __attribute__((interrupt("machine"))) //Обычные прерывания
