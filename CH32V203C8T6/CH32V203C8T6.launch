@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.mounriver.debug.gdbjtag.openocd.launchConfigurationType">
-<stringAttribute key="com.mounriver.debug.gdbjtag.openocd.PERIPHERALS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;peripherals&gt;&#13;&#10;&lt;peripheral name=&quot;RCC&quot;/&gt;&#13;&#10;&lt;peripheral name=&quot;DMA1&quot;/&gt;&#13;&#10;&lt;/peripherals&gt;&#13;&#10;"/>
+<stringAttribute key="com.mounriver.debug.gdbjtag.openocd.PERIPHERALS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;peripherals&gt;&#13;&#10;&lt;peripheral name=&quot;PFIC&quot;/&gt;&#13;&#10;&lt;/peripherals&gt;&#13;&#10;"/>
 <booleanAttribute key="com.mounriver.debug.gdbjtag.openocd.doContinue" value="true"/>
 <booleanAttribute key="com.mounriver.debug.gdbjtag.openocd.doDebugInRam" value="false"/>
 <booleanAttribute key="com.mounriver.debug.gdbjtag.openocd.doFirstReset" value="true"/>
@@ -57,6 +57,6 @@
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;Context string&quot;/&gt;&#13;&#10;"/>
+<stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;Context string&quot;&gt;&#13;&#10;&lt;memoryBlockExpression address=&quot;536870912&quot; label=&quot;0x20000000&quot;/&gt;&#13;&#10;&lt;memoryBlockExpression address=&quot;3758153728&quot; label=&quot;0xE000E000&quot;/&gt;&#13;&#10;&lt;memoryBlockExpression address=&quot;2052&quot; label=&quot;0x00000804&quot;/&gt;&#13;&#10;&lt;/memoryBlockExpressionList&gt;&#13;&#10;"/>
 <stringAttribute key="process_factory_id" value="org.eclipse.cdt.dsf.gdb.GdbProcessFactory"/>
 </launchConfiguration>

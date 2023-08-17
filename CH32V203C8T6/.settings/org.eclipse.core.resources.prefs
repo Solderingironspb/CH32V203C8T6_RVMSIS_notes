@@ -8,6 +8,7 @@ encoding//Core/Src/core_riscv.h=GBK
 encoding//Core/Src/main.c=UTF-8
 encoding//Core/Startup/startup_ch32v20x_D6.S=GBK
 encoding//Drivers/inc/ch32v20x.h=UTF-8
+encoding//Drivers/inc/ch32v20x_misc.h=GBK
 encoding//Drivers/src/ch32v20x_adc.c=GBK
 encoding//Drivers/src/ch32v20x_flash.c=GBK
 encoding/CH32V203C8T6.launch=GBK

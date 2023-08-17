@@ -112,6 +112,8 @@ void RVMSIS_SysTick_Timer_init(void) {
     SysTick->CTLR |= (1 << 5); //1: Updated to 0 on up counts, updated to the comparison value on down counts.
     SysTick->CMP = 8999; ////Настроим прерывание на частоту в 1 кГц(т.е. сработка будет каждую мс) 18000000 / 18000 = 1000Гц
     NVIC_EnableIRQ(SysTicK_IRQn);
+    NVIC_SetPriority(SysTicK_IRQn, 7);
+
     SysTick->CTLR |= (1 << 0); //Запустим таймер.
 }
 
@@ -171,11 +173,11 @@ void RVMSIS_PC13_OUTPUT_Push_Pull_init(void) {
 static void RVMSIS_GPIO_MODE_Set(GPIO_TypeDef *GPIO, uint8_t GPIO_Pin, uint8_t Reg, uint8_t Data) {
     uint8_t Mode = 0;
     switch (Reg) {
-    case(0):
+    case (0):
         Mode = GPIO_Pin * 4;
         MODIFY_REG(GPIO->CFGLR, (0x3UL << Mode), Data << Mode);
         break;
-    case(1):
+    case (1):
         GPIO_Pin = GPIO_Pin - 8;
         Mode = GPIO_Pin * 4;
         MODIFY_REG(GPIO->CFGHR, (0x3UL << Mode), Data << Mode);
@@ -209,7 +211,7 @@ static void RVMSIS_GPIO_CNF_Set(GPIO_TypeDef *GPIO, uint8_t Reg, uint8_t Mode, u
     case (0):
         MODIFY_REG(GPIO->CFGLR, (0x3UL << *CNF_Pos), Mode << *CNF_Pos);
         break;
-    case(1):
+    case (1):
         MODIFY_REG(GPIO->CFGHR, (0x3UL << *CNF_Pos), Mode << *CNF_Pos);
     }
 }
@@ -217,35 +219,35 @@ static void RVMSIS_GPIO_CNF_Set(GPIO_TypeDef *GPIO, uint8_t Reg, uint8_t Mode, u
 //Служебная функция
 static void RVMSIS_GPIO_Reg_Set(GPIO_TypeDef *GPIO, uint8_t* GPIO_Pin, uint8_t Configuration_mode, uint8_t Type, uint8_t Reg, uint8_t* CNF_Pos) {
     switch (Configuration_mode) {
-    case(GPIO_GENERAL_PURPOSE_OUTPUT):
+    case (GPIO_GENERAL_PURPOSE_OUTPUT):
         switch (Type) {
         case (GPIO_OUTPUT_PUSH_PULL):
             RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b00, *(&CNF_Pos));
             break;
-        case(GPIO_OUTPUT_OPEN_DRAIN):
+        case (GPIO_OUTPUT_OPEN_DRAIN):
             RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b01, *(&CNF_Pos));
             break;
         }
         break;
-    case(GPIO_ALTERNATIVE_FUNCTION_OUTPUT):
+    case (GPIO_ALTERNATIVE_FUNCTION_OUTPUT):
         switch (Type) {
         case (GPIO_OUTPUT_PUSH_PULL):
             RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b10, *(&CNF_Pos));
             break;
-        case(GPIO_OUTPUT_OPEN_DRAIN):
+        case (GPIO_OUTPUT_OPEN_DRAIN):
             RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b11, *(&CNF_Pos));
             break;
         }
         break;
-    case(GPIO_INPUT):
+    case (GPIO_INPUT):
         switch (Type) {
-        case(GPIO_INPUT_ANALOG):
+        case (GPIO_INPUT_ANALOG):
             RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b00, *(&CNF_Pos));
             break;
-        case(GPIO_INPUT_FLOATING):
+        case (GPIO_INPUT_FLOATING):
             RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b01, *(&CNF_Pos));
             break;
-        case(GPIO_INPUT_PULL_DOWN):
+        case (GPIO_INPUT_PULL_DOWN):
             RVMSIS_GPIO_CNF_Set(GPIO, Reg, 0b10, *(&CNF_Pos));
             CLEAR_BIT(GPIO->OUTDR, (0x1UL << *GPIO_Pin));
             break;
@@ -257,7 +259,6 @@ static void RVMSIS_GPIO_Reg_Set(GPIO_TypeDef *GPIO, uint8_t* GPIO_Pin, uint8_t C
         break;
     }
 }
-
 
 /**
  ***************************************************************************************
@@ -294,19 +295,17 @@ void RVMSIS_GPIO_init(GPIO_TypeDef *GPIO, uint8_t GPIO_Pin, uint8_t Configuratio
         SET_BIT(RCC->APB2PCENR, RCC_APB2Periph_GPIOE); //Запуск тактирования порта E
     }
 
-
     RVMSIS_GPIO_SPEED_Set(GPIO, GPIO_Pin, Speed);
 
     if (GPIO_Pin < 8) {
         CNF_Pos = (GPIO_Pin * 4) + 2;
-        RVMSIS_GPIO_Reg_Set(GPIO, (uint8_t*)&GPIO_Pin, Configuration_mode, Type, 0, &CNF_Pos);
+        RVMSIS_GPIO_Reg_Set(GPIO, (uint8_t*) &GPIO_Pin, Configuration_mode, Type, 0, &CNF_Pos);
     } else {
         GPIO_Pin = GPIO_Pin - 8;
         CNF_Pos = (GPIO_Pin * 4) + 2;
-        RVMSIS_GPIO_Reg_Set(GPIO, (uint8_t*)&GPIO_Pin, Configuration_mode, Type, 1, &CNF_Pos);
+        RVMSIS_GPIO_Reg_Set(GPIO, (uint8_t*) &GPIO_Pin, Configuration_mode, Type, 1, &CNF_Pos);
     }
 }
-
 
 /**
  ***************************************************************************************
@@ -1421,10 +1420,10 @@ bool RVMSIS_I2C_MemRead(I2C_TypeDef* I2C, uint8_t Adress_Device, uint16_t Adress
 /*================================= НАСТРОЙКА SPI ============================================*/
 
 /**
-***************************************************************************************
-*  @breif Serial peripheral interface (SPI)
-***************************************************************************************
-*/
+ ***************************************************************************************
+ *  @breif Serial peripheral interface (SPI)
+ ***************************************************************************************
+ */
 
 void RVMSIS_SPI1_init(void) {
     /*Настройка GPIO*/
@@ -1450,10 +1449,9 @@ void RVMSIS_SPI1_init(void) {
      *             Hardware master/ NSS output enabled - Alternate function push-pull
      *             Software - Not used. Can be used as a GPIO
      */
-     //Настроим сами ножки уже после инициализации SPI, чтоб при старте не было лишних ногодерганий.
-
+    //Настроим сами ножки уже после инициализации SPI, чтоб при старте не было лишних ногодерганий.
     //20.4.1 SPI Control Register 1 (SPIx_CTLR1) (x=1/2/3)
-    MODIFY_REG(SPI1->CTLR1, SPI_CTLR1_BR, 0b011 << SPI_CTLR1_BR_Pos); //fPCLK/4. 72000000/32 = 2.22 MBits/s
+    MODIFY_REG(SPI1->CTLR1, SPI_CTLR1_BR, 0b011 << SPI_CTLR1_BR_Pos);//fPCLK/4. 72000000/32 = 2.22 MBits/s
     SET_BIT(SPI1->CTLR1, SPI_CTLR1_CPOL); //Полярность
     SET_BIT(SPI1->CTLR1, SPI_CTLR1_CPHA); //Фаза
     CLEAR_BIT(SPI1->CTLR1, SPI_CTLR1_DFF); //0: 8-bit data frame format is selected for transmission/reception
@@ -1469,10 +1467,8 @@ void RVMSIS_SPI1_init(void) {
     CLEAR_BIT(SPI1->CTLR1, SPI_CTLR1_CRCEN); //0: CRC calculation disabled
     CLEAR_BIT(SPI1->CTLR1, SPI_CTLR1_CRCNEXT); // 0: Data phase (no CRC phase)
 
-
-
     //20.4.2 SPI Control Register 2 (SPIx_CTLR2) (x=1/2/3)
-    CLEAR_BIT(SPI1->CTLR2, SPI_CTLR2_RXDMAEN); //0: Rx buffer DMA disabled
+    CLEAR_BIT(SPI1->CTLR2, SPI_CTLR2_RXDMAEN);//0: Rx buffer DMA disabled
     CLEAR_BIT(SPI1->CTLR2, SPI_CTLR2_TXDMAEN); //0: Tx buffer DMA disabled
     CLEAR_BIT(SPI1->CTLR2, SPI_CTLR2_SSOE); //0: SS output is disabled in master mode and the cell can work in multimaster configuration
     CLEAR_BIT(SPI1->CTLR2, SPI_CTLR2_ERRIE); //0: Error interrupt is masked
@@ -1480,18 +1476,17 @@ void RVMSIS_SPI1_init(void) {
     CLEAR_BIT(SPI1->CTLR2, SPI_CTLR2_TXEIE); //0: TXE interrupt masked
 
     //20.4.8 SPI_I2S Configuration Register (SPI_I2S_CFGR) (x=1/2/3)
-    CLEAR_BIT(SPI1->I2SCFGR, SPI_I2SCFGR_I2SMOD); //т.к. на F103C6T6 нет I2S, его вырезали, а регистр оставили, нужно просто обнулить данный регистр. Тем самым включим режим SPI mode.
-
+    CLEAR_BIT(SPI1->I2SCFGR, SPI_I2SCFGR_I2SMOD);//т.к. на F103C6T6 нет I2S, его вырезали, а регистр оставили, нужно просто обнулить данный регистр. Тем самым включим режим SPI mode.
 
     //SCK - PA5:
-    MODIFY_REG(GPIOA->CFGLR, GPIO_CFGLR_MODE5, 0b11 << GPIO_CFGLR_MODE5_Pos); //Maximum output speed 50 MHz
+    MODIFY_REG(GPIOA->CFGLR, GPIO_CFGLR_MODE5, 0b11 << GPIO_CFGLR_MODE5_Pos);//Maximum output speed 50 MHz
     MODIFY_REG(GPIOA->CFGLR, GPIO_CFGLR_CNF5, 0b10 << GPIO_CFGLR_CNF5_Pos); //Alternate Function output Push-pull
     //MISO - PA6:
-    MODIFY_REG(GPIOA->CFGLR, GPIO_CFGLR_MODE6, 0b00 << GPIO_CFGLR_MODE6_Pos); //Reserved
+    MODIFY_REG(GPIOA->CFGLR, GPIO_CFGLR_MODE6, 0b00 << GPIO_CFGLR_MODE6_Pos);//Reserved
     MODIFY_REG(GPIOA->CFGLR, GPIO_CFGLR_CNF6, 0b1 << GPIO_CFGLR_CNF6_Pos); //Input pull-up
     SET_BIT(GPIOA->OUTDR, GPIO_OUTDR_ODR6); //Pull-Up
     //MOSI - PA7:
-    MODIFY_REG(GPIOA->CFGLR, GPIO_CFGLR_MODE7, 0b11 << GPIO_CFGLR_MODE7_Pos); //Maximum output speed 50 MHz
+    MODIFY_REG(GPIOA->CFGLR, GPIO_CFGLR_MODE7, 0b11 << GPIO_CFGLR_MODE7_Pos);//Maximum output speed 50 MHz
     MODIFY_REG(GPIOA->CFGLR, GPIO_CFGLR_CNF7, 0b10 << GPIO_CFGLR_CNF7_Pos); //Alternate Function output Push-pull
 }
 
@@ -1538,8 +1533,7 @@ bool RVMSIS_SPI_Data_Transmit_8BIT(SPI_TypeDef* SPI, uint8_t* data, uint16_t Siz
             }
         }
         return true;
-    }
-    else {
+    } else {
         return false;
     }
     //Примечание:
@@ -1589,8 +1583,7 @@ bool RVMSIS_SPI_Data_Transmit_16BIT(SPI_TypeDef* SPI, uint16_t* data, uint16_t S
             }
         }
         return true;
-    }
-    else {
+    } else {
         return false;
     }
     //Примечание:
@@ -1639,8 +1632,7 @@ bool RVMSIS_SPI_Data_Receive_8BIT(SPI_TypeDef* SPI, uint8_t* data, uint16_t Size
             }
         }
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -1687,8 +1679,7 @@ bool RVMSIS_SPI_Data_Receive_16BIT(SPI_TypeDef* SPI, uint16_t* data, uint16_t Si
             }
         }
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -1697,25 +1688,24 @@ bool RVMSIS_SPI_Data_Receive_16BIT(SPI_TypeDef* SPI, uint16_t* data, uint16_t Si
 
 /*Пример структуры для работы с FLASH*/
 /*
-typedef struct __attribute__((packed)) {
-    uint8_t Data1;
-    uint16_t Data2;
-    uint32_t Data3;
-    float Data4;
-} Flash_struct;
-Flash_struct Flash_data_CH32;
-Flash_struct Flash_data_CH32_read;*/
+ typedef struct __attribute__((packed)) {
+ uint8_t Data1;
+ uint16_t Data2;
+ uint32_t Data3;
+ float Data4;
+ } Flash_struct;
+ Flash_struct Flash_data_CH32;
+ Flash_struct Flash_data_CH32_read;*/
 
 /*Пример работы с FLASH*/
 /*
-Flash_data_CH32.Data1 = 0x23;
-Flash_data_CH32.Data2 = 0x4567;
-Flash_data_CH32.Data3 = 0x89101112;
-Flash_data_CH32.Data4 = 3.14159f;
-FLASH_Page_write(0x0800F000, (uint8_t*)&Flash_data_CH32, sizeof(Flash_data_CH32));
-FLASH_Read_data(0x0800F000, (uint8_t*)&Flash_data_CH32_read, sizeof(Flash_data_CH32_read));
-*/
-
+ Flash_data_CH32.Data1 = 0x23;
+ Flash_data_CH32.Data2 = 0x4567;
+ Flash_data_CH32.Data3 = 0x89101112;
+ Flash_data_CH32.Data4 = 3.14159f;
+ FLASH_Page_write(0x0800F000, (uint8_t*)&Flash_data_CH32, sizeof(Flash_data_CH32));
+ FLASH_Read_data(0x0800F000, (uint8_t*)&Flash_data_CH32_read, sizeof(Flash_data_CH32_read));
+ */
 
 /**
  ***************************************************************************************
@@ -1753,9 +1743,10 @@ void RVMSIS_FLASH_Page_erase(uint16_t Adress) {
     SET_BIT(FLASH->CTLR, FLASH_CTLR_PER); //Выберем функцию очистки страницы
     FLASH->ADDR = Adress; //Укажем адрес
     SET_BIT(FLASH->CTLR, FLASH_CTLR_STRT); //Запустим стирание
-    while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY)) ; //Ожидаем, пока пройдет стирание
-    while (READ_BIT(FLASH->STATR, FLASH_STATR_EOP) == 0) ; //Дождемся флага завершения программы
-    CLEAR_BIT(FLASH->CTLR, FLASH_CTLR_PER); //Выключим функцию.
+    while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY));
+    //Ожидаем, пока пройдет стирание
+    //while (READ_BIT(FLASH->STATR, FLASH_STATR_EOP) == 0) ; //Дождемся флага завершения программы
+    CLEAR_BIT(FLASH->CTLR, FLASH_CTLR_PER);//Выключим функцию.
     RVMSIS_FLASH_Lock(); //Заблокируем память
 }
 
@@ -1780,11 +1771,11 @@ void RVMSIS_FLASH_Page_write(uint32_t Adress, uint8_t *Data, uint16_t Size) {
         SET_BIT(FLASH->CTLR, FLASH_CTLR_PG); //Выберем программу "programming"
         //Заполним ячейки по 16 бит
         for (int i = 0; i < Size; i++) {
-            *(uint16_t*)(Adress + i * 2) = *((uint16_t*)(Data) + i);
-            while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY)) ;
+            *(uint16_t*) (Adress + i * 2) = *((uint16_t*) (Data) + i);
+            while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY));
         }
         //Заполним остаток в 8 бит
-        *(uint16_t*)(Adress + Size * 2) = *((uint8_t*)(Data) + Size * 2);
+        *(uint16_t*) (Adress + Size * 2) = *((uint8_t*) (Data) + Size * 2);
     }
     //Если размер четный
     else {
@@ -1797,17 +1788,15 @@ void RVMSIS_FLASH_Page_write(uint32_t Adress, uint8_t *Data, uint16_t Size) {
         SET_BIT(FLASH->CTLR, FLASH_CTLR_PG); //Выберем программу "programming"
         //Заполним ячейки по 16 бит
         for (int i = 0; i < Size; i++) {
-            *(uint16_t*)(Adress + i * 2) = *((uint16_t*)(Data) + i);
-            while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY)) ;
+            *(uint16_t*) (Adress + i * 2) = *((uint16_t*) (Data) + i);
+            while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY));
         }
     }
-    while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY)) ;
-    while (READ_BIT(FLASH->STATR, FLASH_STATR_EOP) == 0) ;
+    while (READ_BIT(FLASH->STATR, FLASH_STATR_BSY));
+    //while (READ_BIT(FLASH->STATR, FLASH_STATR_EOP) == 0);
     CLEAR_BIT(FLASH->CTLR, FLASH_CTLR_PG);
     RVMSIS_FLASH_Lock();
 }
-
-
 
 /**
  ***************************************************************************************
@@ -1824,16 +1813,16 @@ void RVMSIS_FLASH_Read_data(uint32_t Adress, uint8_t *Data, uint16_t Size) {
         Size = (Size / 2); //Размер в Half-word
         //Считаем данные по 16 бит
         for (uint16_t i = 0; i < Size; i++) {
-            *((uint16_t*)Data + i) = *(uint16_t*)(Adress + i * 2);
+            *((uint16_t*) Data + i) = *(uint16_t*) (Adress + i * 2);
         }
         //Считаем оставшиеся 8 бит
-        *((uint8_t*)Data + Size * 2) = *(uint16_t*)(Adress + Size * 2);
-    }//Если размер структуры в байтах четный
+        *((uint8_t*) Data + Size * 2) = *(uint16_t*) (Adress + Size * 2);
+    }        //Если размер структуры в байтах четный
     else {
         Size = (Size / 2); //Размер в Half-word
         //Считаем информацию по 16 бит
         for (uint16_t i = 0; i < Size; i++) {
-            *((uint16_t*)Data + i) = *(uint16_t*)(Adress + i * 2);
+            *((uint16_t*) Data + i) = *(uint16_t*) (Adress + i * 2);
         }
     }
 }
