@@ -1,0 +1,5 @@
+
+Vendor=WCH
+MCU=CH32V203C8T6
+Mcu Type=CH32V20x
+Link=WCH-Link

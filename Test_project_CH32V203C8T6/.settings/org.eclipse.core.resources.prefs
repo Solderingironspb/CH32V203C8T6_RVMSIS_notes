@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//Core/Inc/HDC1080.h=GBK
+encoding//Core/Inc/SoftwareTimer.h=UTF-8
+encoding//Core/Inc/ch32v203xx_it.h=GBK
+encoding//Core/Inc/ch32v20x_RVMSIS.h=GBK
+encoding//Core/Inc/main.h=GBK
+encoding//Core/Src/HDC1080.c=GBK
+encoding//Core/Src/ch32v203xx_it.c=GBK
+encoding//Core/Startup/startup_ch32v20x_D6.S=GBK
+encoding//Drivers/inc/ch32v20x_gpio.h=GBK
+encoding//Drivers/inc/ch32v20x_i2c.h=GBK
+encoding//Drivers/src/ch32v20x_gpio.c=GBK
+encoding//Drivers/src/ch32v20x_i2c.c=GBK
+encoding//Drivers/src/ch32v20x_tim.c=GBK

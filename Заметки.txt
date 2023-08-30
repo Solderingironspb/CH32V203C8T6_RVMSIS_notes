@@ -95,3 +95,5 @@ RV_STATIC_INLINE uint8_t NVIC_GetPriority(IRQn_Type IRQn) {
 #define __WEAK   __attribute__((weak))
 #define __INTERRUPTF __attribute__ ((interrupt("WCH-Interrupt-fast"))) //Быстрые прерывания. Можно только 4 шт.
 #define __INTERRUPTM __attribute__((interrupt("machine"))) //Обычные прерывания
+
+10. На CH32V203C8T6 почему-то отказывается работать I2C1 без ремапа(сигнал старт происходит и все встает). Поэтому у меня ремап для I2C1 обязателен...
