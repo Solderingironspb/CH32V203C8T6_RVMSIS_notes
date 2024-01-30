@@ -970,6 +970,12 @@ bool RVMSIS_USART_Transmit(USART_TypeDef* USART, uint8_t* data, uint16_t Size, u
         }
         USART->DATAR = *data++; //Кидаем данные
     }
+    Timeout_counter_ms = Timeout_ms;
+    while (READ_BIT(USART->STATR, USART_STATR_TC) == 0) { //Ожидаем отправки данных
+        if (!Timeout_counter_ms) {
+            return false;
+        }
+    };
     return true;
 }
 
