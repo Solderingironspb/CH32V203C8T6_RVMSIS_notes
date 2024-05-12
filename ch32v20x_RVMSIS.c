@@ -106,11 +106,11 @@ void RVMSIS_RCC_SystemClock_144MHz(void) {
 void RVMSIS_SysTick_Timer_init(void) {
     SysTick->CTLR &= ~(1 << 0); //Выключим таймер для проведения настроек.
     SysTick->CTLR |= (1 << 1); //1: Enable counter interrupts.
-    SysTick->CTLR &= ~(1 << 2); //0: HCLK for time base.144/8 =18
+    SysTick->CTLR &= ~(1 << 2); //0: 0: HCLK/8 for time base. 72/8 = 9 МГц
     SysTick->CTLR |= (1 << 3); //1: Re-counting from 0 after counting up to the comparison value, and re-counting from the comparison value after counting down to 0
     SysTick->CTLR |= (1 << 4); //0: Counting up.
     SysTick->CTLR |= (1 << 5); //1: Updated to 0 on up counts, updated to the comparison value on down counts.
-    SysTick->CMP = 8999; ////Настроим прерывание на частоту в 1 кГц(т.е. сработка будет каждую мс) 18000000 / 18000 = 1000Гц
+    SysTick->CMP = 8999; ////Настроим прерывание на частоту в 1 кГц(т.е. сработка будет каждую мс) 9000000 / 9000 = 1000Гц
     NVIC_EnableIRQ(SysTicK_IRQn);
     NVIC_SetPriority(SysTicK_IRQn, 7);
 
